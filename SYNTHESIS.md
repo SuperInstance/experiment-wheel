@@ -69,3 +69,129 @@ turn was registered before running; every verdict was committed with
 its raw data. No rescue attempts, no re-rolls. The wheel's own meta
 from W1 held to the end: *the structure pays for itself.*
 
+---
+
+## 2. The laws on record (ranked by evidence strength)
+
+Five statutes survived the sweep. They are ranked by how much sealed,
+pre-registered evidence stands behind them — strongest first. Each entry
+states the law, the evidence, and what would break it.
+
+### 2.1 The intersection-of-all law (consolidated, quantitative)
+
+**Statement.** A braid of chains holds constraint *c* if and only if
+every hand in the chain holds *c* solo — the braid's hold-set is
+approximately the intersection of its hands' solo hold-sets. Hands
+destroy constraints outside their hold-set with high but not perfect
+probability.
+
+**Evidence.** [W5 VERDICT.md](W5-case-law-math/VERDICT.md): pooled
+12/13 = 92% against a pre-registered ≥80% consolidation bar, computed
+from solo hold-sets alone with **zero fitting parameters**. Laws,
+scoring rule, and verdict rule were sealed in
+[REGISTRATION-sealed-amendment.md](W5-case-law-math/REGISTRATION-sealed-amendment.md)
+(commit 1d51ed5) before any arithmetic. Inputs: W6a (near-equal crew,
+braid held 5/6) and W6b (mixed crew, braid sank to 2/6).
+
+**The honest misses (on record in W5):** one survival of a constraint no
+final hand holds solo (c5_unique, 1 case in 13) — destruction is a
+strong prior, not an axiom; and the strict last-hand phrasing of W6b's
+prose was falsified at constraint level (see 2.2).
+
+**Scope note.** The sealed consolidation covers W6a + W6b only — both
+chains run weak-hands-last. W7's ascending chain had not been through
+the sealed scoring rule when W5 closed (the W5 lane explicitly sealed
+itself to W6a+W6b), and W7's own table suggests ascending order stresses
+this law: the ASC braid held c1/c3/c4 that its weak early hands cannot
+hold solo. A quick unscored read gives L1 3/6 on W7-ASC vs the
+last-hand reading 5/6. That is not sealed arithmetic — re-running the
+W5 scoring with W7's chains added is the natural next cast (§5.1).
+
+**Breaks if:** an ascending chain routinely holds constraints its
+weakest hand cannot hold solo, at scale, under the sealed rule.
+
+### 2.2 The weak-link law (confirmed against a pre-scored falsifier; score-level)
+
+**Statement.** The hands that touch a draft last set its ceiling: a
+braid's score sinks to the level of its final hands, and constraints
+those hands cannot hold solo are lost in transit. Order the chain
+ascending and the crew's best becomes the floor.
+
+**Evidence.** The evidence pair: W6a (solo 5,5,5,4 → braid held 5/6) vs
+W6b (solo 4,4,2,2 → braid 2/6, losing exactly the constraints its final
+hands can't hold). Then
+[W7 VERDICT-w7.md](W7-ordered-braid/VERDICT-w7.md): the falsifier was
+pre-registered in [REGISTRATION.md](W7-ordered-braid/REGISTRATION.md)
+(commit d6e1bb6) before the run — *ascending ≥ best solo AND descending
+< best solo* — and both prongs hit. Same crew, same task, same checker,
+identical solo vector (4/4/2/2, a fresh draw that landed exactly on
+W6b's seeding): ASC 5/6, DESC 2/6. Order was the only operative
+variable. ASC's 5/6 is the highest score any condition has reached on
+this task, and the first time any braid beat the best single hand.
+
+**Downgrade on record (from W5):** the *constraint-level* last-hand
+phrasing was falsified in W6b — the braid lost c3_seal (which final
+hand flash holds solo) and kept c5_unique (which no final hand holds).
+The law survives at score level; the constraint-level mechanism belongs
+to the intersection law (2.1). Hence: *score-level shadow*.
+
+**Breaks if:** a descending chain holds its best hand's score, or an
+ascending chain fails to reach best-solo, at scale.
+
+### 2.3 Copies-decompose (confirmed twice, qualitative)
+
+**Statement.** A model revising its own output loses constraints —
+including ones it holds solo on a cold attempt. Self-revision decays;
+the hold-set under self-revision is strictly smaller than the solo
+hold-set.
+
+**Evidence.** W6a: flash ×4 rounds, 5/6 solo → 3/6, losing seal and
+line-length (both inside flash's solo hold-set). W6b: same protocol at
+the demanding hand, 2/6 → 1/6. Two confirmations across two different
+hands (easy and demanding), one evening.
+([W6 VERDICT.md](W6-the-braid/VERDICT.md),
+[W6b VERDICT-b.md](W6-the-braid/VERDICT-b.md))
+
+**Formalization gap (on record in W5):** copies-decompose is *not*
+covered by the braid intersection law and remains its own case law;
+hold-set arithmetic under self-revision has not been measured.
+
+**Breaks if:** self-revision chains hold score or gain, at scale.
+
+### 2.4 The mating regime law (single cast, clean structure)
+
+**Statement.** Sexual recombination (cross-iteration) wins exactly when
+the hand is demanding; cheap asexual mutation wins when the hand is
+loose. The bar matters precisely when the sea is hard.
+
+**Evidence.** [W1 VERDICT.md](W1-mating-at-scale/VERDICT.md): 10,000
+pairs, pre-registered kill gate passed (4.32% real offspring vs 0%
+asexual at tol 0.05). The tolerance sweep gives the regime structure:
+tol 0.02 → sexual 1.65% vs 0%; tol 0.20 → asexual 25.3% vs 13.8%. One
+cast, but monotone and falsifiable across the whole axis. Material
+footnote: CPU beat GPU 2.2× at this scale — know your materials.
+
+**Breaks if:** the crossover point moves or vanishes at other
+dimensions/scales, or metal (.qm) implementation disagrees.
+
+### 2.5 The herd calm-water law (single cast, host simulation)
+
+**Statement.** A majority-vote herd of cheap identical cells beats the
+best single cell at low-to-moderate noise, and repairs independent copy
+errors for free at zero channel noise. At high noise everything
+collapses toward chance — the herd has nothing left to vote with.
+
+**Evidence.** [W4 RESULTS.md](W4-espnow-herd/RESULTS.md): 55 points
+(11 noise × 5 copy-fidelity levels), 2,000 trials each, sealed design
+(commit 5c1bc12). Herd 0.816 vs best-single 0.738, CI-separated at
+p=0.05 (and at f=0.02); at p=0, f=0.05: herd 1.000 vs mean 0.834 —
+majority vote recovers true verdicts from independent copy errors.
+The sealed high-noise prediction was wrong and is filed as such (§3).
+
+**Caveats:** host simulation, not metal — the ESP32 run is pending
+hardware. Best-single is selected post-hoc (upward bias), making the
+comparison conservative.
+
+**Breaks if:** the real-cell run disagrees, or the win vanishes when
+cells' errors correlate.
+
