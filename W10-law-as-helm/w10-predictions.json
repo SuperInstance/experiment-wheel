@@ -21,84 +21,82 @@
   "flash": 2,
   "wesley": 0
  },
- "chains": {
-  "CH-A": {
-   "order": [
-    "wesley",
-    "claude",
-    "flash",
-    "kimi"
-   ],
-   "L1": {
-    "12_lines": false,
-    "c1_growth": false,
-    "c2_acrostic": false,
-    "c3_seal": false,
-    "c4_no_rhyme": false,
-    "c5_last_word_unique": false,
-    "c6_punctuation": false
-   },
-   "L4": {
-    "12_lines": true,
-    "c1_growth": false,
-    "c2_acrostic": false,
-    "c3_seal": true,
-    "c4_no_rhyme": true,
-    "c5_last_word_unique": true,
-    "c6_punctuation": false
-   }
+ "CH-A": {
+  "order": [
+   "wesley",
+   "claude",
+   "flash",
+   "kimi"
+  ],
+  "L1": {
+   "12_lines": false,
+   "c1_growth": false,
+   "c2_acrostic": false,
+   "c3_seal": false,
+   "c4_no_rhyme": false,
+   "c5_last_word_unique": false,
+   "c6_punctuation": false
   },
-  "CH-B": {
-   "order": [
-    "wesley",
-    "claude",
-    "kimi",
-    "flash"
-   ],
-   "L1": {
-    "12_lines": false,
-    "c1_growth": false,
-    "c2_acrostic": false,
-    "c3_seal": false,
-    "c4_no_rhyme": false,
-    "c5_last_word_unique": false,
-    "c6_punctuation": false
-   },
-   "L4": {
-    "12_lines": true,
-    "c1_growth": false,
-    "c2_acrostic": false,
-    "c3_seal": false,
-    "c4_no_rhyme": true,
-    "c5_last_word_unique": true,
-    "c6_punctuation": false
-   }
+  "L4": {
+   "12_lines": true,
+   "c1_growth": false,
+   "c2_acrostic": false,
+   "c3_seal": true,
+   "c4_no_rhyme": true,
+   "c5_last_word_unique": true,
+   "c6_punctuation": false
+  }
+ },
+ "CH-B": {
+  "order": [
+   "wesley",
+   "claude",
+   "kimi",
+   "flash"
+  ],
+  "L1": {
+   "12_lines": false,
+   "c1_growth": false,
+   "c2_acrostic": false,
+   "c3_seal": false,
+   "c4_no_rhyme": false,
+   "c5_last_word_unique": false,
+   "c6_punctuation": false
   },
-  "CH-C": {
-   "order": [
-    "kimi",
-    "flash",
-    "claude",
-    "wesley"
-   ],
-   "L1": {
-    "12_lines": false,
-    "c1_growth": false,
-    "c2_acrostic": false,
-    "c3_seal": false,
-    "c4_no_rhyme": false,
-    "c5_last_word_unique": false,
-    "c6_punctuation": false
-   },
-   "L4": {
-    "12_lines": false,
-    "c1_growth": false,
-    "c2_acrostic": false,
-    "c3_seal": false,
-    "c4_no_rhyme": true,
-    "c5_last_word_unique": false,
-    "c6_punctuation": false
-   }
+  "L4": {
+   "12_lines": true,
+   "c1_growth": false,
+   "c2_acrostic": false,
+   "c3_seal": false,
+   "c4_no_rhyme": true,
+   "c5_last_word_unique": true,
+   "c6_punctuation": false
+  }
+ },
+ "CH-C": {
+  "order": [
+   "kimi",
+   "flash",
+   "claude",
+   "wesley"
+  ],
+  "L1": {
+   "12_lines": false,
+   "c1_growth": false,
+   "c2_acrostic": false,
+   "c3_seal": false,
+   "c4_no_rhyme": false,
+   "c5_last_word_unique": false,
+   "c6_punctuation": false
+  },
+  "L4": {
+   "12_lines": false,
+   "c1_growth": false,
+   "c2_acrostic": false,
+   "c3_seal": false,
+   "c4_no_rhyme": true,
+   "c5_last_word_unique": false,
+   "c6_punctuation": false
   }
  }
 }

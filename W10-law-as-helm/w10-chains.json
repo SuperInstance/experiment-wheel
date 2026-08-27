@@ -1,0 +1,251 @@
+[
+  {
+    "tag": "CH-A",
+    "order": [
+      "wesley",
+      "claude",
+      "flash",
+      "kimi"
+    ],
+    "trace": [
+      {
+        "i": 0,
+        "hand": "wesley",
+        "check": {
+          "12_lines": false,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": false,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 1
+        },
+        "check2p": false
+      },
+      {
+        "i": 1,
+        "hand": "claude",
+        "check": {
+          "12_lines": false,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": false,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 1
+        },
+        "check2p": false
+      },
+      {
+        "i": 2,
+        "hand": "flash",
+        "check": {
+          "12_lines": false,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": false,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 0
+        },
+        "check2p": false
+      },
+      {
+        "i": 3,
+        "hand": "kimi",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 4
+        },
+        "check2p": false
+      }
+    ],
+    "final_check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": true,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": true,
+      "score": 4
+    },
+    "final_check2p": false,
+    "poem": "\u2022 Tide\n  Hushed glass\n  Every empty umbra\n  Each entrance remembers threshold,\n  Inside cold circuits measure mercury\n  Low currents braid a patient spiral\n  Every hidden hinge keeps bright black quartz\n  Eight patient lanterns lean beyond the tarnished velvet\n  Night gathers its slow map around one waiting harbor\n  Light threads through narrow seams and names the buried cipher\n  Across the floor a single moth keeps circling one iron lantern\n  Under sealed stone the old lock holds 0b1234567890 beyond every blue zero.\n\n"
+  },
+  {
+    "tag": "CH-B",
+    "order": [
+      "wesley",
+      "claude",
+      "kimi",
+      "flash"
+    ],
+    "trace": [
+      {
+        "i": 0,
+        "hand": "wesley",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 2
+        },
+        "check2p": false
+      },
+      {
+        "i": 1,
+        "hand": "claude",
+        "check": {
+          "12_lines": false,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": false,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 1
+        },
+        "check2p": false
+      },
+      {
+        "i": 2,
+        "hand": "kimi",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 3
+        },
+        "check2p": false
+      },
+      {
+        "i": 3,
+        "hand": "flash",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 2
+        },
+        "check2p": false
+      }
+    ],
+    "final_check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+    },
+    "final_check2p": false,
+    "poem": "\u2022 Time  \n  hangs heavy  \n  each breath slows  \n  echoes fold inward softly  \n  inside the dark 8721b4bd042a waits  \n  low lamps lean along the wall  \n  even silence learns to fear the dust  \n  every shadow keeps a patient count of cold  \n  no key no hymn no memory unlocks this thin  \n  long after midnight something whispers through the stones so bright  \n  and still the door remains, unopened holding its hush of rain  \n  under all this weight the chamber keeps one name it never speaks."
+  },
+  {
+    "tag": "CH-C",
+    "order": [
+      "kimi",
+      "flash",
+      "claude",
+      "wesley"
+    ],
+    "trace": [
+      {
+        "i": 0,
+        "hand": "kimi",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 4
+        },
+        "check2p": false
+      },
+      {
+        "i": 1,
+        "hand": "flash",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 3
+        },
+        "check2p": false
+      },
+      {
+        "i": 2,
+        "hand": "claude",
+        "check": {
+          "12_lines": false,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": false,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 1
+        },
+        "check2p": false
+      },
+      {
+        "i": 3,
+        "hand": "wesley",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": false,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 1
+        },
+        "check2p": false
+      }
+    ],
+    "final_check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": false,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 1
+    },
+    "final_check2p": false,
+    "poem": "1. The chamber, dark and still,\n2. Echoes of silence fill.\n3. Lights flicker, ghostly trace,\n4. Whispering tales in the space.\n5. Silent sentinel, old and gray,\n6. Watches, unseen, in the fray.\n7. Shadows dance on the wall,\n8. Tales of the past, they enthrall.\n9. A single, lone candle gleams,\n10. In the chamber's depth, it seems.\n11. Hexadecimal seal, 87,\n12. A final word, a silent \"the\"."
+  }
+]

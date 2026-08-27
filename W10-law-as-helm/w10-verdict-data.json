@@ -1,0 +1,133 @@
+{
+  "n_chains": 3,
+  "holds_measured": {
+    "claude": [
+      "c4_no_rhyme"
+    ],
+    "flash": [
+      "12_lines",
+      "c5_last_word_unique"
+    ],
+    "kimi": [
+      "12_lines",
+      "c3_seal",
+      "c4_no_rhyme",
+      "c5_last_word_unique"
+    ],
+    "wesley": []
+  },
+  "per_chain": {
+    "CH-A": {
+      "order": [
+        "wesley",
+        "claude",
+        "flash",
+        "kimi"
+      ],
+      "observed_held": [
+        "12_lines",
+        "c3_seal",
+        "c4_no_rhyme",
+        "c5_last_word_unique"
+      ],
+      "algorithm": {
+        "L1": [],
+        "L4": [
+          "12_lines",
+          "c3_seal",
+          "c4_no_rhyme",
+          "c5_last_word_unique"
+        ]
+      },
+      "correct": {
+        "L1": 3,
+        "L4": 7
+      },
+      "n_cells": 7
+    },
+    "CH-B": {
+      "order": [
+        "wesley",
+        "claude",
+        "kimi",
+        "flash"
+      ],
+      "observed_held": [
+        "12_lines",
+        "c5_last_word_unique"
+      ],
+      "algorithm": {
+        "L1": [],
+        "L4": [
+          "12_lines",
+          "c4_no_rhyme",
+          "c5_last_word_unique"
+        ]
+      },
+      "correct": {
+        "L1": 5,
+        "L4": 6
+      },
+      "n_cells": 7
+    },
+    "CH-C": {
+      "order": [
+        "kimi",
+        "flash",
+        "claude",
+        "wesley"
+      ],
+      "observed_held": [
+        "12_lines"
+      ],
+      "algorithm": {
+        "L1": [],
+        "L4": [
+          "c4_no_rhyme"
+        ]
+      },
+      "correct": {
+        "L1": 6,
+        "L4": 5
+      },
+      "n_cells": 7
+    }
+  },
+  "pooled": {
+    "L1": {
+      "correct": 14,
+      "n": 21,
+      "accuracy": 0.6667
+    },
+    "L4": {
+      "correct": 18,
+      "n": 21,
+      "accuracy": 0.8571
+    }
+  },
+  "chc": {
+    "tag": "CH-C",
+    "order": [
+      "kimi",
+      "flash",
+      "claude",
+      "wesley"
+    ],
+    "observed": [
+      "12_lines"
+    ],
+    "L1_floor": [],
+    "L4_pred": [
+      "c4_no_rhyme"
+    ],
+    "exact_L1": false,
+    "exact_L4": false,
+    "exact": false
+  },
+  "sealed_vs_algorithm_mismatches": [],
+  "bar": {
+    "L4_pooled_ge_080": true,
+    "chc_exact": false,
+    "met": false
+  }
+}
