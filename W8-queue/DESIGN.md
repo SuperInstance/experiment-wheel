@@ -362,16 +362,142 @@ itself a sentence worth having proven.
 Budget cap: ≤ 30 calls (4 phase-0 + 16 chain hands + redraw allowance).
 Fires AFTER W8 (spare-rate data) but does not require it.
 
-## Station W11 — THE FUSED CATCH (stub)
+## Station W11 — THE FUSED CATCH
 
-Grows from W4 (herd) × W7 (braid) × W1 (mating). K independent ascending
-braids, then mechanical aggregation: best-of-K selection and checker-guided
-line-inheritance fusion (uniform crossover at the artifact level).
-Locality law candidate: the herd can vote on what is local; global
-constraints need one mind. [Filled in below.]
+*Grows from: **W4** (majority vote repairs copy errors free in calm
+water; dies in storms — the edge lives where per-cell accuracy > ~60%) ×
+**W7** (ascending braid beats best solo) × **W1** (crossover wins when
+the hand is demanding).*
 
-## What this queue deliberately does NOT run
+### The question (one)
 
-See the final section — deferred items (copies-decompose formalization,
-the W3 mint lane, Station 3's qm tables) with reasons. W3b is sealed
-under its own registration and untouched by everything here.
+W4 voted over BITS (three cells, one verdict each). W7's artifact is a
+POEM — twelve lines whose constraints interlock — so "majority vote
+across braids" has no literal form: five different drafts never repeat
+a line verbatim, so verbatim voting is degenerate by construction. What
+survives the translation are the two aggregation rules that CAN act on
+artifacts, and they happen to be the two doctrines the wheel has already
+banked elsewhere:
+
+- **SELECTION (best-of-K):** run K ascending braids, the checker picks
+  the best catch. The W1 selector precedent — fleet-side instrument,
+  no model sees the checker.
+- **FUSION (line-inheritance):** the mechanical crossover. For line n:
+candidates are line n of each of the K braid outputs, aligned by index
+(a draft with ≠12 lines abstains); inheritance rule — take the line-
+n candidate that satisfies BOTH line-local constraints (exactly n
+  words; correct first letter for position n) from the highest-scoring
+  draft that satisfies both; if none does, inherit from the highest-
+  scoring draft outright. No repair, no model in the loop, rule frozen
+  here. This is uniform crossover with local-constraint selection —
+  **W1's sexual mode at the artifact level, on a demanding hand.**
+
+The new law candidate this station exists to test — **LOCALITY:** the
+herd can vote on what is line-local (c1 word counts, c2 first letters:
+each line independently checkable); global constraints (c3 seal
+placement, c4 rhyme, c5 uniqueness, c6 whole-text punctuation) have no
+line-index home, so fusion cannot target them and may break them by
+stitching lines from different parents.
+
+### Protocol
+
+- **Phase 0 (seed 20260831):** fresh solo vector, all four yards (4
+calls) — chain order set by measured ranks, W7's tiebreak rule.
+- **Phase 1:** K = 5 independent ascending braids, seeds 20260831+k,
+  single pass per hand, no re-rolls. All five outputs + scores on
+  record before any aggregation is computed (G0-guard pattern: the raw
+catches are committed before the instrument touches them).
+- **Phase 2 (mechanical only, zero model calls):** compute SELECTION
+  (max by checker) and FUSION (the frozen rule) on the same five
+  outputs. Score both under the W6b checker. Compare against the best
+  single braid of the five — selection ties it by definition, so the
+  live comparison is FUSION vs best single braid, and both vs the
+  all-conditions ceiling (5/6) and the never-held kernel (6/6).
+
+### PREDICTION (on record)
+
+- **P1 (locality):** FUSION's line-LOCAL score (c1+c2, 2 points) ≥ best
+  single braid's local score + 1 in ≥ 3 of 5 leave-one-out fusions
+  (fuse four, hold one out — five fusion samples from one evening,
+  honest about the small N).
+- **P2 (global):** FUSION's global score (c3+c4+c5+c6) does NOT exceed
+  the best parent's global score in ≥ 3 of 5 fusions — stitching cannot
+  buy what has no line-index home.
+- **P3 (selection, near-free):** best-of-5 ≥ mean braid + 1 (it almost
+  cannot fail; on record so the selector doctrine gets its number).
+
+### Bars, kill gate, falsifiers
+
+- **Kill gate:** if fewer than 3 of 5 braids score ≥ 3/6, fusion is
+  underpowered — the pool has nothing local to inherit (W4's storm
+  regime: per-braid accuracy below the vote threshold). STOP after
+  phase 1, file the negative: the herd dies in this storm too, and the
+  ≥60%-accuracy threshold read from W4 extends to artifact fusion.
+- **Falsifier of locality:** fusion fails to gain local constraints
+  (P1) while braids had local violations to fix → locality dies as a
+  law candidate; aggregation across braids is dead weight, single-
+  chain doctrine stands. Fusion BREAKS a global constraint the best
+  parent held (P2 violated downward) → still locality, the harsher
+  branch — noted either way.
+- **The honest headline risk:** if c2 is truly never-held (W9's wall),
+  no pool line satisfies position-n's letter, and fusion's c2 gain is
+  structurally capped — P1 then rides on c1 alone. Pre-noted so nobody
+  re-interprets a 1-point gain post-hoc.
+
+### What the verdict MEANS for the fleet
+
+If locality holds: Waters crews run parallel braids and MATE the
+catches — the checker-guided inheritance rule becomes a standing fleet
+instrument for line-local work, while global constraints keep a single
+mind (the closer). That is W1's regime law (crossover for demanding
+hands) and W4's herd law (vote where cells are independent) fused into
+one artifact-level doctrine — the two oldest findings in the wheel
+meeting the newest. If it fails: the braid stays a single-thread
+instrument and the herd stays a bit-level one; both doctrines survive
+unmerged, which is also worth knowing before the fleet builds parallel
+crews.
+
+Budget cap: ≤ 30 calls (4 solo + 20 braid hands + slack). Fires
+independently; cheapest station in the queue.
+
+## What this queue deliberately does NOT run (and why)
+
+- **Copies-decompose formalization.** W5 left it open: self-revision
+  hold-sets are strictly smaller than solo hold-sets, and no braid law
+  covers that decay. W8's regime arms instrument exactly this surface
+  (a hand revising a draft, per-constraint outcomes measured) — the
+  formalization station waits for W8's data rather than guessing at a
+  functional form now. Deferred with a dependency, not dropped.
+- **The W3 mint lane.** W3b is sealed under its own registration with
+  its own G0 guard; nothing in this queue touches its files or its
+  protocol. Station 2's fate rides on deepseek-r1:8b clearing 0.60 —
+  a result this queue has no business anticipating.
+- **Station 3 (qm band tables from W1 E1).** GPU lane, orthogonal to
+  the braid theater; queued behind the W3 lane's resolution, per the
+  wheel's standing order.
+- **Ensemble-of-judges, prompt-tuning sweeps, model swaps.** None of
+  these grows from a named finding on record. The wheel does not run
+  stations to have run them.
+
+## Queue-level statutes (inherited by every registration above)
+
+1. **Sealed before fire:** each station's REGISTRATION.md committed
+   before its first call; this DESIGN.md is the argument layer, the
+   registrations are the contracts.
+2. **Single pass, no re-rolls, results as measured** — W7's guard,
+   verbatim.
+3. **No model ever sees the checker.** Fleet-side selectors may use it
+   and are flagged as instruments (W1 selector precedent, W9's dual
+   reporting, W11's fusion rule — all fleet-side, all declared).
+4. **G0-guard pattern:** every station commits its raw material — seed
+   drafts, solo vectors, braid outputs — BEFORE the instrument or the
+   arithmetic touches it.
+5. **Budget caps are hard:** ≤60 / ≤200 / ≤30 / ≤30 calls. An evening
+   each, no exceptions without a new sealed amendment on record.
+6. **Negatives are results.** Every station above pre-scores at least
+   one branch in which the interesting thing FAILS to appear — and
+   says what the fleet learns from that failure. The wheel's whole
+   method is that the runs can embarrass us.
+
+*Designs, not results. Undersold on purpose; the registrations will be
+sealed the same way. — W8-queue, drafted 2026-08-27, nothing run.*
