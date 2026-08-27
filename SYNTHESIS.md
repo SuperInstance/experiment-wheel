@@ -195,3 +195,91 @@ comparison conservative.
 **Breaks if:** the real-cell run disagrees, or the win vanishes when
 cells' errors correlate.
 
+---
+
+## 3. The negatives (first-class results — what they rule out)
+
+The wheel files negatives as results, not embarrassments. Four filings
+matter:
+
+### 3.1 W2 — Wesley's first mint: the discrimination bar is real
+
+**Filed:** NEGATIVE-inconclusive, by pre-registered guard.
+([W2 VERDICT.md](W2-wesley-first-mint/VERDICT.md))
+
+The mint worked perfectly and it still doesn't count. G1 required the
+substrate ≥ 0.60 accuracy; Wesley scored 0.49 — a coin. The registration
+said so in advance: *"a mind at chance cannot be distilled."* The kill
+gate fired exactly as designed; no rescue attempted.
+
+**What it rules out:** minting a mind that doesn't discriminate. Wesley
+is a constant-YES watchman on 3 of 4 categories (GONGO 49 yes / 1 no;
+COLD 50 / 0 — accuracy equals the ground YES rate, which is what
+answering always-YES scores). The question was never "can bands copy a
+mind" — it was "is there a mind to copy," and on 75% of the corpus there
+wasn't.
+
+**Error canonization, witnessed.** The mint sealed the constant-YES into
+~10 bands — hardening a flaw into scripture, the exact failure mode the
+registration pre-named. *A mint is a mirror, not a mind.* Roughly a
+third of the seals are canonized bias.
+
+**The exception that validates the mechanics:** SQUALL's cumulonimbus cue
+— the one binary signal Wesley actually reads — survived minting and
+improved under it (0.80 → 0.88, majority-vote denoising; 92% agreement,
+104% accuracy retention, 49,905× speed). Where the mind discriminates,
+the mint preserves and improves it. The negative is about the substrate,
+not the machinery.
+
+### 3.2 The two guards below the 0.60 bar
+
+The same discrimination bar stopped two turns, at two different points
+in the pipeline — the guard design is doing its job:
+
+- **W2 G1 (substrate):** Wesley 0.49 < 0.60 → filed negative, mint
+  struck but not counted.
+- **W3a G0 (judge):** qwen3:8b scored 0.59 < 0.60 on the 200-item train
+  ledger → **stopped before any minting**, per registration.
+  ([W3a RESULTS.json](W3a-dissent-fed-mints/RESULTS.json)) *"A mind
+  below the bar cannot be distilled; the dissent question stands
+  unanswered until a judge clears it."*
+
+**What this rules out so far:** firing the dissent-fed-mint design with
+any tested mind. W2's verdict already redesignated W3 ("do not fire as
+designed") — feeding back the dissent of a constant is re-canonizing
+bias, faster. W3b is the second cast of the judge (§6, pending); its own
+registration states the stake plainly: if that judge also fails G0, that
+is two judges below the bar and Station 2's premise dies for now —
+*also a result*.
+
+### 3.3 W4 — the storm regime: sealed prediction, wrong regime
+
+**Filed:** wrong-regime negative as literally stated, with a clean
+positive elsewhere. ([W4 RESULTS.md](W4-espnow-herd/RESULTS.md))
+
+The sealed prediction said the herd beats best-single at HIGH noise. It
+doesn't — at p ≥ 0.15 everything collapses toward chance, and at p=0.5
+the bit-flip channel carries zero information that no vote can
+resurrect. The herd's real edge is calm water (§2.5).
+
+**What it rules out:** "three cheap hands beat one in a storm." Majority
+vote buys accuracy only while per-cell errors stay independent and
+per-cell accuracy stays meaningfully above 50%. The gain peak is where
+there is still signal to vote with.
+
+### 3.4 W1-E2 and W6a — the smaller honest filings
+
+- **W1 E2 (appendix non-reproduction):** the paper's claimed rising
+  cross/self-relevance curve (0.000 → 0.234) is 0.0000 at every measured
+  step at 10,000 cells with honest random init — presumably a
+  tuned-init artifact. Filed negative, kept in canon with the verdict.
+  Second confirmed theater element in Paper 219's evidence; the thesis
+  survives on E1's honest numbers.
+- **W6a (kill gate not reached):** the braid didn't beat copies at ≥2σ
+  because the task's ceiling (5/6) was reachable solo — the hand wasn't
+  demanding. The regime law (§2.4) explains it post-hoc. The spike's
+  real output was an instrument correction: *to measure the braid, the
+  hand must fail every solo yard* — which became W6b's design and
+  produced the weak-link evidence pair. The wheel correcting its own
+  instrument is the sweep working as intended.
+
