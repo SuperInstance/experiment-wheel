@@ -1,0 +1,79 @@
+{
+  "device": "cuda",
+  "n_pairs": 10000,
+  "e1_cpu": {
+    "n_pairs": 10000,
+    "real_sexual": 432,
+    "real_asexual": 0,
+    "rate_sexual": 0.04320000112056732,
+    "rate_asexual": 0.0,
+    "tolerance_sweep": {
+      "0.02": {
+        "sexual": 0.016499999910593033,
+        "asexual": 0.0
+      },
+      "0.05": {
+        "sexual": 0.04320000112056732,
+        "asexual": 0.0
+      },
+      "0.1": {
+        "sexual": 0.0794999971985817,
+        "asexual": 0.006899999920278788
+      },
+      "0.2": {
+        "sexual": 0.13779999315738678,
+        "asexual": 0.2529999911785126
+      }
+    }
+  },
+  "e1_cpu_seconds": 0.669,
+  "e1_gpu": {
+    "n_pairs": 10000,
+    "real_sexual": 432,
+    "real_asexual": 0,
+    "rate_sexual": 0.04319999739527702,
+    "rate_asexual": 0.0,
+    "tolerance_sweep": {
+      "0.02": {
+        "sexual": 0.016499999910593033,
+        "asexual": 0.0
+      },
+      "0.05": {
+        "sexual": 0.04319999739527702,
+        "asexual": 0.0
+      },
+      "0.1": {
+        "sexual": 0.0794999971985817,
+        "asexual": 0.006899999920278788
+      },
+      "0.2": {
+        "sexual": 0.13779999315738678,
+        "asexual": 0.2529999911785126
+      }
+    }
+  },
+  "e1_gpu_seconds": 1.4817,
+  "e2_tanh_nets": {
+    "1": {
+      "cross_relevance": 0.0,
+      "self_relevance": 0.0,
+      "mated_child_relevance": 0.0
+    },
+    "5": {
+      "cross_relevance": 0.0,
+      "self_relevance": 0.0,
+      "mated_child_relevance": 0.0
+    },
+    "10": {
+      "cross_relevance": 0.0,
+      "self_relevance": 0.0,
+      "mated_child_relevance": 0.0
+    },
+    "50": {
+      "cross_relevance": 0.0,
+      "self_relevance": 0.0,
+      "mated_child_relevance": 0.0
+    }
+  },
+  "e2_seconds": 1.674
+}
