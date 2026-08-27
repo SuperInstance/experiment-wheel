@@ -1,0 +1,16 @@
+warm-up: think:false ok -> 'NO'
+train1 25/200 ... last 0.20s no
+train1 50/200 ... last 0.21s no
+train1 75/200 ... last 0.25s yes
+train1 100/200 ... last 0.24s yes
+train1 125/200 ... last 0.21s no
+train1 150/200 ... last 0.22s no
+train1 175/200 ... last 0.23s yes
+train1 200/200 ... last 0.22s yes
+G0: judge train acc 0.590 (bar 0.6)
+{
+ "G0_train_judge_acc": 0.59,
+ "bar": 0.6,
+ "passed": false
+}
+G0 FAILED — filed negative, stopping

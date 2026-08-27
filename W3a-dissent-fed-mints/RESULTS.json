@@ -1,0 +1,56 @@
+{
+ "meta": {
+  "experiment": "W3a \u2014 the upgraded judge: dissent-fed mints",
+  "station": 2,
+  "model": "qwen3:8b",
+  "temp": 0.3,
+  "seed": 20260827,
+  "protocol": "thinkfalse",
+  "run_at": "2026-08-27 06:11:58 AKDT",
+  "registered": "REGISTRATION.md (2026-08-26 23:17 AKDT)"
+ },
+ "corpus": {
+  "n": 300,
+  "split": "200/100",
+  "balance": {
+   "FOG/train": {
+    "n": 50,
+    "yes": 11
+   },
+   "FOG/test": {
+    "n": 25,
+    "yes": 6
+   },
+   "SQUALL/train": {
+    "n": 50,
+    "yes": 18
+   },
+   "SQUALL/test": {
+    "n": 25,
+    "yes": 9
+   },
+   "GONGO/train": {
+    "n": 50,
+    "yes": 28
+   },
+   "GONGO/test": {
+    "n": 25,
+    "yes": 9
+   },
+   "COLD/train": {
+    "n": 50,
+    "yes": 17
+   },
+   "COLD/test": {
+    "n": 25,
+    "yes": 10
+   }
+  }
+ },
+ "guard": {
+  "G0_train_judge_acc": 0.59,
+  "bar": 0.6,
+  "passed": false
+ },
+ "filing": "NEGATIVE-INCONCLUSIVE \u2014 G0 guard failed; stopped before minting per registration"
+}

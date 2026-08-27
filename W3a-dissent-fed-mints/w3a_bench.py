@@ -15,6 +15,7 @@ SYSTEM = ("You are the weather watch aboard a small sailing vessel in "
           "Nothing else.")
 G0_BAR = 0.60
 DISSANT_CAP = 60
+NUM_CTX = 4096   # serving knob: qwen3 default 40k ctx OOMs the 6GB 4050; 4096 fits round-2 prefix
 
 # registered protocol switch, resolved at warm-up, then frozen for the run
 PROTO = {"mode": None}   # "thinkfalse" | "nothink"
@@ -41,7 +42,8 @@ def raw_call(system, user):
         payload = dict(model=MODEL, stream=False, keep_alive="30m",
                        messages=[{"role": "system", "content": sysmsg},
                                  {"role": "user", "content": user}],
-                       options={"temperature": 0.3, "num_predict": 8})
+                       options={"temperature": 0.3, "num_predict": 8,
+                                "num_ctx": NUM_CTX})
         if use_think_key:
             payload["think"] = False
         req = urllib.request.Request(
@@ -78,7 +80,8 @@ def resolve_protocol():
     payload = dict(model=MODEL, stream=False, keep_alive="30m",
                    messages=[{"role": "system", "content": SYSTEM},
                              {"role": "user", "content": probe}],
-                   options={"temperature": 0.3, "num_predict": 8},
+                   options={"temperature": 0.3, "num_predict": 8,
+                            "num_ctx": NUM_CTX},
                    think=False)
     req = urllib.request.Request(
         URL, data=json.dumps(payload).encode(),
