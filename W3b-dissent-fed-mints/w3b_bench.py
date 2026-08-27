@@ -2,8 +2,13 @@
 """W3a bench — upgraded judge, G0 guard, two mint rounds, dissent feed.
 Implements REGISTRATION.md exactly. Stages checkpoint to disk; rerun skips
 completed stages. Fence order: guard -> M1 -> test1 -> dissent -> L2 -> M2
--> test2 -> results. No stage may touch later stages' data."""
-import json, re, time, sys, urllib.request, urllib.error
+-> test2 -> results. No stage may touch later stages' data.
+2026-08-27 engineering patch (registration/protocol unchanged): transient
+ollama failures (HTTP 5xx, connection/timeout) retried with backoff;
+unrecoverable items recorded as honest ledger nulls, never silently
+skipped (>10% null aborts the run); partial ledgers checkpoint to disk
+every 25 items so a crash loses at most 25."""
+import json, os, re, time, sys, urllib.request, urllib.error
 import numpy as np
 
 MODEL = "deepseek-r1:8b"
@@ -18,6 +23,13 @@ NUM_PREDICT = 2048  # r1 is a reasoner: let the <think> trace finish so the fina
 G0_BAR = 0.60
 DISSANT_CAP = 60
 
+# 2026-08-27 resilience patch: ollama served HTTP 500s under load and crashed
+# the bench twice mid-train1. Retry transient failures; record infra failures
+# as honest nulls (never silent skips); abort if nulls exceed 10% of a ledger.
+RETRY_SLEEP_S = [5, 10, 20, 40, 80]   # 5 retries, exponential backoff
+NULL_ABORT_FRAC = 0.10                # >10% null items in a ledger -> abort
+CKPT_EVERY = 25                       # flush partial ledger every N items
+
 # r1 cannot disable reasoning; no protocol switch. Parse: strip <think> spans, take LAST yes/no.
 PROTO = {"mode": "reasoner"}
 
@@ -27,6 +39,13 @@ def load(path):
             return json.load(f)
     except FileNotFoundError:
         return None
+
+def write_json_atomic(path, doc):
+    """Write JSON via temp file + rename so a crash never corrupts a ledger."""
+    tmp = path + ".tmp"
+    with open(tmp, "w") as f:
+        json.dump(doc, f, indent=1)
+    os.replace(tmp, path)
 
 def raw_call(system, user):
     """One HTTP attempt -> (content, secs). r1 reasoner: single fixed protocol."""
@@ -43,6 +62,34 @@ def raw_call(system, user):
         body = json.loads(r.read())
     return body["message"]["content"], time.perf_counter() - t0
 
+def raw_call_retry(system, user, tag):
+    """raw_call + retry/backoff on transient ollama failures (HTTP 5xx,
+    connection/timeout/body errors): 5 retries sleeping 5/10/20/40/80s.
+    4xx is a real client bug and still raises. Returns (content|None, secs,
+    last_error|None); content None = infra failure after all retries."""
+    last = None
+    for attempt in range(len(RETRY_SLEEP_S) + 1):
+        try:
+            content, dt = raw_call(system, user)
+            return content, dt, None
+        except urllib.error.HTTPError as e:
+            last = e
+            if e.code < 500:
+                raise
+            why = f"HTTP {e.code}"
+        except (urllib.error.URLError, TimeoutError, OSError,
+                json.JSONDecodeError) as e:
+            last = e
+            why = type(e).__name__
+        if attempt < len(RETRY_SLEEP_S):
+            print(f"{tag} call failed ({why}), attempt {attempt + 1}/"
+                  f"{len(RETRY_SLEEP_S) + 1} - retrying in {RETRY_SLEEP_S[attempt]}s",
+                  flush=True)
+            time.sleep(RETRY_SLEEP_S[attempt])
+    print(f"{tag} INFRA-FAIL: giving up after {len(RETRY_SLEEP_S) + 1} "
+          f"attempts ({last!r})", flush=True)
+    return None, 0.0, last
+
 def parse_answer(content):
     """Registered reasoner parse: strip <think>...</think> (and reject a
     truncated unclosed trace), then LAST \b(yes|no)\b in what remains."""
@@ -52,11 +99,14 @@ def parse_answer(content):
     matches = re.findall(r"\b(yes|no)\b", text, re.I)
     return matches[-1].lower() if matches else None
 
-def query_item(prompt):
-    """Up to 3 attempts -> (answer|'UNPARSED', secs, attempts, raw80)."""
+def query_item(prompt, tag):
+    """Up to 3 parse attempts -> (answer|'UNPARSED'|None, secs, attempts,
+    raw80). None = infra failure after all retries -> honest null record."""
     raw = ""; dt = 0.0
     for attempt in (1, 2, 3):
-        content, dt = raw_call(SYSTEM, prompt)
+        content, dt, err = raw_call_retry(SYSTEM, prompt, tag)
+        if content is None:
+            return None, None, None, None
         raw = content
         ans = parse_answer(content)
         if ans:
@@ -64,10 +114,14 @@ def query_item(prompt):
     return "UNPARSED", dt, 3, raw[-80:]
 
 def warmup():
-    """Warm-up + reasoner parse sanity check."""
+    """Warm-up + reasoner parse sanity check (retried; abort only if ollama
+    is unreachable after all retries)."""
     probe = ("Conditions: dew point depression 1.5°C, wind 5 kt. "
              "Question: is fog likely within the next few hours?")
-    content, dt = raw_call(SYSTEM, probe)
+    content, dt, err = raw_call_retry(SYSTEM, probe, "warmup")
+    if content is None:
+        sys.exit(f"warm-up INFRA-FAIL after all retries: {err!r} - "
+                 f"ollama unreachable/unstable, not starting the bench")
     ans = parse_answer(content)
     tail = content[-60:].replace(chr(10), " ")
     return (f"warm-up {dt:.1f}s parse={ans!r} tail={tail!r}" if ans
@@ -78,19 +132,54 @@ def band_key(cat, band):
 
 def run_ledger(corpus, split, prefix, out_path, tag):
     items = [x for x in corpus["items"] if x["split"] == split]
+    partial_path = out_path + ".partial"
     recs = []
-    for i, it in enumerate(items):
+    prev = load(partial_path)
+    if prev is not None and prev.get("records"):
+        recs = prev["records"]
+        assert len(recs) <= len(items), "partial ledger longer than split"
+        for j, r in enumerate(recs):
+            assert r["id"] == items[j]["id"], f"partial order mismatch at {j}"
+        print(f"{tag} resuming: {len(recs)}/{len(items)} recovered from "
+              f"{partial_path}", flush=True)
+
+    def flush_partial():
+        write_json_atomic(partial_path, dict(
+            model=MODEL, temp=0.3, protocol=PROTO["mode"], prefix=bool(prefix),
+            n=len(recs), complete=False, records=recs))
+
+    abort_bar = NULL_ABORT_FRAC * len(items)
+    for i in range(len(recs), len(items)):
+        it = items[i]
         user = (prefix + it["prompt"]) if prefix else it["prompt"]
-        ans, dt, att, raw = query_item(user)
+        ans, dt, att, raw = query_item(user, f"{tag} item {i+1}")
         recs.append(dict(id=it["id"], cat=it["cat"], gt=it["gt"], ans=ans,
                          secs=dt, attempts=att, band=band_key(it["cat"], it["band"]),
                          raw=raw))
-        if (i + 1) % 25 == 0:
-            print(f"{tag} {i+1}/{len(items)} ... last {dt:.2f}s {ans}", flush=True)
+        n_null = sum(1 for r in recs if r["ans"] is None)
+        if ans is None:
+            print(f"{tag} {i+1}/{len(items)} id={it['id']} INFRA-FAIL recorded "
+                  f"as null ({n_null} null so far, abort bar {abort_bar:.0f})",
+                  flush=True)
+        if (i + 1) % CKPT_EVERY == 0 or i + 1 == len(items):
+            flush_partial()
+            last_s = f"{dt:.2f}s" if isinstance(dt, (int, float)) else "n/a"
+            print(f"{tag} {i+1}/{len(items)} ... last {last_s} {ans} "
+                  f"[ckpt: {len(recs)} items, {n_null} null]", flush=True)
+        if n_null > abort_bar:
+            flush_partial()
+            sys.exit(f"ABORT {tag}: {n_null}/{len(items)} infra-null items exceed "
+                     f"{int(NULL_ABORT_FRAC * 100)}% of the {len(items)}-item "
+                     f"ledger - ollama too unstable; partial ledger kept at "
+                     f"{partial_path}")
+    n_null = sum(1 for r in recs if r["ans"] is None)
     doc = dict(model=MODEL, temp=0.3, protocol=PROTO["mode"], prefix=bool(prefix),
-               n=len(recs), records=recs)
-    with open(out_path, "w") as f:
-        json.dump(doc, f, indent=1)
+               n=len(recs), n_null=n_null, records=recs)
+    write_json_atomic(out_path, doc)
+    try:
+        os.remove(partial_path)
+    except FileNotFoundError:
+        pass
     return doc
 
 def mint_from(ledger_path, out_path):
@@ -98,7 +187,7 @@ def mint_from(ledger_path, out_path):
     stats = {c: {b: dict(n=0, yes=0) for b in range(9)} for c in CATS}
     cat_tot = {c: dict(n=0, yes=0) for c in CATS}
     for r in ledger["records"]:
-        if r["ans"] == "UNPARSED":
+        if r["ans"] not in ("yes", "no"):  # UNPARSED (protocol) or null (infra)
             continue
         y = 1 if r["ans"] == "yes" else 0
         stats[r["cat"]][r["band"]]["n"] += 1
@@ -178,8 +267,9 @@ def mint_latency(mint, corpus):
 
 def heldout_eval(test_ledger, mint):
     table = np.array(mint["table"], dtype=np.int8)
-    parsed = [r for r in test_ledger["records"] if r["ans"] != "UNPARSED"]
+    parsed = [r for r in test_ledger["records"] if r["ans"] in ("yes", "no")]
     unp = len(test_ledger["records"]) - len(parsed)
+    infra_null = sum(1 for r in test_ledger["records"] if r["ans"] is None)
     def mlab(r):
         return "yes" if table[CAT_ID[r["cat"]], r["band"]] == 1 else "no"
     j_ok = [r["ans"] == ("yes" if r["gt"] else "no") for r in parsed]
@@ -207,7 +297,7 @@ def heldout_eval(test_ledger, mint):
             mint_acc=float(np.mean([mlab(r) == ("yes" if r["gt"] else "no") for r in sub])) if sub else None,
             yes_rate=float(np.mean([r["gt"] for r in sub])) if sub else None)
     lat = np.array([r["secs"] for r in parsed])
-    return dict(n=len(test_ledger["records"]), unparsed=unp,
+    return dict(n=len(test_ledger["records"]), unparsed=unp, infra_null=infra_null,
                 judge_acc=float(np.mean(j_ok)), mint_acc=float(np.mean(m_ok)),
                 accuracy_ratio=float(np.mean(m_ok) / np.mean(j_ok)) if np.mean(j_ok) else None,
                 agreement_rate=float(np.mean(agree)),
@@ -222,9 +312,9 @@ def stage_results(corpus):
     t2 = load("w3b-ledger-train2.json"); s2 = load("w3b-ledger-test2.json")
     m2 = load("w3b-mint2.json"); dis = load("w3b-dissent.json")
 
-    tp1 = [r for r in t1["records"] if r["ans"] != "UNPARSED"]
+    tp1 = [r for r in t1["records"] if r["ans"] in ("yes", "no")]
     g0 = float(np.mean([r["ans"] == ("yes" if r["gt"] else "no") for r in tp1]))
-    tp2 = [r for r in t2["records"] if r["ans"] != "UNPARSED"]
+    tp2 = [r for r in t2["records"] if r["ans"] in ("yes", "no")]
     l2_acc = float(np.mean([r["ans"] == ("yes" if r["gt"] else "no") for r in tp2]))
     tab1 = np.array(m1["table"], dtype=np.int8)
     l2_agree_m1 = float(np.mean([
@@ -247,7 +337,7 @@ def stage_results(corpus):
         for c in CATS:
             tot = err = 0
             for r in ledger["records"]:
-                if r["cat"] != c or r["ans"] == "UNPARSED":
+                if r["cat"] != c or r["ans"] not in ("yes", "no"):
                     continue
                 ci, b = CAT_ID[c], r["band"]
                 if mint["sealed"][ci][b]:
@@ -272,11 +362,15 @@ def stage_results(corpus):
                   protocol=t1["protocol"],
                   run_at=time.strftime("%Y-%m-%d %H:%M:%S %Z"),
                   registered="REGISTRATION.md (2026-08-27, sealed before run)",
-                  replaces="W3a (G0 negative 0.59) — second cast, judge deepseek-r1:8b"),
+                  replaces="W3a (G0 negative 0.59) — second cast, judge deepseek-r1:8b",
+                  patch="2026-08-27 engineering fix: ollama retry/backoff (5 retries, "
+                        "5-80s), infra-nulls recorded honestly (>10% aborts), "
+                        "partial-ledger checkpoints every 25 items; protocol unchanged"),
         corpus=dict(n=300, split="200/100", balance=corpus["balance"]),
         guard=dict(G0_train_judge_acc=g0, bar=G0_BAR, passed=bool(g0 >= G0_BAR)),
         round1=dict(train=dict(n=len(t1["records"]),
-                               unparsed=len(t1["records"]) - len(tp1)),
+                               unparsed=len(t1["records"]) - len(tp1),
+                               infra_null=t1.get("n_null", 0)),
                     mint1=dict(frozen_at=m1["frozen_at"], matrix=m1["matrix"],
                                sealed_fraction=sum(1 for m in m1["matrix"] if m["sealed"] and m["n"] > 0) /
                                max(1, sum(1 for m in m1["matrix"] if m["n"] > 0))),
@@ -285,6 +379,7 @@ def stage_results(corpus):
                      yes_labels=dis["yes_labels"], no_labels=dis["no_labels"]),
         round2=dict(train=dict(n=len(t2["records"]),
                                unparsed=len(t2["records"]) - len(tp2),
+                               infra_null=t2.get("n_null", 0),
                                acc_vs_gt=l2_acc, agreement_with_M1_labels=l2_agree_m1),
                     mint2=dict(frozen_at=m2["frozen_at"], matrix=m2["matrix"],
                                sealed_fraction=sum(1 for m in m2["matrix"] if m["sealed"] and m["n"] > 0) /
@@ -305,7 +400,7 @@ def stage_results(corpus):
                           deltas=results["deltas"]), indent=1))
 
 def file_negative_guard(corpus, t1):
-    tp = [r for r in t1["records"] if r["ans"] != "UNPARSED"]
+    tp = [r for r in t1["records"] if r["ans"] in ("yes", "no")]
     acc = float(np.mean([r["ans"] == ("yes" if r["gt"] else "no") for r in tp]))
     res = dict(
         meta=dict(experiment="W3b — the upgraded judge, second cast: dissent-fed mints (deepseek-r1:8b)",
@@ -329,7 +424,7 @@ def main():
     t1 = load("w3b-ledger-train1.json")
     if t1 is None:
         t1 = run_ledger(corpus, "train", None, "w3b-ledger-train1.json", "train1")
-    tp = [r for r in t1["records"] if r["ans"] != "UNPARSED"]
+    tp = [r for r in t1["records"] if r["ans"] in ("yes", "no")]
     g0 = float(np.mean([r["ans"] == ("yes" if r["gt"] else "no") for r in tp]))
     print(f"G0: judge train acc {g0:.3f} (bar {G0_BAR})", flush=True)
     if g0 < G0_BAR:
@@ -348,7 +443,7 @@ def main():
         tab1 = np.array(m1["table"], dtype=np.int8)
         rows = []
         for r in t1["records"]:
-            if r["ans"] == "UNPARSED":
+            if r["ans"] not in ("yes", "no"):
                 continue
             bl = "yes" if tab1[CAT_ID[r["cat"]], r["band"]] == 1 else "no"
             if bl != r["ans"]:
