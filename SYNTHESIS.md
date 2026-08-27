@@ -283,3 +283,57 @@ there is still signal to vote with.
   produced the weak-link evidence pair. The wheel correcting its own
   instrument is the sweep working as intended.
 
+---
+
+## 4. The open kernel (what no turn has answered)
+
+Three things survived every cast. They are listed in order of how
+sharply they are defined.
+
+### 4.1 The never-held constraints: c2 acrostic + c6 punctuation
+
+Across W6b and W7 — fresh draws, four solo yards, copies, braids in both
+orders — **no hand has ever held the acrostic (THEEILEENLAUN) or the
+strict-punctuation constraint, in any condition.**
+([W7 VERDICT-w7.md](W7-ordered-braid/VERDICT-w7.md), constraint table.)
+
+This is not a ceiling effect: 5/6 is reachable and was reached (W7 ASC,
+once). It is a floor-of-capability effect: no ordering can buy what no
+hand can hold — W7's own conclusion. Until some yard holds either
+constraint, 5/6 is the honest top of this task, and claims about braid
+composition above the intersection are unmeasurable on it.
+
+Corollary for the laws: the chamber task's constraint set divides into
+three bands — held-by-all (12L, c5), held-by-some (c1, c3, c4), and
+held-by-none (c2, c6). The laws in §2 are calibrated on the first two
+bands only. The third band has never produced a single data point.
+
+### 4.2 Reviser-mode ≠ solo-mode
+
+W7's first footnote, and the sharpest single observation of the sweep:
+kimi holds c3 (seal) and c4 (no-rhyme) solo — yet as DESC hand-2 he
+*broke* claude's passing seal, and as ASC hand-3 he *recovered* both
+from a broken draft. Same hand, same task, same checker; the draft he
+received decided whether he repaired or damaged.
+
+What this means: the solo hold-set bounds what a hand can carry (the
+ceiling law is intact — a hand cannot preserve in transit what it
+cannot hold cold), but holding solo does not *guarantee* preserving as
+a reviser. "Weak-link" is about the ceiling, not a promise of repair.
+One hand, one observation, n=1 — unmeasured.
+
+### 4.3 Dissent-feeding: the question W3 was born to ask, still unanswered
+
+Does boundary evidence re-teach the bulk? The design (feed the frozen
+bands' disagreements back as labeled dissents, re-strike the mint:
+improve, degrade, or nothing?) has never executed:
+
+- W2's substrate failed the guard → W3 redesignated before firing.
+- W3a's judge failed G0 by 0.01 → stopped before minting.
+- W3b is the second cast, in flight (§6).
+
+The registration's own stake: two judges below the bar kills Station
+2's premise for now. Either way the guard fired before the question was
+contaminated — which is the wheel working, but the question is now
+three turns old and still virgin.
+
