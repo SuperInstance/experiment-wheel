@@ -1,0 +1,83 @@
+{
+  "solo": {
+    "claude": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 4
+      },
+      "poem": "Time\nHolds still\nEchoes grow faint\nEmptiness surrounds us here\nIn silence we wait quietly\nLost voices calling through the dark\nEach wall remembers what we cannot say\nEven the smallest sound is swallowed deep\nNow 0821b4bd042a lives buried inside this ancient stone forever\nLight cannot penetrate the chamber's depths, no matter how hard\nAlways the darkness and silence waits patiently here consuming every thought\nUnknowable futures remain forever hidden behind the sealed and ancient heavy threshold.\n"
+    },
+    "kimi": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 4
+      },
+      "poem": "\u2022 Time\n  Hollow halls\n  Each wall leans\n  Embers fade to gray\n  Inside me the dark settles\n  Lanterns drift above the cold floor\n  Every breath within my chest grows thin\n  Even shadows hide behind my locked heart\n  Nothing moves except the dust and my slow dread\n  Listen closely now the ancient stones themselves begin to speak\n  All my dreams have gathered here and wait for dawn, still\n  Until the seal 17f3a9c20d4e breaks at last and releases the quiet starlight.\n\n"
+    },
+    "flash": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": false,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 2
+      },
+      "poem": "Thunder  \nechoes,  \nthe chamber breathes  \ncold stone sighing.  \nevery shadow leans toward  \nthe vaulted dark, a held  \nbreath waiting for the seal  \n8721b4bd042a cracks the floor.  \nthe eileen lauren statue turns,  \na lantern gutters, then the silence  \nspeaks in dust, in rust, in  \nthe final word that no one hears: lantern."
+    },
+    "wesley": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": false,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 2
+      },
+      "poem": "1. The chamber's silence, deep.\n2. Evergreen leaves whisper, near.\n3. A chill seeps, unnoticed.\n4. Lonely shadows dance, here.\n5. Ileen's gentle hand, touches.\n6. Laughter echoes, soft.\n7. Thee, in this space, dwells.\n8. Echoes of past, they're not.\n9. A place of peace, I find.\n10. Hex seal: 8b4bd042a.\n11. Words count: 10.\n12. Here, I am one with thee."
+    }
+  },
+  "copies": {
+    "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": false,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 1
+    },
+    "poem": "the  \nhollow  \nechoes through  \nthe chamber where  \neyes trace the walls  \neerie light, faint and cold  \nleaning shadows press against the stone  \nin silence, the dust remembers every step  \nevery breath that once disturbed this frozen air  \nnow only the dark and the waiting remain  \nlaunching a seal 8721b4bd042a into the deep  \nunseen, unspoken, the last word settles here"
+  },
+  "braid": {
+    "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+    },
+    "poem": "Thrum,\nHushed glass,\nEager, pale stone,\nEvery still, cold cedar,\nI hold, dim maps inside,\nLooms of rough, spun dark fabric,\nEach slow breath keeps the old, worn velvet,\nEvery mute corridor hides an iron grate, basalt,\nNo narrow stair remembers any bright, hollow, sudden, nothing,\nLet amber windows measure the tide, beyond soft, old purple,\nAcross quiet halls, the air keeps its pale secret, near alien,\nUnder 7f2c1b9e3d5, the chamber exhales one last warm, nameless, final door, unmade."
+  },
+  "seconds": 398.7
+}
