@@ -1,5 +1,5 @@
 {
- "attempts": 82,
+ "attempts": 105,
  "log": [
   {
    "t": 1787845808.5452452,
@@ -491,6 +491,144 @@
    "t": 1787847791.3,
    "kind": "draw",
    "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787847908.2,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787847908.2,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787847908.2,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787847908.3,
+   "kind": "draw",
+   "yard": "opencode",
+   "note": ""
+  },
+  {
+   "t": 1787847911.2,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787847913.8,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787847915.2,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787847918.5,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787847919.9,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787847921.6,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787847922.3,
+   "kind": "draw",
+   "yard": "opencode",
+   "note": ""
+  },
+  {
+   "t": 1787847970.2,
+   "kind": "draw",
+   "yard": "opencode",
+   "note": ""
+  },
+  {
+   "t": 1787847974.2,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787847976.0,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787847989.4,
+   "kind": "draw",
+   "yard": "opencode",
+   "note": ""
+  },
+  {
+   "t": 1787847995.3,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787848001.2,
+   "kind": "draw",
+   "yard": "opencode",
+   "note": ""
+  },
+  {
+   "t": 1787848001.3,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787848010.5,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787848012.2,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787848048.7,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787848055.9,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787848059.2,
+   "kind": "draw",
+   "yard": "opencode",
    "note": ""
   }
  ]

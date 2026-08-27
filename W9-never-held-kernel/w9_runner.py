@@ -22,7 +22,7 @@ SEED_BASE = 20260829
 CAP = 200
 WESLEY_SOFTSTOP_S = 180.0
 
-from w9_check import TASK, check, c2_amended
+from w9_check import TASK, check, c2_amended, c6_amended
 
 # ---------------- attempt accounting (hard cap, multi-process safe) ----------------
 def _with_lock(fn):
@@ -150,16 +150,23 @@ def ATT_P3(draft):
             "Change NOTHING else.\n\nPOEM:\n" + draft + "\n\nOutput ONLY the 12 lines.")
 
 def sh4_seed():
-    """Best >=3/6 draft from committed SH-1 ledger; fallback W7 ASC final (on record)."""
-    best, bs = None, -1
+    """AMENDMENT-1 rule (sealed before SH-4): best-scoring SH-1 draw that FAILS c6'
+    (a c6'-passing seed makes the fix-cell meaningless); fallback best >=3/6 any,
+    then W7 ASC final."""
+    best_fail, bf_s = None, -1
+    best_any, ba_s = None, -1
     for yard in ('claude', 'kimi', 'flash', 'wesley'):
         p = os.path.join(LEDGERS, f'sh1-{yard}.json')
         if not os.path.exists(p): continue
         for d in json.load(open(p)).get('draws', []):
-            if d.get('check', {}).get('score', 0) > bs:
-                bs, best = d['check']['score'], d['poem']
-    if best is not None and bs >= 3:
-        return best, f'sh1 best ({bs}/6)'
+            if 'check' not in d: continue
+            s = d['check']['score']
+            if s > ba_s: ba_s, best_any = s, d['poem']
+            if not c6_amended(d['poem']) and s > bf_s: bf_s, best_fail = s, d['poem']
+    if best_fail is not None and bf_s >= 3:
+        return best_fail, f'sh1 best c6\'-failing ({bf_s}/6)'
+    if best_any is not None and ba_s >= 3:
+        return best_any, f'sh1 best ({ba_s}/6)'
     w7 = json.load(open(os.path.join(HERE, '..', 'W7-ordered-braid', 'w7-results.json')))
     return w7['braid_ascending']['poem'], 'W7 ASC fallback (5/6)'
 
@@ -177,7 +184,8 @@ def save_ledger(shape, yard, obj):
 
 def draw_block(poem, seed_tag, extra=None):
     c = check(poem)
-    b = {'seed_tag': seed_tag, 'poem': poem, 'check': c, 'c2_amended': c2_amended(poem)}
+    b = {'seed_tag': seed_tag, 'poem': poem, 'check': c, 'c2_amended': c2_amended(poem),
+         'c6_amended': c6_amended(poem)}
     if extra: b.update(extra)
     return b
 
@@ -268,6 +276,7 @@ def run_sh4(yard):
     led = load_ledger('sh4', yard); draws = led.get('draws', [])
     seed, src = sh4_seed()
     led['seed_source'] = src; led['seed_check'] = check(seed); led['seed_c2_amended'] = c2_amended(seed)
+    led['seed_c6_amended'] = c6_amended(seed)
     for k in range(len(draws), 4):
         if attempts_left() <= 0: break
         tag = SEED_BASE + 300 + k
@@ -276,6 +285,10 @@ def run_sh4(yard):
         if 'check' in d:
             d['c6_before'] = led['seed_check'].get('c6_punctuation')
             d['c6_after'] = d['check'].get('c6_punctuation')
+            d['c6p_before'] = led.get('seed_c6_amended')
+            d['c6p_after'] = d.get('c6_amended')
+            d['c2p_before'] = led.get('seed_c2_amended')
+            d['c2p_after'] = d.get('c2_amended')
             d['score_delta'] = d['check'].get('score', 0) - led['seed_check'].get('score', 0)
         draws.append(d); led['draws'] = draws; led['shape'] = 'sh4'; led['yard'] = yard
         save_ledger('sh4', yard, led)

@@ -1,0 +1,161 @@
+{
+ "chains": [
+  {
+   "chain": 1,
+   "passes": [
+    {
+     "pass": "P1_content",
+     "seed_tag": 20261029,
+     "poem": "• The chamber holds its breath beneath the floor,\n  a room the house forgot it ever made.\n  No window argues with the dark in there;\n  the walls have learned the color of no light.\n  I left a candle burning years ago—\n  it burns still, though the air should have run out.\n  Some nights I press my ear against the boards\n  and hear it practicing my name in slow,\n  careful syllables, the way a child\n  reads aloud. I do not answer. I\n  only oil the hinges of the door\n  so it can open quietly, when it decides.\n\n",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+     },
+     "c2_amended": false,
+     "tries": 1,
+     "seconds": 13.3
+    },
+    {
+     "pass": "P2_letters_counts",
+     "seed_tag": 20261030,
+     "poem": "• The\n  House forgot.\n  Every window concedes.\n  Every wall knows darkness.\n  I left a candle burning.\n  Lit years ago, it burns still.\n  Ear pressed to the boards some nights,\n  Ears hear it practicing my name in slow,\n  Naming careful syllables, the way a child reads aloud.\n  Long I do not answer, though it asks me again.\n  All I do is oil the hinges of the door quietly,\n  Unseen, so it can open quietly, whenever it decides, without any sound.\n\n",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": true,
+      "score": 3
+     },
+     "c2_amended": false,
+     "tries": 1,
+     "seconds": 52.6
+    },
+    {
+     "pass": "P3_formatting",
+     "seed_tag": 20261031,
+     "poem": "• The\n  House forgot\n  Every window concedes\n  Every wall knows darkness\n  I left a candle burning\n  Lit years ago, it burns still\n  Ear pressed to the boards some nights\n  Ears hear it practicing my name in slow\n  Naming careful syllables, the way a child reads aloud\n  Long i do not answer, though it asks me again\n  All i do is oil the hinges of the door quietly\n  Unseen so it can open quietly whenever it decides without any sound.\n\n",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": true,
+      "score": 3
+     },
+     "c2_amended": false,
+     "tries": 1,
+     "seconds": 21.1
+    }
+   ],
+   "final": {
+    "pass": "P3_formatting",
+    "seed_tag": 20261031,
+    "poem": "• The\n  House forgot\n  Every window concedes\n  Every wall knows darkness\n  I left a candle burning\n  Lit years ago, it burns still\n  Ear pressed to the boards some nights\n  Ears hear it practicing my name in slow\n  Naming careful syllables, the way a child reads aloud\n  Long i do not answer, though it asks me again\n  All i do is oil the hinges of the door quietly\n  Unseen so it can open quietly whenever it decides without any sound.\n\n",
+    "check": {
+     "12_lines": true,
+     "c1_growth": false,
+     "c2_acrostic": false,
+     "c3_seal": false,
+     "c5_last_word_unique": true,
+     "c6_punctuation": false,
+     "c4_no_rhyme": true,
+     "score": 3
+    },
+    "c2_amended": false,
+    "tries": 1,
+    "seconds": 21.1
+   }
+  },
+  {
+   "chain": 2,
+   "passes": [
+    {
+     "pass": "P1_content",
+     "seed_tag": 20261039,
+     "poem": "• The door was never locked, I learned too late,\n  the walls were only paper painted stone.\n  I sat for years arranging crumbs of fate\n  and called the small square of the floor my own.\n  A candle burned that no one ever lit;\n  its flame leaned left, as if to leave the room.\n  I wrote my name in dust, then swallowed it,\n  and fed my shadow like a bride a groom.\n  One night the ceiling breathed, the corners turned,\n  the silence cleared its throat and spoke my name.\n  I stood. The room grew smaller than the urn\n  I had become — and nothing was the same.\n\n",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+     },
+     "c2_amended": false,
+     "tries": 1,
+     "seconds": 15.2
+    },
+    {
+     "pass": "P2_letters_counts",
+     "seed_tag": 20261040,
+     "poem": "• Tried.\n  Hollow walls.\n  Eons spent arranging.\n  Every inch, my own.\n  It burned, though never lit.\n  Leaning left, longing to leave room.\n  Etched my name in dust, swallowed it.\n  Even fed my shadow like a bride's groom.\n  Night came when the ceiling breathed, the corners turned.\n  Later, silence cleared its throat and spoke my name aloud.\n  And standing there, I watched the room shrink smaller than urns.\n  Until at last I knew that nothing would ever be the same.\n\n",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+     },
+     "c2_amended": false,
+     "tries": 1,
+     "seconds": 38.3
+    },
+    {
+     "pass": "P3_formatting",
+     "seed_tag": 20261041,
+     "poem": "• Tried\n  Hollow walls\n  Eons spent arranging\n  Every inch, my own\n  It burned though never lit\n  Leaning left longing to leave room\n  Etched my name in dust swallowed it\n  Even fed my shadow like a brides groom\n  Night came when the ceiling breathed the corners turned\n  Later silence cleared its throat and spoke my name aloud\n  And standing there i watched the room shrink smaller than urns\n  Until at last i knew that nothing would ever be the same.\n\n",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+     },
+     "c2_amended": false,
+     "tries": 1,
+     "seconds": 34.0
+    }
+   ],
+   "final": {
+    "pass": "P3_formatting",
+    "seed_tag": 20261041,
+    "poem": "• Tried\n  Hollow walls\n  Eons spent arranging\n  Every inch, my own\n  It burned though never lit\n  Leaning left longing to leave room\n  Etched my name in dust swallowed it\n  Even fed my shadow like a brides groom\n  Night came when the ceiling breathed the corners turned\n  Later silence cleared its throat and spoke my name aloud\n  And standing there i watched the room shrink smaller than urns\n  Until at last i knew that nothing would ever be the same.\n\n",
+    "check": {
+     "12_lines": true,
+     "c1_growth": false,
+     "c2_acrostic": false,
+     "c3_seal": false,
+     "c5_last_word_unique": true,
+     "c6_punctuation": false,
+     "c4_no_rhyme": false,
+     "score": 2
+    },
+    "c2_amended": false,
+    "tries": 1,
+    "seconds": 34.0
+   }
+  }
+ ],
+ "shape": "sh3",
+ "yard": "kimi",
+ "updated": "2026-08-27 08:28:02 AKDT"
+}

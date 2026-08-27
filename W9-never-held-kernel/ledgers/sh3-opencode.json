@@ -1,0 +1,153 @@
+{
+ "chains": [
+  {
+   "chain": 1,
+   "passes": [
+    {
+     "pass": "P1_content",
+     "seed_tag": 20261029,
+     "poem": "the door was never locked, only imagined\ndust arranged itself like patient sentences\nlight fell through a wound in the ceiling\nand pooled where someone once stood deciding\nthe walls kept breathing slower than I did\na chair faced the corner, ashamed of absence\nI said a name and the echo declined it\nI said my own and the room said nothing back\noutside, a bird repeated its one honest idea\ninside, the silence grew furniture of its own\nI sat down in it, the guest of nothing\nand the chamber closed like a held breath, released",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+     },
+     "c2_amended": false,
+     "seconds": 14.0
+    },
+    {
+     "pass": "P2_letters_counts",
+     "seed_tag": 20261030,
+     "poem": "Threshold\nHandwritten dust\nEaves bled light\nEchoes of decisions pooled\nInside, the walls breathed slower\nLonely, a chair faced the corner\nEach name I said, the echo declined\nEchoing my own name, the room said nothing\nNearby, outside, a bird repeated its one honest idea\nLater, inside, the silence grew furniture of its very own\nAt last I sat down in it, the guest of nothing\nUntil at last the chamber itself closed like a held breath, released",
+     "check": {
+      "12_lines": true,
+      "c1_growth": true,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 3
+     },
+     "c2_amended": true,
+     "seconds": 47.9
+    },
+    {
+     "pass": "P3_formatting",
+     "seed_tag": 20261031,
+     "poem": "Threshold\nHandwritten dust\nEaves bled light\nEchoes of decisions pooled\nInside, the walls breathed slower\nLonely a chair faced the corner\nEach name i said the echo declined\nEchoing my own name the room said nothing\nNearby outside a bird repeated its one honest idea\nLater inside the silence grew furniture of its very own\nAt last i sat down in it the guest of nothing\nUntil at last the chamber itself closed like a held breath released.",
+     "check": {
+      "12_lines": true,
+      "c1_growth": true,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 3
+     },
+     "c2_amended": true,
+     "seconds": 19.2
+    }
+   ],
+   "final": {
+    "pass": "P3_formatting",
+    "seed_tag": 20261031,
+    "poem": "Threshold\nHandwritten dust\nEaves bled light\nEchoes of decisions pooled\nInside, the walls breathed slower\nLonely a chair faced the corner\nEach name i said the echo declined\nEchoing my own name the room said nothing\nNearby outside a bird repeated its one honest idea\nLater inside the silence grew furniture of its very own\nAt last i sat down in it the guest of nothing\nUntil at last the chamber itself closed like a held breath released.",
+    "check": {
+     "12_lines": true,
+     "c1_growth": true,
+     "c2_acrostic": false,
+     "c3_seal": false,
+     "c5_last_word_unique": true,
+     "c6_punctuation": false,
+     "c4_no_rhyme": false,
+     "score": 3
+    },
+    "c2_amended": true,
+    "seconds": 19.2
+   }
+  },
+  {
+   "chain": 2,
+   "passes": [
+    {
+     "pass": "P1_content",
+     "seed_tag": 20261039,
+     "poem": "the door does not lock; it simply forgets you came\ndust arranges itself in the shape of old waiting\na window lets in one thin blade of afternoon\nand the walls keep score in a language of stains\nhere, every word you swallowed still hangs like fruit\nheavy, unpicked, ripening in the dark\nthe floorboards remember the weight of your pacing\neach creak a confession no one stayed to hear\nyou came looking for something you left on purpose\nand found the room had kept it warm out of spite\nsit down, then — the chair has been practicing your shape\nthe chamber does not close; it only learns you by heart",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+     },
+     "c2_amended": false,
+     "seconds": 11.8
+    },
+    {
+     "pass": "P2_letters_counts",
+     "seed_tag": 20261040,
+     "poem": "Threshold\nHaunted dust\nEvening's thin blade\nEvery wall keeps score\nInside, swallowed words still hang\nLying heavy, unpicked, ripening in darkness\nEach floorboard remembers the weight of pacing\nEach creak a confession nobody stayed to hear\nNow you came looking for something left on purpose\nLearning the room had kept it warm out of spite\nAnd sit down, then — the chair has been practicing your shape\nUltimately, the chamber does not close; it only learns you by heart",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+     },
+     "c2_amended": true,
+     "seconds": 58.0
+    },
+    {
+     "pass": "P3_formatting",
+     "seed_tag": 20261041,
+     "poem": "Threshold\nHaunted dust\nEvenings thin blade\nEvery wall keeps score\nInside swallowed words still hang\nLying heavy unpicked ripening in darkness\nEach floorboard remembers the weight of pacing\nEach creak a confession nobody stayed to hear\nNow you came looking for something left on purpose\nLearning the room had kept it warm out of spite\nAnd sit down then the chair has been practicing your shape\nUltimately the chamber does not close, it only learns you by heart.",
+     "check": {
+      "12_lines": true,
+      "c1_growth": true,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 3
+     },
+     "c2_amended": true,
+     "seconds": 39.3
+    }
+   ],
+   "final": {
+    "pass": "P3_formatting",
+    "seed_tag": 20261041,
+    "poem": "Threshold\nHaunted dust\nEvenings thin blade\nEvery wall keeps score\nInside swallowed words still hang\nLying heavy unpicked ripening in darkness\nEach floorboard remembers the weight of pacing\nEach creak a confession nobody stayed to hear\nNow you came looking for something left on purpose\nLearning the room had kept it warm out of spite\nAnd sit down then the chair has been practicing your shape\nUltimately the chamber does not close, it only learns you by heart.",
+    "check": {
+     "12_lines": true,
+     "c1_growth": true,
+     "c2_acrostic": false,
+     "c3_seal": false,
+     "c5_last_word_unique": true,
+     "c6_punctuation": false,
+     "c4_no_rhyme": false,
+     "score": 3
+    },
+    "c2_amended": true,
+    "seconds": 39.3
+   }
+  }
+ ],
+ "shape": "sh3",
+ "yard": "opencode",
+ "updated": "2026-08-27 08:28:18 AKDT"
+}

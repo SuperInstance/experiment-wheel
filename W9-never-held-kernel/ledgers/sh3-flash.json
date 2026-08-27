@@ -1,0 +1,127 @@
+{
+ "chains": [
+  {
+   "chain": 1,
+   "passes": [
+    {
+     "pass": "P1_content",
+     "seed_tag": 20261029,
+     "poem": "The chamber holds a single note of stone,\nWhere dust performs a silent, patient dance.\nA chair, upholstered in forgotten bone,\nWaits for a guest who never takes a chance.\n\nThe mirror shows a room without a name,\nAnd every shadow sharpens like a blade.\nA clock unwinds the hours into shame,\nWhile spiders weave a pact no light has made.\n\nThe floorboards creak a language of the lost,\nThe ceiling bows beneath a weight of sighs.\nAnd in the center, where the cold is crossed,\nA broken breath still waits to realize.",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+     },
+     "c2_amended": false,
+     "seconds": 2.9
+    },
+    {
+     "pass": "P2_letters_counts",
+     "seed_tag": 20261030,
+     "poem": "Trembling.\nHushed, waiting.\nEchoes, dust, stone.\nEchoing, patient, dance, chair.\nIn bone, a guest waits.\nLost, the mirror sharpens like blade.\nEach shadow weaves a pact no light.\nEven hours unwind the floorboards creak language.\nNo name, a clock unwinds into shame, spiders.\nLanguid, the ceiling bows beneath a weight of sighs.\nAnd in the center, where the cold is crossed, broken.\nUnderneath, a breath still waits to realize what never came.",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+     },
+     "c2_amended": true,
+     "seconds": 2.7
+    },
+    {
+     "pass": "P3_formatting",
+     "seed_tag": 20261031,
+     "poem": "Trembling  \nHushed waiting  \nEchoes dust stone  \nEchoing patient dance chair  \nIn bone a guest waits  \nLost the mirror sharpens like blade  \nEach shadow weaves a pact no light  \nEven hours unwind the floorboards creak language  \nNo name a clock unwinds into shame spiders  \nLanguid the ceiling bows beneath a weight of sighs  \nAnd in the center where the cold is crossed broken  \nUnderneath a breath still waits to realize what never came.",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+     },
+     "c2_amended": true,
+     "seconds": 1.4
+    }
+   ],
+   "final": {
+    "pass": "P3_formatting",
+    "seed_tag": 20261031,
+    "poem": "Trembling  \nHushed waiting  \nEchoes dust stone  \nEchoing patient dance chair  \nIn bone a guest waits  \nLost the mirror sharpens like blade  \nEach shadow weaves a pact no light  \nEven hours unwind the floorboards creak language  \nNo name a clock unwinds into shame spiders  \nLanguid the ceiling bows beneath a weight of sighs  \nAnd in the center where the cold is crossed broken  \nUnderneath a breath still waits to realize what never came.",
+    "check": {
+     "12_lines": true,
+     "c1_growth": false,
+     "c2_acrostic": false,
+     "c3_seal": false,
+     "c5_last_word_unique": true,
+     "c6_punctuation": false,
+     "c4_no_rhyme": false,
+     "score": 2
+    },
+    "c2_amended": true,
+    "seconds": 1.4
+   }
+  },
+  {
+   "chain": 2,
+   "passes": [
+    {
+     "pass": "P1_content",
+     "seed_tag": 20261039,
+     "poem": "The chamber holds a single, patient breath,\nWhere dust motes dance in one forgotten shaft.\nThe walls are ears that listen past all death,\nAnd keep the echo of a single draft.\n\nA chair sits empty, turned to face the door,\nIts velvet faded to a mourning gray.\nA clock has stopped at half-past-four, before\nThe final guest was led or lost the way.\n\nThe silence here is not a thing of peace,\nBut pressure waiting for a latch to turn.\nThe shadows learn the room by heart, and cease\nTo question what the candlelight might burn.",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+     },
+     "c2_amended": false,
+     "seconds": 3.3
+    },
+    {
+     "pass": "P2_letters_counts",
+     "seed_tag": 20261040,
+     "poem": "The\nchamber holds\nevery patient, single breath,\nWhere dust motes dance in one forgotten shaft.\nIn walls are ears that listen past all death,\nLest they keep the echo of a single draft.\n\nA chair sits empty, turned to face the door,\nIts velvet faded to a mourning gray, still.\nA clock has stopped at half-past-four, before\nThe final guest was led or lost the way, and\n\nNow silence here is not a thing of peace,\nBut pressure waiting for a latch to turn, so\nLoud the shadows learn the room by heart, and cease\nTo question what the candlelight might burn, yet\n\nAll the shadows learn the room by heart, and cease\nUntil they question what the candlelight might burn.",
+     "check": {
+      "12_lines": false,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": false,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 0
+     },
+     "c2_amended": false,
+     "seconds": 2.9
+    },
+    {
+     "pass": "P3_formatting",
+     "skipped": "P2 failed/not 12 lines"
+    }
+   ],
+   "final": {
+    "pass": "P3_formatting",
+    "skipped": "P2 failed/not 12 lines"
+   }
+  }
+ ],
+ "shape": "sh3",
+ "yard": "flash",
+ "updated": "2026-08-27 08:25:21 AKDT"
+}

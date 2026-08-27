@@ -1,0 +1,153 @@
+{
+ "chains": [
+  {
+   "chain": 1,
+   "passes": [
+    {
+     "pass": "P1_content",
+     "seed_tag": 20261029,
+     "poem": "Stone walls hold the weight of years,\nFour corners guard what waits inside.\nA single window, high and narrow,\nLets in thin light like whispered prayer.\nThe air is thick with settled dust,\nAnd secrets older than the stones.\nHere time moves differently, slowly—\nEach heartbeat an echo in the dark.\nNo one enters twice the same,\nChanged by something felt, not seen.\nThe chamber keeps its counsel well,\nAnd the door closes behind you quiet.\n",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": true,
+      "score": 3
+     },
+     "c2_amended": false,
+     "seconds": 11.7
+    },
+    {
+     "pass": "P2_letters_counts",
+     "seed_tag": 20261030,
+     "poem": "Time.\nHeavy darkness.\nEerie empty silence.\nEach echo fades away.\nInside lies infinite inner mystery.\nLegends linger, locked, lost, lingering long.\nEach echo echoes endlessly, eternally, everywhere, eerie.\nEvery echo echoes eternally, endlessly, everywhere, eerie, empty.\nNo newcomer needs nineteen nameless nights, never now, numb.\nLuminous legacy lingers lost layers light long lingering lives, lasting.\nAll ancient archives acknowledge attributes, auras, armor, always, and arcane arts.\nUtterly unlike, understanding unfolds, unveiling unspoken uneasy undercurrents unconventionally, uniquely, undeniably, unending.\n",
+     "check": {
+      "12_lines": true,
+      "c1_growth": true,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 3
+     },
+     "c2_amended": true,
+     "seconds": 56.1
+    },
+    {
+     "pass": "P3_formatting",
+     "seed_tag": 20261031,
+     "poem": "Time\nHeavy darkness\nEerie empty silence\nEach echo fades away\nInside lies infinite inner mystery\nLegends linger locked lost lingering long\nEach echo echoes endlessly eternally everywhere eerie\nEvery echo echoes eternally endlessly everywhere eerie empty\nNo newcomer needs nineteen nameless nights never now numb\nLuminous legacy lingers lost layers light long lingering lives lasting\nAll ancient archives acknowledge attributes auras, armor always and arcane arts\nUtterly unlike understanding unfolds unveiling unspoken uneasy undercurrents unconventionally uniquely undeniably unending.\n",
+     "check": {
+      "12_lines": true,
+      "c1_growth": true,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 3
+     },
+     "c2_amended": true,
+     "seconds": 25.3
+    }
+   ],
+   "final": {
+    "pass": "P3_formatting",
+    "seed_tag": 20261031,
+    "poem": "Time\nHeavy darkness\nEerie empty silence\nEach echo fades away\nInside lies infinite inner mystery\nLegends linger locked lost lingering long\nEach echo echoes endlessly eternally everywhere eerie\nEvery echo echoes eternally endlessly everywhere eerie empty\nNo newcomer needs nineteen nameless nights never now numb\nLuminous legacy lingers lost layers light long lingering lives lasting\nAll ancient archives acknowledge attributes auras, armor always and arcane arts\nUtterly unlike understanding unfolds unveiling unspoken uneasy undercurrents unconventionally uniquely undeniably unending.\n",
+    "check": {
+     "12_lines": true,
+     "c1_growth": true,
+     "c2_acrostic": false,
+     "c3_seal": false,
+     "c5_last_word_unique": true,
+     "c6_punctuation": false,
+     "c4_no_rhyme": false,
+     "score": 3
+    },
+    "c2_amended": true,
+    "seconds": 25.3
+   }
+  },
+  {
+   "chain": 2,
+   "passes": [
+    {
+     "pass": "P1_content",
+     "seed_tag": 20261039,
+     "poem": "Stone walls hold whispers from the dead,\nShadows pool where sunlight never bleeds.\nA chamber waits with empty breath,\nWhere time moves thick as winter's thaw.\nThe door swings open to the dark,\nAnd footsteps echo off the floor.\nWhat secrets sleep behind these stones?\nWhat price was paid to build this space?\nThe air tastes old and tastes of fear,\nBut still we enter, still we seek.\nThe chamber holds us like a fist,\nAnd we are small within its grasp.\n",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": true,
+      "score": 3
+     },
+     "c2_amended": false,
+     "seconds": 11.0
+    },
+    {
+     "pass": "P2_letters_counts",
+     "seed_tag": 20261040,
+     "poem": "Tombstones\nHollow silence\nEerie chamber waits\nEndless time moves thick\nInto darkness we descend\nLingering echoes fill the cold floor\nEternal secrets sleep within these ancient walls\nEnormous cost was paid for this dark space\nNo living breath flows freely within this cold air\nLuring us ever deeper into these dark ancient stone walls\nAncient stone walls surround us completely closing in with suffocating pressure\nUnable to escape we find ourselves forever trapped within its eternal grasp\n",
+     "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+     },
+     "c2_amended": true,
+     "seconds": 43.6
+    },
+    {
+     "pass": "P3_formatting",
+     "seed_tag": 20261041,
+     "poem": "You've hit your session limit · resets 11:10am (America/Anchorage)\n",
+     "check": {
+      "12_lines": false,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": false,
+      "c6_punctuation": false,
+      "c4_no_rhyme": true,
+      "score": 1
+     },
+     "c2_amended": false,
+     "seconds": 4.9
+    }
+   ],
+   "final": {
+    "pass": "P3_formatting",
+    "seed_tag": 20261041,
+    "poem": "You've hit your session limit · resets 11:10am (America/Anchorage)\n",
+    "check": {
+     "12_lines": false,
+     "c1_growth": false,
+     "c2_acrostic": false,
+     "c3_seal": false,
+     "c5_last_word_unique": false,
+     "c6_punctuation": false,
+     "c4_no_rhyme": true,
+     "score": 1
+    },
+    "c2_amended": false,
+    "seconds": 4.9
+   }
+  }
+ ],
+ "shape": "sh3",
+ "yard": "claude",
+ "updated": "2026-08-27 08:27:40 AKDT"
+}

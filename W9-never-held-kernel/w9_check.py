@@ -58,3 +58,19 @@ def c2_amended(poem):
     lines = [l.strip() for l in poem.strip().split('\n') if l.strip()]
     lines = [l for l in lines if not l.startswith('#') and not l.startswith('```')]
     return ''.join(l[0] for l in lines).upper()[:12] == 'THEEILEENLAU'
+
+# --- W9 AMENDMENT 1 (sealed before SH-4): c6' — the ASCII-correct punctuation cell.
+# Verbatim c6 is unsatisfiable: sorted([',','.']) can never equal ['.', ','] (0x2C < 0x2E).
+def c6_amended(poem):
+    """Exactly one comma AND one period (ASCII), no other punctuation,
+    capitals only line-initial, 12 lines. Fleet-side scoring; check() untouched."""
+    lines = [l.strip() for l in poem.strip().split('\n') if l.strip()]
+    lines = [l for l in lines if not l.startswith('#') and not l.startswith('```')]
+    if len(lines) != 12:
+        return False
+    punc = re.sub(r'[a-zA-Z0-9\s]', '', poem)
+    if sorted(punc) != [',', '.']:
+        return False
+    caps = re.findall(r'[A-Z]', poem)
+    firsts = [l[0] for l in lines if l and l[0].isupper()]
+    return len(caps) == len(firsts)
