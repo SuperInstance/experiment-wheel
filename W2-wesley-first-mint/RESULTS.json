@@ -1,0 +1,462 @@
+{
+ "meta": {
+  "experiment": "W2 \u2014 Wesley's first mint",
+  "station": 2,
+  "model": "granite3.1-dense:2b",
+  "temp": 0.3,
+  "seed": 20260826,
+  "run_at": "2026-08-26 22:42:06 AKDT",
+  "registered": "REGISTRATION.md (2026-08-26 22:35 AKDT)"
+ },
+ "corpus": {
+  "n": 300,
+  "split": "200/100",
+  "balance": {
+   "FOG/train": {
+    "n": 50,
+    "yes": 10
+   },
+   "FOG/test": {
+    "n": 25,
+    "yes": 8
+   },
+   "SQUALL/train": {
+    "n": 50,
+    "yes": 12
+   },
+   "SQUALL/test": {
+    "n": 25,
+    "yes": 11
+   },
+   "GONGO/train": {
+    "n": 50,
+    "yes": 33
+   },
+   "GONGO/test": {
+    "n": 25,
+    "yes": 14
+   },
+   "COLD/train": {
+    "n": 50,
+    "yes": 18
+   },
+   "COLD/test": {
+    "n": 25,
+    "yes": 7
+   }
+  }
+ },
+ "train": {
+  "n": 200,
+  "unparsed": 0,
+  "wesley_acc_vs_gt": 0.53
+ },
+ "mint": {
+  "frozen_at": "2026-08-26 22:41:59 AKDT",
+  "matrix": [
+   {
+    "cat": "FOG",
+    "band": 0,
+    "n": 10,
+    "wesley_yes_rate": 0.7,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "FOG",
+    "band": 1,
+    "n": 11,
+    "wesley_yes_rate": 0.545,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "FOG",
+    "band": 2,
+    "n": 3,
+    "wesley_yes_rate": 0.667,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "FOG",
+    "band": 3,
+    "n": 10,
+    "wesley_yes_rate": 0.9,
+    "label": "YES",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "FOG",
+    "band": 4,
+    "n": 10,
+    "wesley_yes_rate": 0.8,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "FOG",
+    "band": 5,
+    "n": 0,
+    "wesley_yes_rate": null,
+    "label": "YES",
+    "sealed": false,
+    "rule": "empty->cat-majority"
+   },
+   {
+    "cat": "FOG",
+    "band": 6,
+    "n": 2,
+    "wesley_yes_rate": 0.5,
+    "label": "YES",
+    "sealed": false,
+    "rule": "tie->cat-majority"
+   },
+   {
+    "cat": "FOG",
+    "band": 7,
+    "n": 3,
+    "wesley_yes_rate": 0.667,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "FOG",
+    "band": 8,
+    "n": 1,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "SQUALL",
+    "band": 0,
+    "n": 13,
+    "wesley_yes_rate": 0.0,
+    "label": "NO",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "SQUALL",
+    "band": 1,
+    "n": 7,
+    "wesley_yes_rate": 0.0,
+    "label": "NO",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "SQUALL",
+    "band": 2,
+    "n": 3,
+    "wesley_yes_rate": 0.0,
+    "label": "NO",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "SQUALL",
+    "band": 3,
+    "n": 15,
+    "wesley_yes_rate": 0.933,
+    "label": "YES",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "SQUALL",
+    "band": 4,
+    "n": 8,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "SQUALL",
+    "band": 5,
+    "n": 4,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "SQUALL",
+    "band": 6,
+    "n": 0,
+    "wesley_yes_rate": null,
+    "label": "YES",
+    "sealed": false,
+    "rule": "empty->cat-majority"
+   },
+   {
+    "cat": "SQUALL",
+    "band": 7,
+    "n": 0,
+    "wesley_yes_rate": null,
+    "label": "YES",
+    "sealed": false,
+    "rule": "empty->cat-majority"
+   },
+   {
+    "cat": "SQUALL",
+    "band": 8,
+    "n": 0,
+    "wesley_yes_rate": null,
+    "label": "YES",
+    "sealed": false,
+    "rule": "empty->cat-majority"
+   },
+   {
+    "cat": "GONGO",
+    "band": 0,
+    "n": 7,
+    "wesley_yes_rate": 0.857,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "GONGO",
+    "band": 1,
+    "n": 7,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "GONGO",
+    "band": 2,
+    "n": 11,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "GONGO",
+    "band": 3,
+    "n": 3,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "GONGO",
+    "band": 4,
+    "n": 7,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "GONGO",
+    "band": 5,
+    "n": 3,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "GONGO",
+    "band": 6,
+    "n": 2,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "GONGO",
+    "band": 7,
+    "n": 4,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "GONGO",
+    "band": 8,
+    "n": 6,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "COLD",
+    "band": 0,
+    "n": 2,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": false,
+    "rule": "majority"
+   },
+   {
+    "cat": "COLD",
+    "band": 1,
+    "n": 5,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "COLD",
+    "band": 2,
+    "n": 0,
+    "wesley_yes_rate": null,
+    "label": "YES",
+    "sealed": false,
+    "rule": "empty->cat-majority"
+   },
+   {
+    "cat": "COLD",
+    "band": 3,
+    "n": 11,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "COLD",
+    "band": 4,
+    "n": 13,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "COLD",
+    "band": 5,
+    "n": 0,
+    "wesley_yes_rate": null,
+    "label": "YES",
+    "sealed": false,
+    "rule": "empty->cat-majority"
+   },
+   {
+    "cat": "COLD",
+    "band": 6,
+    "n": 11,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "COLD",
+    "band": 7,
+    "n": 8,
+    "wesley_yes_rate": 1.0,
+    "label": "YES",
+    "sealed": true,
+    "rule": "majority sealed"
+   },
+   {
+    "cat": "COLD",
+    "band": 8,
+    "n": 0,
+    "wesley_yes_rate": null,
+    "label": "YES",
+    "sealed": false,
+    "rule": "empty->cat-majority"
+   }
+  ],
+  "sealed_fraction": 0.4827586206896552
+ },
+ "test": {
+  "n": 100,
+  "unparsed": 0,
+  "wesley_acc": 0.49,
+  "mint_acc": 0.51,
+  "accuracy_ratio": 1.0408163265306123,
+  "agreement_rate": 0.92,
+  "per_cat": {
+   "FOG": {
+    "n": 25,
+    "wesley_acc": 0.32,
+    "mint_acc": 0.32,
+    "yes_rate": 0.32
+   },
+   "SQUALL": {
+    "n": 25,
+    "wesley_acc": 0.8,
+    "mint_acc": 0.88,
+    "yes_rate": 0.44
+   },
+   "GONGO": {
+    "n": 25,
+    "wesley_acc": 0.56,
+    "mint_acc": 0.56,
+    "yes_rate": 0.56
+   },
+   "COLD": {
+    "n": 25,
+    "wesley_acc": 0.28,
+    "mint_acc": 0.28,
+    "yes_rate": 0.28
+   }
+  },
+  "latency_ms": {
+   "wesley_mean": 67.61967531991104,
+   "wesley_median": 60.972813500484335,
+   "mint_vectorized_mean_per_item": 0.0013549700088333338,
+   "mint_single_item_median": 0.0011619995348155499
+  },
+  "speedup_vectorized": 49904.92400502165,
+  "disagreements": {
+   "n": 8,
+   "mint_right": 5,
+   "wesley_right": 3,
+   "both_wrong": 0,
+   "by_cat": {
+    "FOG": {
+     "n": 6,
+     "mint_right": 3,
+     "wesley_right": 3,
+     "both_wrong": 0
+    },
+    "SQUALL": {
+     "n": 2,
+     "mint_right": 2,
+     "wesley_right": 0,
+     "both_wrong": 0
+    },
+    "GONGO": {
+     "n": 0,
+     "mint_right": 0,
+     "wesley_right": 0,
+     "both_wrong": 0
+    },
+    "COLD": {
+     "n": 0,
+     "mint_right": 0,
+     "wesley_right": 0,
+     "both_wrong": 0
+    }
+   }
+  }
+ },
+ "gates": {
+  "G1_accuracy": false,
+  "G2_speed": true,
+  "verdict": "FAIL"
+ }
+}

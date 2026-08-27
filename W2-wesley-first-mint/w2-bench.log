@@ -1,0 +1,95 @@
+warm-up: no in 0.48s
+train 25/200 ... last 0.07s yes
+train 50/200 ... last 0.05s yes
+train 75/200 ... last 0.11s no
+train 100/200 ... last 0.09s yes
+train 125/200 ... last 0.06s yes
+train 150/200 ... last 0.06s yes
+train 175/200 ... last 0.05s yes
+train 200/200 ... last 0.06s yes
+mint frozen: 14/29 occupied bands sealed
+test 25/100 ... last 0.06s no
+test 50/100 ... last 0.11s yes
+test 75/100 ... last 0.06s yes
+test 100/100 ... last 0.06s yes
+{
+ "test": {
+  "n": 100,
+  "unparsed": 0,
+  "wesley_acc": 0.49,
+  "mint_acc": 0.51,
+  "accuracy_ratio": 1.0408163265306123,
+  "agreement_rate": 0.92,
+  "per_cat": {
+   "FOG": {
+    "n": 25,
+    "wesley_acc": 0.32,
+    "mint_acc": 0.32,
+    "yes_rate": 0.32
+   },
+   "SQUALL": {
+    "n": 25,
+    "wesley_acc": 0.8,
+    "mint_acc": 0.88,
+    "yes_rate": 0.44
+   },
+   "GONGO": {
+    "n": 25,
+    "wesley_acc": 0.56,
+    "mint_acc": 0.56,
+    "yes_rate": 0.56
+   },
+   "COLD": {
+    "n": 25,
+    "wesley_acc": 0.28,
+    "mint_acc": 0.28,
+    "yes_rate": 0.28
+   }
+  },
+  "latency_ms": {
+   "wesley_mean": 67.61967531991104,
+   "wesley_median": 60.972813500484335,
+   "mint_vectorized_mean_per_item": 0.0013549700088333338,
+   "mint_single_item_median": 0.0011619995348155499
+  },
+  "speedup_vectorized": 49904.92400502165,
+  "disagreements": {
+   "n": 8,
+   "mint_right": 5,
+   "wesley_right": 3,
+   "both_wrong": 0,
+   "by_cat": {
+    "FOG": {
+     "n": 6,
+     "mint_right": 3,
+     "wesley_right": 3,
+     "both_wrong": 0
+    },
+    "SQUALL": {
+     "n": 2,
+     "mint_right": 2,
+     "wesley_right": 0,
+     "both_wrong": 0
+    },
+    "GONGO": {
+     "n": 0,
+     "mint_right": 0,
+     "wesley_right": 0,
+     "both_wrong": 0
+    },
+    "COLD": {
+     "n": 0,
+     "mint_right": 0,
+     "wesley_right": 0,
+     "both_wrong": 0
+    }
+   }
+  }
+ },
+ "gates": {
+  "G1_accuracy": false,
+  "G2_speed": true,
+  "verdict": "FAIL"
+ }
+}
+bench complete
