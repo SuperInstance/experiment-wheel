@@ -257,12 +257,110 @@ re-audited for prompt-shape artifacts before it's allowed to stand. If
 NEITHER falls, the kernel is confirmed as this model class's ceiling
 and W10/W11 design around it permanently.
 
-## Station W10 — LAW AS HELM (stub)
+## Station W10 — LAW AS HELM
 
-Grows from W5's consolidation + W7's ascending violation of it. Engineer
-chains from measured hold-sets, predictions sealed before any chain runs.
-The law stops being a description and becomes a tool — or gets downgraded
-honestly. [Filled in below.]
+*Grows from: **W5's consolidation** (L1 intersection-of-all, 12/13 =
+92%, zero fitting) — and from a fact W7 put on record that the law
+cannot survive unamended: applied to W7's ascending chain, L1 predicted
+2/6 and observed 5/6.*
+
+### The arithmetic that forces this station
+
+W7's measured solo hold-sets: claude {12L, c1, c3, c5} · kimi {12L,
+c3, c4, c5} · flash {12L, c5} · wesley {12L, c5}. Intersection of all
+four = **{12L, c5}**. L1 (all-touch relevance at 85–94% novelty) says
+any four-hand braid holds exactly that: **2/6**. Observed: ASC 5/6 —
+c1, c3, c4 ALL held above the intersection (claude closed c1 at last
+position; kimi recovered c3+c4 at hand-3; claude, a non-holder of c4,
+SPARED kimi's c4). DESC 2/6 — the exact intersection set, L1's home
+turf, reproduced to the cell.
+
+So the consolidated law is a **backward-chain law**: it binds when
+weak hands finish the draft. Ascending order buys REPAIR above the
+intersection — destruction is capped by order, repair is granted by
+order. That is not a refutation of W5; it is the amendment W5's own
+probabilistic clause ("destruction with high but not perfect
+probability") was reaching for. The candidate statute, pre-stated
+here as **L4 — the LAST-HOLDER-SPARE law**:
+
+> A braid holds c ⟺ some hand in the chain holds c solo AND every
+> hand AFTER the last holder spares c (each non-holder destroys w.p.
+> p_destroy(h,c), measured not assumed).
+
+L4 reduces to L1 on backward chains (last holders are early, the tail
+of non-holders destroys), and to the last-hand law when the final hand
+holds c. It adds one thing neither had: **a spare-rate for strong
+non-holders** — claude spared c4 he cannot hold solo; flash and wesley
+(weak non-holders) destroyed c3 twice in W6b. Destruction heterogeneity
+by hand strength is the load-bearing new claim.
+
+### The question (one)
+
+Can hold-set arithmetic + L4 ENGINEER braid outcomes — chains picked so
+the predicted survivor sets differ, predictions sealed before any chain
+runs? The law stops being a description of what happened and becomes a
+tool for what will. W7 compared two orders; W10 compares two LAWS on
+chains built to make them disagree.
+
+### Protocol
+
+- **Phase 0 (seed 20260830):** fresh draw, solo hold-sets for all four
+  yards — 4 calls, committed as measured, whatever the vector is.
+- **Phase 1 (sealed before any chain runs):** from the measured
+  hold-sets, pick and commit three chains with predictions per cell:
+  - **CH-A — repair-max:** ascending by measured solo score. L1 predicts
+    the intersection only; L4 predicts intersection ∪ last-hand's
+    hold-set ∪ {c recovered by hand n−1 and spared by hand n}. The laws
+    disagree on CH-A by construction; the run arbitrates.
+  - **CH-B — spare-test:** a STRONG non-holder of a split-ownership
+    constraint placed LAST (e.g., if the draw reproduces a
+    claude-without-c4 shape: …→kimi→claude). L1 says that cell dies;
+    L4 says it survives at claude's spare-rate. The cleanest single
+    arbitration cell this theater can build.
+  - **CH-C — deterministic descent:** descending order, weak hands last.
+    BOTH laws predict the exact intersection floor. This is the
+    reproduction control — if CH-C misses, the instrument is broken,
+    not the law.
+- **Scoring:** constraint-cell accuracy pooled across chains, L1 vs L4,
+  with p_destroy from W8's measured rates where available; flat W5
+  prior (destruction high but imperfect, one observed survival in 13
+  non-holder exposures) if W8 has not fired. Same task, same checker,
+single pass, no re-rolls.
+
+### PREDICTION (on record)
+
+**L4 ≥ 80% pooled cell accuracy** (W5's own bar) **and CH-C exact.**
+Implicitly: L1 scores CH-A wrong again (it must — the intersection
+cannot exceed 2 cells on any realistic draw) and loses the pooled
+comparison; L4's spare-rate cells (CH-A's recovered-then-spared, CH-B's
+strong-sparer) are where the ≥80% is won or lost.
+
+### Bars, kill gate, falsifiers
+
+- **Kill gate:** phase 0 must yield ≥ 3 distinct hold-sets AND ≥ 1
+  split-ownership constraint (some yards hold it, some don't) — else
+  there is nothing to engineer with. ONE redraw allowed (seed
+  20260830 + 1000, pre-stated), then STOP, filed underpowered.
+- **Falsifier:** L4 < 80% pooled, or CH-C fails to reproduce the
+  intersection floor → the arithmetic-crew-design program STOPS. The
+  law bank keeps ascending-order as an empirical heuristic and the
+doctrine honestly downgrades to: *measure the chain, don't predict it.*
+- **Honest asymmetry:** a CH-B survival could be luck (one cell, one
+  pass). It is scored as a cell, not a law; only the pooled bar
+  carries a verdict. This station undersells on purpose.
+
+### What the verdict MEANS for the fleet
+
+If L4 holds: crew design becomes **hold-set tables + arithmetic** — the
+manifest computes the chain before the fleet spends a single call on
+it; "ascending order" graduates from heuristic to computed optimum,
+and W8's per-hand destruction rates become standing fleet data. If L4
+fails: ordering doctrine stays empirical, and the honest doctrine is
+that braid outcomes are cheaper to measure than to predict — which is
+itself a sentence worth having proven.
+
+Budget cap: ≤ 30 calls (4 phase-0 + 16 chain hands + redraw allowance).
+Fires AFTER W8 (spare-rate data) but does not require it.
 
 ## Station W11 — THE FUSED CATCH (stub)
 
