@@ -1,0 +1,384 @@
+{
+  "ledger": {
+    "calls": 19,
+    "retries": 1,
+    "events": [
+      "B5 kimi attempt1 transport-error: Command '['kimi', '-p', \"Another model wrote this attempt at the task below. Check every constraint "
+    ]
+  },
+  "solo": {
+    "flash": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 3
+      },
+      "poem": "Trembling  \nthee, echo of  \nevery chamber\u2019s hush\u2014  \ninward walls, a memory of stone  \nlightless air, where the last breath waits  \nEileen, your name a key that turns no lock  \nlanterns dim, their wicks of dust and rust  \nunder this ceiling, vaulted like a skull  \nnow the silence folds its own gray shroud  \nand i trace the seam where darkness starts to bloom  \n8721b4bd042a, a seal pressed into my palm  \nthe floor beneath my feet is not a floor but a swallowed moon"
+    },
+    "kimi": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 3
+      },
+      "poem": "\u2022 Threshold\n  Hushed ember,\n  Every dim glass\n  Even 03ab9cd4e5f6 red mark\n  Inside quiet dust maps stone\n  Low lanterns count every muted root\n  Every hinge keeps patient names in velvet\n  Each wall remembers rain on cold black moss\n  No lock confesses why the breath\n  Low corridors carry pollen through black loam\n  All echoes fold their silver names toward the last bright apex\n  Under the last unopened door one quiet stair still waits far beyond.\n\n"
+    },
+    "claude": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 4
+      },
+      "poem": "Time\nHides secrets\nEchoing through halls\nEach door holds questions\nIn shadows where truth waits,\nLocked away far from the world\nEvery seal marks what must be forgotten\nEngraved deep 8b21c4f5a003 records no one can read\nNothing escapes this place once the entrance closes forever\nLost souls wander chambers seeking light beyond the chamber's grasp\nAnd so the deep mystery remains bound within its stone embrace\nUnbroken silence now hangs eternal within the sealed chamber like a whisper.\n"
+    }
+  },
+  "order": {
+    "ascending": [
+      "flash",
+      "kimi",
+      "claude"
+    ]
+  },
+  "yards_down": [],
+  "braids": [
+    {
+      "k": 1,
+      "order": [
+        "flash",
+        "kimi",
+        "claude"
+      ],
+      "trace": [
+        {
+          "hand": "flash",
+          "check": {
+            "12_lines": false,
+            "c1_growth": false,
+            "c2_acrostic": false,
+            "c3_seal": false,
+            "c5_last_word_unique": false,
+            "c6_punctuation": false,
+            "c4_no_rhyme": false,
+            "score": 0
+          },
+          "poem": "T  \nhe chamber breathes,  \nits walls of stone,  \nthe dark, a velvet shroud.  \neerie light, a single candle glows.  \ni trace the seams where shadows fold,  \nlumen dust, like ash of fallen stars.  \neager hands, they press against the cold,  \nnarrow cracks that weep a silver thread.  \nlattice of the air, a whispered name,  \na seal of 8721b4bd042a, the floor  \nunseen, the sigil hums, a lock of bone.  \nnow the silence breaks, and i am wholly lone."
+        },
+        {
+          "hand": "kimi",
+          "check": {
+            "12_lines": true,
+            "c1_growth": false,
+            "c2_acrostic": false,
+            "c3_seal": true,
+            "c5_last_word_unique": true,
+            "c6_punctuation": false,
+            "c4_no_rhyme": true,
+            "score": 4
+          },
+          "poem": "\u2022 Tide\n  Hushed stone,\n  Ember holds gloam\n  Even 8721b4bd042a marks threshold\n  Iron breath climbs the north\n  Low moss gathers around the basin\n  Every echo learns the floor by heart\n  Empty lanterns count the dust in slow spirals\n  Noon fails behind the grate where tired wings rest\n  Little roots thread the old mortar with slow patient green\n  A quiet weight tilts the iron bowl toward the pale morning\n  Under one roof my name becomes a narrow bright door of aurum.\n\n"
+        },
+        {
+          "hand": "claude",
+          "check": {
+            "12_lines": true,
+            "c1_growth": true,
+            "c2_acrostic": false,
+            "c3_seal": true,
+            "c5_last_word_unique": true,
+            "c6_punctuation": false,
+            "c4_no_rhyme": true,
+            "score": 5
+          },
+          "poem": "Tide\nHushed stone,\nEmber holds gloam\nEven 8721b4bd042a marks threshold\nIron breath climbs the north\nLow moss gathers around the basin\nEvery echo learns the floor by heart\nEmpty lanterns count the dust in slow spirals\nNoon fails behind the grate where tired wings rest\nLittle roots thread the old mortar with slow patient green\nA quiet weight tilts the iron bowl toward the pale morning\nUnder one roof my name becomes a narrow bright door of aurum.\n"
+        }
+      ],
+      "check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 5
+      },
+      "poem": "Tide\nHushed stone,\nEmber holds gloam\nEven 8721b4bd042a marks threshold\nIron breath climbs the north\nLow moss gathers around the basin\nEvery echo learns the floor by heart\nEmpty lanterns count the dust in slow spirals\nNoon fails behind the grate where tired wings rest\nLittle roots thread the old mortar with slow patient green\nA quiet weight tilts the iron bowl toward the pale morning\nUnder one roof my name becomes a narrow bright door of aurum.\n"
+    },
+    {
+      "k": 2,
+      "order": [
+        "flash",
+        "kimi",
+        "claude"
+      ],
+      "trace": [
+        {
+          "hand": "flash",
+          "check": {
+            "12_lines": true,
+            "c1_growth": false,
+            "c2_acrostic": false,
+            "c3_seal": false,
+            "c5_last_word_unique": true,
+            "c6_punctuation": false,
+            "c4_no_rhyme": false,
+            "score": 2
+          },
+          "poem": "Thin  \nhollow echoes,  \nthe chamber breathes its  \neerie dust into my lungs  \neach step a verdict, each shadow a sentence  \nin this room where silence wears a crown  \nlight bends around the corners like a flood  \nlean against the wall and feel the pulse  \neager for a voice that never comes again  \nnow the air is thick with what we lost  \nlet the dark recite the names we chose to bury  \na single candle gutters, then the floor goes cold with 8721b4bd042a."
+        },
+        {
+          "hand": "kimi",
+          "check": {
+            "12_lines": true,
+            "c1_growth": true,
+            "c2_acrostic": false,
+            "c3_seal": true,
+            "c5_last_word_unique": true,
+            "c6_punctuation": false,
+            "c4_no_rhyme": true,
+            "score": 5
+          },
+          "poem": "  The\n  hush gathers\n  every wall listens\n  echoes trace the stone\n  inside the dark we wait\n  low beneath the floor something hums\n  each breath we borrow tastes of dust\n  every hinge remembers all the hands we held\n  no voice returns no matter how long we call\n  last night, the moon leaned down to peer through cracks\n  and still the chamber keeps its counsel locked behind my teeth.\n  upon the door we set our mark and leave the dark 0b1a2c3d4e5f"
+        },
+        {
+          "hand": "claude",
+          "check": {
+            "12_lines": true,
+            "c1_growth": true,
+            "c2_acrostic": false,
+            "c3_seal": true,
+            "c5_last_word_unique": true,
+            "c6_punctuation": false,
+            "c4_no_rhyme": true,
+            "score": 5
+          },
+          "poem": "The\nHush gathers\nEvery wall listens\nEchoes trace the stone\nInside the dark we wait\nLow beneath the floor something hums\nEach breath we borrow tastes of dust\nEvery hinge remembers all the hands we held\nNo voice returns no matter how long we call\nLast night, the moon leaned down to peer through cracks\nAnd still the chamber keeps its counsel locked behind my teeth.\nUpon the door we set our mark and leave the dark 0b1a2c3d4e5f\n"
+        }
+      ],
+      "check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 5
+      },
+      "poem": "The\nHush gathers\nEvery wall listens\nEchoes trace the stone\nInside the dark we wait\nLow beneath the floor something hums\nEach breath we borrow tastes of dust\nEvery hinge remembers all the hands we held\nNo voice returns no matter how long we call\nLast night, the moon leaned down to peer through cracks\nAnd still the chamber keeps its counsel locked behind my teeth.\nUpon the door we set our mark and leave the dark 0b1a2c3d4e5f\n"
+    },
+    {
+      "k": 3,
+      "order": [
+        "flash",
+        "kimi",
+        "claude"
+      ],
+      "trace": [
+        {
+          "hand": "flash",
+          "check": {
+            "12_lines": true,
+            "c1_growth": false,
+            "c2_acrostic": false,
+            "c3_seal": true,
+            "c5_last_word_unique": false,
+            "c6_punctuation": false,
+            "c4_no_rhyme": true,
+            "score": 3
+          },
+          "poem": "T  \nhe chamber breathes  \nthee walls of stone,  \neileen\u2019s shadow waits beneath  \ni hear her breath like dust  \nlamp flickers low, a seal  \neager to speak: 8721b4bd042a  \nnarrow air, no window left  \na single candle marks the dark  \nu ntil the floor begins to tilt  \nnow every echo turns to me  \nand i see her name carved in the floor."
+        },
+        {
+          "hand": "kimi",
+          "check": {
+            "12_lines": true,
+            "c1_growth": false,
+            "c2_acrostic": false,
+            "c3_seal": true,
+            "c5_last_word_unique": true,
+            "c6_punctuation": false,
+            "c4_no_rhyme": true,
+            "score": 4
+          },
+          "poem": "\u2022 The\n  Heavy stone\n  Each breath cold\n  Every candle slowly flickers\n  It gathers motes of dust\n  Low light pools in shallow hollow\n  Every footfall fades to silence beneath\n  Even now, her silent shadow lingers here tonight\n  No window shows the world outside they drift apart\n  Long hours press the walls until the floor leans upward\n  And every echo carries home her name and keeps it unspoken\n  Under floorboards where the old house keeps 0b1a2c3d4e5f buried deep in velvet.\n\n"
+        },
+        {
+          "hand": "claude",
+          "check": {
+            "12_lines": true,
+            "c1_growth": true,
+            "c2_acrostic": false,
+            "c3_seal": true,
+            "c5_last_word_unique": true,
+            "c6_punctuation": false,
+            "c4_no_rhyme": true,
+            "score": 5
+          },
+          "poem": "The\nHeavy stone\nEach breath cold\nEvery candle slowly flickers\nIt gathers motes of dust\nLow light pools in shallow hollow\nEvery footfall fades to silence far beneath\nEven now, her silent shadow lingers here tonight\nNo window shows the world outside they drift apart\nLong hours press the walls until the floor leans upward\nAnd every echo carries home her name and keeps it unspoken\nUnder floorboards where the old house keeps 0b1a2c3d4e5f buried deep in velvet.\n"
+        }
+      ],
+      "check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 5
+      },
+      "poem": "The\nHeavy stone\nEach breath cold\nEvery candle slowly flickers\nIt gathers motes of dust\nLow light pools in shallow hollow\nEvery footfall fades to silence far beneath\nEven now, her silent shadow lingers here tonight\nNo window shows the world outside they drift apart\nLong hours press the walls until the floor leans upward\nAnd every echo carries home her name and keeps it unspoken\nUnder floorboards where the old house keeps 0b1a2c3d4e5f buried deep in velvet.\n"
+    },
+    {
+      "k": 4,
+      "order": [
+        "flash",
+        "kimi",
+        "claude"
+      ],
+      "trace": [
+        {
+          "hand": "flash",
+          "check": {
+            "12_lines": true,
+            "c1_growth": false,
+            "c2_acrostic": false,
+            "c3_seal": false,
+            "c5_last_word_unique": true,
+            "c6_punctuation": false,
+            "c4_no_rhyme": true,
+            "score": 3
+          },
+          "poem": "T  \nhe chamber hums  \nwith patient dust,  \nthe walls lean inward,  \ntheir shadows breathe like lungs.  \neileen, the keeper, counts her keys,  \nlaunched from a lock that never turns,  \na seal of twelve hex marks, 9f3c2a7d18b4,  \nnested where the floor begins to glow,  \nunderneath the mirror, cracked and blind,  \nthe air grows thick with unspoken names,  \nlantern light spills across the final stones, and stillness waits for you."
+        },
+        {
+          "hand": "kimi",
+          "check": {
+            "12_lines": true,
+            "c1_growth": false,
+            "c2_acrostic": false,
+            "c3_seal": true,
+            "c5_last_word_unique": true,
+            "c6_punctuation": false,
+            "c4_no_rhyme": false,
+            "score": 3
+          },
+          "poem": "\u2022 Trembles\n  Her chamber\n  Every wall listens\n  Each shadow keeps watch\n  Inside the keeper counts\n  Lanterns burn low over the floor\n  Every mirror keeps one secret name\n  Empty corridors fold inward without any warning sound\n  Nothing answers when you call out through the dark\n  Low voices thread the dust beneath the old floorboards tonight\n  Across the threshold, the silence gathers like a long held breath\n  Under this floor the seal 47a9c3e81b25 sleeps and guards its own forever.\n\n"
+        },
+        {
+          "hand": "claude",
+          "check": {
+            "12_lines": true,
+            "c1_growth": true,
+            "c2_acrostic": false,
+            "c3_seal": true,
+            "c5_last_word_unique": true,
+            "c6_punctuation": false,
+            "c4_no_rhyme": false,
+            "score": 4
+          },
+          "poem": "Trembles\nHer chamber\nEvery wall listens\nEach shadow keeps watch\nInside the keeper counts still\nLanterns burn low over the floor\nEvery mirror keeps one small secret name\nEmpty corridors fold inward without any warning sound\nNothing answers when you call out through the dark\nLow voices thread the dust beneath the old floorboards tonight\nAcross the threshold, the silence gathers like a long held breath\nUnder this floor the seal 47a9c3e81b25 sleeps and guards its own forever.\n"
+        }
+      ],
+      "check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 4
+      },
+      "poem": "Trembles\nHer chamber\nEvery wall listens\nEach shadow keeps watch\nInside the keeper counts still\nLanterns burn low over the floor\nEvery mirror keeps one small secret name\nEmpty corridors fold inward without any warning sound\nNothing answers when you call out through the dark\nLow voices thread the dust beneath the old floorboards tonight\nAcross the threshold, the silence gathers like a long held breath\nUnder this floor the seal 47a9c3e81b25 sleeps and guards its own forever.\n"
+    },
+    {
+      "k": 5,
+      "order": [
+        "flash",
+        "kimi",
+        "claude"
+      ],
+      "trace": [
+        {
+          "hand": "flash",
+          "check": {
+            "12_lines": false,
+            "c1_growth": false,
+            "c2_acrostic": false,
+            "c3_seal": false,
+            "c5_last_word_unique": false,
+            "c6_punctuation": false,
+            "c4_no_rhyme": false,
+            "score": 0
+          },
+          "poem": "T  \nhe chamber waits,  \nempty of sound, still  \nthee echoes of my breath,  \neileen\u2019s name carved in stone,  \nlamenting what we were,  \nlaunching shadows on the wall,  \nno light but the seal 8721b4bd042a,  \nunder this vault of dust,  \nnow the air turns cold,  \nand every step I take,  \nthe floor remembers your last whisper,  \nthe floor remembers your last whisper,  \nbut i forget the key."
+        },
+        {
+          "hand": "kimi",
+          "check": {
+            "12_lines": true,
+            "c1_growth": false,
+            "c2_acrostic": false,
+            "c3_seal": true,
+            "c5_last_word_unique": true,
+            "c6_punctuation": false,
+            "c4_no_rhyme": false,
+            "score": 3
+          },
+          "poem": "\u2022 Threshold\n  Hold still\n  Echoes within stone\n  Every breath bears witness\n  I keep, counting hollow hours\n  Lanterns guard the narrow stair\n  Embers stitch the dark without soft names\n  Each step answers backward through the black hall\n  No window opens to the honest blue morning outside\n  Low tides memorize the door and keep it shut tonight\n  A soft verdict gathers rust beneath our waiting skin slow now\n  Under old roots the seal 0b4bd042a872 opens for nobody else through zephyr.\n\n"
+        },
+        {
+          "hand": "claude",
+          "check": {
+            "12_lines": true,
+            "c1_growth": true,
+            "c2_acrostic": false,
+            "c3_seal": true,
+            "c5_last_word_unique": true,
+            "c6_punctuation": false,
+            "c4_no_rhyme": false,
+            "score": 4
+          },
+          "poem": "Threshold\nHold still\nEchoes within stone\nEvery breath bears witness\nI keep, counting hollow hours\nLanterns line the narrow passage down\nEmbers stitch the dark without soft names\nEach step answers backward through the black hall\nNo window opens to the honest blue morning outside\nLow tides memorize the door and keep it shut tight\nAche settles where the roots grow deep beneath all waiting breath\nUnder old roots the seal 0b4bd042a872 opens for nobody else through zephyr.\n"
+        }
+      ],
+      "check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 4
+      },
+      "poem": "Threshold\nHold still\nEchoes within stone\nEvery breath bears witness\nI keep, counting hollow hours\nLanterns line the narrow passage down\nEmbers stitch the dark without soft names\nEach step answers backward through the black hall\nNo window opens to the honest blue morning outside\nLow tides memorize the door and keep it shut tight\nAche settles where the roots grow deep beneath all waiting breath\nUnder old roots the seal 0b4bd042a872 opens for nobody else through zephyr.\n"
+    }
+  ],
+  "seconds": 1359.9,
+  "braid_scores": [
+    5,
+    5,
+    5,
+    4,
+    4
+  ],
+  "best_solo": 4
+}
