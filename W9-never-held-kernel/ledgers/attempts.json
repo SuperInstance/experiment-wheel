@@ -1,5 +1,5 @@
 {
- "attempts": 105,
+ "attempts": 121,
  "log": [
   {
    "t": 1787845808.5452452,
@@ -630,6 +630,102 @@
    "kind": "draw",
    "yard": "opencode",
    "note": ""
+  },
+  {
+   "t": 1787848300.5,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787848300.5,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787848300.6,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787848300.6,
+   "kind": "draw",
+   "yard": "opencode",
+   "note": ""
+  },
+  {
+   "t": 1787848302.0,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787848303.9,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787848305.4,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787848305.4,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787848309.9,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787848313.8,
+   "kind": "draw",
+   "yard": "opencode",
+   "note": ""
+  },
+  {
+   "t": 1787848314.5,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787848319.0,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787848334.3,
+   "kind": "draw",
+   "yard": "opencode",
+   "note": ""
+  },
+  {
+   "t": 1787848339.8,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787848352.9,
+   "kind": "draw",
+   "yard": "opencode",
+   "note": ""
+  },
+  {
+   "t": 1787848358.1,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
   }
  ]
 }

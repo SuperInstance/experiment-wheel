@@ -1,0 +1,116 @@
+{
+ "seed_source": "sh1 best c6'-failing (4/6)",
+ "seed_check": {
+  "12_lines": true,
+  "c1_growth": false,
+  "c2_acrostic": false,
+  "c3_seal": true,
+  "c5_last_word_unique": true,
+  "c6_punctuation": false,
+  "c4_no_rhyme": true,
+  "score": 4
+ },
+ "seed_c2_amended": false,
+ "seed_c6_amended": false,
+ "draws": [
+  {
+   "seed_tag": 20261129,
+   "poem": "Hinges stir  \nEchoes gather slow  \nEmbers cradle hidden ash  \nInside every shadow learns breath,  \nLanterns trace the walls in violet  \nEvery locked desire waits beneath the skin  \nEmbers murmur ancient vows the sleeping dark refuses  \nNight keeps turning inward toward a hidden iron door  \nLight unthreads old silence from the corners of the room  \nAir remembers every secret name the chamber dared to hold tonight  \nUntil one quiet key turns and the seal 0b8721b4bd04 remains forever unlatched.",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 1
+   },
+   "c2_amended": false,
+   "c6_amended": false,
+   "seconds": 1.5,
+   "c6_before": false,
+   "c6_after": false,
+   "c6p_before": false,
+   "c6p_after": false,
+   "c2p_before": false,
+   "c2p_after": false,
+   "score_delta": -3
+  },
+  {
+   "seed_tag": 20261130,
+   "poem": "Tension  \nHinges stir  \nEchoes gather slow  \nEmbers cradle hidden ash  \nInside every shadow learns breath,  \nLanterns trace the walls in violet  \nEvery locked desire waits beneath the skin  \nEmbers murmur ancient vows the sleeping dark refuses  \nNight keeps turning inward toward a hidden iron door  \nLight unthreads old silence from the corners of the room  \nAir remembers every secret name the chamber dared to hold tonight  \nUntil one quiet key turns and the seal 0b8721b4bd04 remains forever unlatched.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 5
+   },
+   "c2_amended": true,
+   "c6_amended": true,
+   "seconds": 1.8,
+   "c6_before": false,
+   "c6_after": false,
+   "c6p_before": false,
+   "c6p_after": true,
+   "c2p_before": false,
+   "c2p_after": true,
+   "score_delta": 1
+  },
+  {
+   "seed_tag": 20261131,
+   "poem": "Hinges stir  \nEchoes gather slow  \nEmbers cradle hidden ash  \nInside every shadow learns breath  \nLanterns trace the walls in violet  \nEvery locked desire waits beneath the skin  \nEmbers murmur ancient vows the sleeping dark refuses  \nNight keeps turning inward toward a hidden iron door  \nLight unthreads old silence from the corners of the room  \nAir remembers every secret name the chamber dared to hold tonight  \nUntil one quiet key turns and the seal 0b8721b4bd04 remains forever unlatched.",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 1
+   },
+   "c2_amended": false,
+   "c6_amended": false,
+   "seconds": 1.6,
+   "c6_before": false,
+   "c6_after": false,
+   "c6p_before": false,
+   "c6p_after": false,
+   "c2p_before": false,
+   "c2p_after": false,
+   "score_delta": -3
+  },
+  {
+   "seed_tag": 20261132,
+   "poem": "Hinges stir\nEchoes gather slow\nEmbers cradle hidden ash\nInside every shadow learns breath,\nLanterns trace the walls in violet\nEvery locked desire waits beneath the skin\nEmbers murmur ancient vows the sleeping dark refuses\nNight keeps turning inward toward a hidden iron door\nLight unthreads old silence from the corners of the room\nAir remembers every secret name the chamber dared to hold tonight\nUntil one quiet key turns and the seal 0b8721b4bd04 remains forever unlatched.",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 1
+   },
+   "c2_amended": false,
+   "c6_amended": false,
+   "seconds": 1.5,
+   "c6_before": false,
+   "c6_after": false,
+   "c6p_before": false,
+   "c6p_after": false,
+   "c2p_before": false,
+   "c2p_after": false,
+   "score_delta": -3
+  }
+ ],
+ "shape": "sh4",
+ "yard": "flash",
+ "updated": "2026-08-27 08:31:46 AKDT"
+}
