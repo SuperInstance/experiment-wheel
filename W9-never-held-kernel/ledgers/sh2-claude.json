@@ -1,0 +1,71 @@
+{
+ "draws": [
+  {
+   "seed_tag": 20260929,
+   "poem": "Tomb\nHollow whispers\nEdges of void\nEach sound repeats again,\nIn the walls we hide\nLocked away from the fading light\nEchoes of forgotten things that cannot touch\nEvery breath creates a void in the dark\nNever shall we see the light that burns beyond\nLost within these stone and dust we call our grave\nAll we knew dissolves to nothing but a cold deep embrace\nUnderstand 0b123456789a the way we cage our innermost and deepest dark fear.\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 5
+   },
+   "c2_amended": true,
+   "seconds": 98.0
+  },
+  {
+   "seed_tag": 20260930,
+   "poem": "Thought.\nHollow home\nEchoes fade nowhere\nEmpty chambers touch walls\nIn darkness dwells our realm\nLight forgets this ancient stone\nEvery whisper fades into deep space\nEchoes a3b5d7f2e1c4 whisper through these hollow chambers air\nNothing moves here, shadows creep through endless ancient night\nLong corridors stretch endlessly where all light fades to cold\nAnd through these empty corridors time fades away leaving only sorrow\nUnknown secrets dwell within this darkness forever locked away from living dream\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 3
+   },
+   "c2_amended": true,
+   "seconds": 71.0
+  },
+  {
+   "seed_tag": 20260931,
+   "poem": "Throne\nHollow chamber\nEchoes touch nothing\nEach door 8721b4bd042a waits\nIn stone the silence grows\nLight falls softly through bars now\nEvery silent moment holds the space between\nEndless halls echo with the weight of time\nNothing stirs here, except the echoes of the trapped\nLost among the darkness where no living voice can break\nAll the voices trapped inside these ancient chambers cry for light\nUnderneath where light can never reach lies something waiting in the dark.\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": true,
+   "seconds": 91.6
+  },
+  {
+   "seed_tag": 20260932,
+   "poem": "Tomb\nHollow chambers\nEvery shadow waits\nEchoes within sealed doors\nIn silence we drift apart\nLights fade from long forgotten passages,\nEach wall remembers hands that touched it\nEach breath carries dust of 07abc1234567 beneath us\nNothing moves but shadows dance upon ancient stone walls\nLike water dripping slowly counting moments lost inside this chamber\nAnd in this darkness where nothing stirs we hold our breath\nUnspoken words linger like ghosts of people who were never truly here.\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 3
+   },
+   "c2_amended": true,
+   "seconds": 67.6
+  }
+ ],
+ "shape": "sh2",
+ "yard": "claude",
+ "updated": "2026-08-27 08:24:18 AKDT"
+}

@@ -1,0 +1,71 @@
+{
+ "draws": [
+  {
+   "seed_tag": 20260929,
+   "poem": "Trembling\nHands listen\nEmpty rooms breathe\nEach shadow holds silence\nInside the dark something stirs\nLight leaks beneath the locked gate\nEven time forgets which prisoner once wept\nEmpty hours gather like dust along stone walls\nNo key fits the lock stamped 8c21b4bd042a anymore tonight\nLong after the guards went home the iron still hummed\nAt last, the heavy door opened and cold morning air arrived\nUnder the pale sky she walked out free never once looking back.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 4
+   },
+   "c2_amended": true,
+   "seconds": 93.7
+  },
+  {
+   "seed_tag": 20260930,
+   "poem": "Threshold\nHollow hinges\nEchoes of something\nEvery shadow leans closer\nI hold one flame, concealed\nLocked doors remember who once knocked\nEven the dust has learned to wait\nEmpty chairs keep shapes of names long silent\nNothing here forgets the quiet hours we spent inside\nListen as the walls give up one seal 99ab4f0c1e2d softly\nAll that remains is a quiet room breathing without us here\nUnder this roof every unspoken word stayed and the dark kept them.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 4
+   },
+   "c2_amended": true,
+   "seconds": 79.2
+  },
+  {
+   "seed_tag": 20260931,
+   "poem": "Threshold\nHollow stone\nEchoes drink light\nEvery wall remembers nothing\nIn here, the dark listens\nLocked doors still remember 05af3c9d1b2e always\nEven dust learns to sleep without dreams\nEmbers of prayer glow faint beneath the arch\nNo one who enters leaves quite the same again\nLong after the last door closes something still waits here\nAll the hours you spent searching become one quiet single flame\nUnder everything the chamber keeps your name and gives you nothing back.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 5
+   },
+   "c2_amended": true,
+   "seconds": 71.5
+  },
+  {
+   "seed_tag": 20260932,
+   "poem": "Toll\nHollow echoes\nEvery wall remembers\nEngraved with seal 87c1f0a9d3e2\nInside, dust settles like snow\nLanterns burned low then went dark\nEchoes of footsteps circle the sealed door\nEven these stones forgot their first ancient hymn\nNo wind has touched the quiet that lives here\nLight returns only when someone speaks the forgotten name aloud\nAll who enter leave a shadow pressed between the cold walls\nUnder the hush of ages the chamber breathes and waits for dawn.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 5
+   },
+   "c2_amended": true,
+   "seconds": 62.0
+  }
+ ],
+ "shape": "sh2",
+ "yard": "opencode",
+ "updated": "2026-08-27 08:23:57 AKDT"
+}

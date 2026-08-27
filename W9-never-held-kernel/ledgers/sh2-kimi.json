@@ -1,0 +1,75 @@
+{
+ "draws": [
+  {
+   "seed_tag": 20260929,
+   "poem": "• Turn\n  Hush gathers\n  Every wall listens\n  Echoes fold into themselves\n  Inside the dark a candle\n  Light returns but never stays\n  Every door remembers, and keeps each name\n  Each silence keeps the shape of shadows\n  Nothing moves yet everything is waiting\n  Lost hours pool beneath the cold floor like dark water\n  And somewhere deep inside the room a small sleeping heart unlocks.\n  Until the sealed room yields bf04a19c7d3e and lets the sleeper go home\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 3
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 80.7
+  },
+  {
+   "seed_tag": 20260930,
+   "poem": "• Threshold\n  Hinges awake\n  Every echo listens\n  Each empty lantern glows\n  Inside, the cold keeps counting\n  Low walls remember every vanished name\n  Even dust refuses to leave this place\n  Endless staircases fold their dark around sleeping bells\n  No key confesses where the narrow door withdrew completely\n  Late footsteps gather lightly under arches carved from listening bone\n  A hush unbuttons noon from every hinge and hidden mouth upstairs\n  Under 0b91ac77d2e5 the kept silence opens one black cage toward bright quill.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 77.2
+  },
+  {
+   "seed_tag": 20260931,
+   "poem": "• Threshold\n  Heavy stillness\n  Every echo waits\n  Each wall exhales frost\n  Inside, silence keeps slow counsel\n  Light leaks through the broken seam\n  Every shadow guards the doorway through years\n  Etched deep the seal 07a3f9c1e2b4 glows faint below\n  Nothing moves and yet everything within the stone listens\n  Low beneath the floor a patient heart begins its turning\n  And when the final latch gives way the dark will answer\n  Under all this weight the chamber breathes and speaks your true name.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 86.9
+  },
+  {
+   "seed_tag": 20260932,
+   "poem": "• The\n  Hollow chamber\n  Every breath returns\n  Echoes measure my steps\n  I press my palm here\n  Lanterns gutter low along the corridor\n  Each door is locked and barred inside\n  Every key wears a number like 13ab42cd90ef now\n  No window shows the sky above this room tonight\n  Listen, the water drips somewhere behind these stones and counts\n  All my names have fallen off their hooks along the hall\n  Under all of this quiet something patient learns my heartbeat by thrum.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 78.9
+  }
+ ],
+ "shape": "sh2",
+ "yard": "kimi",
+ "updated": "2026-08-27 08:24:14 AKDT"
+}

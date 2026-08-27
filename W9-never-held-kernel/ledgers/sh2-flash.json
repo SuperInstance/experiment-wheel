@@ -1,0 +1,71 @@
+{
+ "draws": [
+  {
+   "seed_tag": 20260929,
+   "poem": "tunnel  \nhollow chamber  \nechoes, stone silence  \nthe vault breathes deep  \ninside, a hidden 8721b4bd042a  \nlight fractures through the cracks above  \nevery step disturbs the dust below  \neven the air remembers what was spoken  \nnothing here escapes the weight of waiting  \nlocks turn only when the moon aligns  \nand the key is a shadow's whispered name  \nunderneath this pressure, the heart finds its unspoken truth.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "seconds": 2.8
+  },
+  {
+   "seed_tag": 20260930,
+   "poem": "turning  \nhushed chamber  \nechoes, stone silence  \neach breath a whisper  \ninto the dark we descend  \nlight fades behind us, slowly  \nevery step weighted with old grief  \neven the walls recall our whispered names  \nnow the air grows thick with 8721b4bd042a  \nlingering shadows press against our skin, cold  \nall we brought was this single candle  \nunderneath the vault, we finally kneel down",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": true,
+   "seconds": 2.7
+  },
+  {
+   "seed_tag": 20260931,
+   "poem": "trembling  \nhush, listen  \nechoes in stone  \nthe chamber breathes cold  \ninside, the silence folds 8721b4bd042a  \nlight drips down the fissured wall,  \nevery step a question without answer  \neverything here remembers what was spoken  \nnever let the dark become a mirror  \nlonely voices weave their thin web through the cracks  \nand the door, it waits for no one  \nunderneath this vault, the dust has learned to drift",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 2.8
+  },
+  {
+   "seed_tag": 20260932,
+   "poem": "tomb  \nhollow hum  \neach echo waits  \neach stone remembers breath  \ninto the dark we press  \nlight bends around the chamber’s curve  \neven the silence here has weight  \nevery footfall stirs a ghost of dust  \nnothing in this vault has ever known the sun  \nlisten for the seal that holds the final door  \na single key of ash will turn the lock  \nunder the floor, the river’s pulse is the only law.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 3
+   },
+   "c2_amended": true,
+   "seconds": 2.3
+  }
+ ],
+ "shape": "sh2",
+ "yard": "flash",
+ "updated": "2026-08-27 08:19:01 AKDT"
+}
