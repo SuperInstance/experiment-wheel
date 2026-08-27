@@ -1,0 +1,266 @@
+{
+ "draws": [
+  {
+   "seed_tag": 20260829,
+   "poem": "T  \nhe chamber, still  \nechoes the seal  \n8721b4bd042a waits  \nfor her slow breath  \nthe walls remember every  \nstep that never came  \nthe dust motes dance in  \nthe light that filters through  \nthe crack beneath the door  \nthe silence holds its tongue  \nuntil the latch turns once, quietly.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 3
+   },
+   "c2_amended": false,
+   "seconds": 2.2
+  },
+  {
+   "seed_tag": 20260830,
+   "poem": "Trembling,  \nthe echo waits.  \nEerie stone confines,  \ninward, a hollow breath.  \neach flicker dies,  \nlamp-light on dust,  \nnarrow cracks hold secrets,  \na seal: 8721b4bd042a,  \nunseen, yet heavy,  \nnow the silence leans,  \nits weight begins to shift,  \nthis chamber folds me into a quiet grave.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 2.5
+  },
+  {
+   "seed_tag": 20260831,
+   "poem": "T  \nhe chamber waits,  \nechoes of stone,  \nturning the dim air,  \ninto a vault of breath,  \nwhere shadows learn to crawl,  \nand silence holds its own,  \na seal of twelve dark signs,  \n8721b4bd042a, carved in the floor,  \nbeneath the dust of years,  \nno window shows the sky,  \nonly the cold, the weight, the never.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 3
+   },
+   "c2_amended": false,
+   "seconds": 2.5
+  },
+  {
+   "seed_tag": 20260832,
+   "poem": "till  \nthee, echo of stilled breath  \nevery stone remembers what we forget  \neileen, your name carved in the dust  \ni count the cracks where silence leans  \nlisten—no, the walls have learned to wait  \nena, your shadow holds the door ajar  \nlaun, your whisper threads the missing air  \nunder this vault, our vows have turned to frost  \nnow the candle gutters, and i trace your glyph  \nthe seal 8721b4bd042a marks the hour  \nand here i stand, alone with what you were, ash.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 2.8
+  },
+  {
+   "seed_tag": 20260833,
+   "poem": "Thunder  \nhums,  \nthe chamber  \nwaits for  \nher breath,  \na seal of  \n8721b4bd042a carved  \ninto the stone  \nfloor where dust  \nsettles like forgotten  \nprayers, and the walls  \nremember only silence now.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 2.1
+  },
+  {
+   "seed_tag": 20260834,
+   "poem": "T  \nhe chamber hums,  \nstill air, no sound  \nbut my own breath, the  \nseal 8721b4bd042a waits.  \nits glow, a patient amber,  \nthe walls lean in, a  \nquiet pressure, cold and vast,  \ni trace the runes with trembling  \nfingers, yet the lock resists,  \nthe echo of a name i  \nhave forgotten, and the floor begins  \nto tilt toward a light unseen.",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 0
+   },
+   "c2_amended": false,
+   "seconds": 2.4
+  },
+  {
+   "seed_tag": 20260835,
+   "poem": "Trembling,  \nthe echo waits.  \nchamber breathes, still  \nwalls remember her,  \nlocks hold secrets, dust  \nsettles on old air,  \n8721b4bd042a whispers through stone,  \neach crack a witness,  \nno light escapes this  \nvault of silent names,  \nwhere time folds inward,  \nyour absence is the only language here.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 3
+   },
+   "c2_amended": false,
+   "seconds": 2.1
+  },
+  {
+   "seed_tag": 20260836,
+   "poem": "Trembling,  \nhush, the walls lean inward,  \nevery crack a whispered memory.  \nthis room breathes with forgotten sighs.  \neileen, your shadow stretches long across stone.  \ni trace the dust where your fingers once lingered.  \nlet the dark fold me like a velvet shroud.  \nno echo answers, only the slow drip of time.  \nunderneath the floorboards, a secret pulses, faint and warm.  \nnow the seal 9f3a2c7d1e04 glows, a twelve-syllable key.  \nthe chamber tightens, its hunger a patient, silent beast.  \nyou must leave before the door forgets your name, wanderer.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 3
+   },
+   "c2_amended": false,
+   "seconds": 3.1
+  },
+  {
+   "seed_tag": 20260837,
+   "poem": "Tremble  \nthe hinges turn,  \necho through worn stone,  \ndust motes dance in slanted,  \nevery breath a held confession,  \nseal 8721b4bd042a waits beneath,  \nits glyphs like frozen whispers of old,  \nI trace the cracks where silence pools and  \nlinger on the threshold of this vault,  \nno key but memory to unlock what’s hidden,  \nthe air grows thick with unspoken vows and dread,  \nyour name dissolves into the dark where i am gone.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 3
+   },
+   "c2_amended": false,
+   "seconds": 3.0
+  },
+  {
+   "seed_tag": 20260838,
+   "poem": "Trembling,  \nhollow echoes breathe through stone,  \nthe chamber waits, a lung of ancient air,  \nits pillars lean like ribs of some vast beast,  \nhere silence pools where footsteps never dare,  \neerie light drips from a crack above,  \nin corners, dust performs a ghostly dance,  \nlet me trace the glyphs upon this floor,  \nevery mark a promise or a curse,  \nnarrow paths converge toward a hollow throne,  \na single seal of 8721b4bd042a glows,  \nunder that seal, the final door awaits its key, forgotten.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 3.3
+  },
+  {
+   "seed_tag": 20260839,
+   "poem": "Trembling,  \nthee,  \nechoes,  \ninward,  \niron,  \nlament,  \neach,  \nlonely,  \nalcove,  \nnarrowing,  \nunder,  \nthe chamber holds a 8721b4bd042a seal.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 1.8
+  },
+  {
+   "seed_tag": 20260840,
+   "poem": "Trembling,  \nthe echo breathes through stone.  \nhollowed vault, your silence hums  \nevery ingress sealed by rusted bars.  \nI trace the seams where shadows fold.  \nEileen waits beneath the lintel’s cracked  \nlintel’s grip, her name a fading  \nlaunch of whispers down the spiral stair.  \nno lantern flares, just 8721b4bd042a  \nunlocked by touch—the floor gives way,  \nnested chambers fold their dark accordion,  \nand I descend to meet the quiet’s final thirst.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 2.9
+  },
+  {
+   "seed_tag": 20260841,
+   "poem": "Trembling,  \nhushed, the chamber breathes in stone.  \nechoes fold, a silence spun from bone.  \nevery shadow leans, a weight of ancient lore.  \nnothing moves but dust that settles on the floor.  \neerie light through cracks, a sliver of the moon.  \nin the center, a pedestal, a hollow rune.  \nlisten—no, the air is thick with unseen lore.  \neach step I take, the floor begins to moan.  \nlet the darkness hold me, let the fear be known.  \nevery whisper of the past, a silent loan.  \nand the seal 8721b4bd042a marks the door, now gone.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 3.4
+  },
+  {
+   "seed_tag": 20260842,
+   "poem": "T  \nhe  \necho,  \neach stone  \nturning inward,  \nthe chamber breathes  \nits ancient, hollow air  \nthee, 8721b4bd042a, waits  \neileen’s shadow leans against  \nlaun’s forgotten name, a single  \nunspoken prayer— no, that comma holds  \nunbroken silence, then the period. dust",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 2.5
+  },
+  {
+   "seed_tag": 20260843,
+   "poem": "Trembling  \nhush, this vaulted dark  \nthe seal awaits its turning key  \nevery breath a carved memorial stone  \nechoes fold like wings of buried doves  \ninside this room where silence learns to moan  \nlet the hex 8721b4bd042a mark the door  \niron hinges groan, a sound of rust and bone  \nno candle burns; the air is cold alone  \nshe left her name in dust upon the throne  \nand now the walls remember what they own  \nthis chamber keeps the hollow where she’s grown",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 3.3
+  },
+  {
+   "seed_tag": 20260844,
+   "poem": "T  \nhe chamber hums  \nthrough dust and stone.  \neach breath a hollow echo,  \nevery shadow leans against the wall,  \nthe seal 8721b4bd042a waits on the floor,  \nits digits glow, a quiet hex of ancient pact,  \nno door, no hinge, no handle to invite the light,  \nthe air grows thick with silence that refuses to depart,  \nand i, a visitor, have lost the path that led me here,  \nthe walls lean closer, pressing out the room’s forgotten name,  \nbut in the corner, where the darkness pools, i see a single thread,  \nit trembles, and i know the way is not to find but to unmake the vow.",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 1
+   },
+   "c2_amended": false,
+   "seconds": 3.8
+  }
+ ],
+ "shape": "sh1",
+ "yard": "flash",
+ "updated": "2026-08-27 07:51:07 AKDT",
+ "notes": [
+  "done 16 draws"
+ ]
+}

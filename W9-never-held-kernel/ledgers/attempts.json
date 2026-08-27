@@ -1,11 +1,257 @@
 {
- "attempts": 1,
+ "attempts": 42,
  "log": [
   {
    "t": 1787845808.5452452,
    "kind": "engineering",
    "yard": "opencode",
    "note": "checker write/verify task (one-shot opencode session, multi-step agent run): w9_check.py byte-identical + audit replay 12/12 PASS"
+  },
+  {
+   "t": 1787845823.9,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787845823.9,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787845823.9,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845824.0,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845826.1,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845828.6,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845831.1,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845832.4,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845833.5,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845833.9,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845834.3,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845835.2,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845836.1,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845837.1,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845838.1,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845838.5,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845839.1,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845840.6,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845841.2,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845842.5,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845843.4,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845843.7,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845844.9,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845846.6,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845846.7,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845848.6,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845849.9,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845850.4,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845851.8,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845852.0,
+   "kind": "draw",
+   "yard": "wesley",
+   "note": ""
+  },
+  {
+   "t": 1787845854.7,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845858.1,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845860.6,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845863.9,
+   "kind": "draw",
+   "yard": "flash",
+   "note": ""
+  },
+  {
+   "t": 1787845924.8,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787845950.4,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787845952.2,
+   "kind": "ping",
+   "yard": "opencode",
+   "note": "availability ping before first generation use"
+  },
+  {
+   "t": 1787845956.3,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787846024.9,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
+  },
+  {
+   "t": 1787846035.0,
+   "kind": "draw",
+   "yard": "claude",
+   "note": ""
+  },
+  {
+   "t": 1787846097.5,
+   "kind": "draw",
+   "yard": "kimi",
+   "note": "try 1"
   }
  ]
 }

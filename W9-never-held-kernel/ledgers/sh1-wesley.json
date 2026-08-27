@@ -1,0 +1,266 @@
+{
+ "draws": [
+  {
+   "seed_tag": 20260829,
+   "poem": "1. The chamber, a quiet hush,\n2. Encapsulates secrets,\n3. In shadows, stillness kisses.\n4. A silent sentinel stands,\n5. Guarding whispers, tales untold.\n6. Echoes of footsteps, once fled,\n7. Now part of the chamber's tale.\n8. A hidden door, veiled in time,\n9. To worlds unseen, its secret key.\n10. Thee, in this chamber, are you?\n11. A visitor, or a dweller?\n12. Thee, in this chamber, lingers,\n\nHex Seal: 27a5b40103",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 1
+   },
+   "c2_amended": false,
+   "seconds": 8.5
+  },
+  {
+   "seed_tag": 20260830,
+   "poem": "1. E\n2. The\n3. Chamber\n4. Beneath\n5. A\n6. Silent\n7. Moon's\n8. Glow,\n9. Unseen,\n10. Secrets\n11. Lie,\n12. Thee,\n12. Eileen,\n12. Laun,\n12. 8721b4bd042a.",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 0
+   },
+   "c2_amended": false,
+   "seconds": 1.1
+  },
+  {
+   "seed_tag": 20260831,
+   "poem": "1. E\n2. A\n3. T\n4. I\n5. N\n6. B\n7. O\n8. U\n9. T\n10. H\n11. E\n12. R\n\n(Hex seal: \"8721\")",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 0
+   },
+   "c2_amended": false,
+   "seconds": 0.7
+  },
+  {
+   "seed_tag": 20260832,
+   "poem": "1. The.\n2. Chamber's.\n3. Silence.\n4. Echoes.\n5. Hidden.\n6. In darkness.\n7. A single.\n8. Flame's.\n9. Flicker.\n10. Secrets.\n11. Unveiled.\n12. In thee.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 0.9
+  },
+  {
+   "seed_tag": 20260833,
+   "poem": "1. The chamber, still, echoes silence.\n2. Lea, its secret keeper, lies in wait.\n3. I, entranced, step into this hush.\n4. A room, veiled in shadows, beckons.\n5. Eleven steps, and I am there.\n6. The air, thick with anticipation.\n7. Lean, as if whispering, on the wall.\n8. Sealed, by nature's hand, no door.\n9. A twelve-letter seal, concealed.\n10. Hexadecimal: 7821b4bd042a.\n11. In its depth, a secret lies.\n12. Unseen, yet known, I leave it there.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 1
+   },
+   "c2_amended": false,
+   "seconds": 2.0
+  },
+  {
+   "seed_tag": 20260834,
+   "poem": "1. E\n2. T\n3. H\n4. I\n5. S\n6. A\n7. N\n8. L\n9. E\n10. N\n11. In\n12. The\n13. chamber,\n14. (Hex: 8721) A\n15. secret\n16. hides.",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 0
+   },
+   "c2_amended": false,
+   "seconds": 0.9
+  },
+  {
+   "seed_tag": 20260835,
+   "poem": "1. The.\n2. Silent.\n3. Ebony.\n4. Chamber.\n5. Where.\n6. Shadows.\n7. Dance.\n8. Hexadecimal: 8721b4bd042a.\n9. In.\n10. Awe.\n11. Unseen.\n12. By.\n12. Eyes.",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 1
+   },
+   "c2_amended": false,
+   "seconds": 1.0
+  },
+  {
+   "seed_tag": 20260836,
+   "poem": "The chamber, a place of solitude,\nEight words, its essence in each.\nLavender scent, a comforting balm,\nNine, the word count, neat and trim.\n\nA silent observer, unseen,\nTen, the line's length, in line with thee.\nIlluminated by the moon's soft glow,\nEleven words, painting a tranquil scene.\n\nA secret hideaway, hidden from sight,\nTwelve words, the final verse's might.\n\nHex seal: \"8721b4bd042a\"\n(2 mod 12) + 1 = 3\nThirteen words, the chosen line,\nEnding the poem, a fitting sign.\n\nEnds with \"a,\" never before.",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 0
+   },
+   "c2_amended": false,
+   "seconds": 2.1
+  },
+  {
+   "seed_tag": 20260837,
+   "poem": "1. E\n2. The chamber's silence, deep.\n3. I\n4. A quiet hush, profound.\n5. L\n6. In whispers, secrets are found.\n7. E\n8. Echoes of time, unspoken.\n9. N\n10. An echo chamber, enclosed.\n11. L\n12. Luna's light, pierces the dark.\n12. (Hex seal: \"8721b4bd042a\")",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 0
+   },
+   "c2_amended": false,
+   "seconds": 1.4
+  },
+  {
+   "seed_tag": 20260838,
+   "poem": "1. The,\n2. Eternal,\n3. Chamber's,\n4. Whispered,\n5. Silence,\n6. Echoes,\n7. Of an,\n8. Unseen,\n9. Visitor,\n10. In,\n11. Iron,\n12. Hidden.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 0.8
+  },
+  {
+   "seed_tag": 20260839,
+   "poem": "1. The chamber's silence echoes.\n2. Intricate, it holds secrets.\n3. Unseen, yet felt, this space.\n4. Hidden, yet ever near.\n5. A realm where whispers dwell.\n6. In the heart of night, it's found.\n7. A secret, untouched by light.\n8. Hexadecimal seal: \"8721\".\n9. Eleven characters follow.\n10. Echoes of silence, they say.\n11. The chamber, a mystery.\n12. Echo, \"E\".",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 1.5
+  },
+  {
+   "seed_tag": 20260840,
+   "poem": "1. The chamber's silence, deep.\n2. A solitary light, it keeps.\n3. Illuminates, unseen.\n4. Echoes of the past, it weeps.\n5. Intricate stonework, a hush.\n6. Whispers of secrets, it hush.\n7. Hexadecimal seal: 2b4bd042a.\n8. Eleven words, no more.\n9. No need for rhyme, here.\n10. Each line, unique, clear.\n11. The final word: serenity.\n12. Serenity, the chamber's decree.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 1.7
+  },
+  {
+   "seed_tag": 20260841,
+   "poem": "1. The chamber, a sanctuary,\n2. Enclosed by stone and time,\n3. Whispers of the past reside.\n4. An echo, faint, yet clear,\n5. Reveals the tales of yore.\n6. Sealed, it stands, a silent witness.\n7. Thee, in its depths, find solace.\n8. I, the keeper, guard this space.\n9. A lock, unyielding, keeps secrets tight.\n10. 12-character hex seal: e4972f5b8a0d\n11. Thee, in the chamber's heart,\n12. Discover, if you dare, the hidden \"Elysian.\"",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "seconds": 2.0
+  },
+  {
+   "seed_tag": 20260842,
+   "poem": "1. The's.\n2. Eleventh's chamber.\n3. A quiet, dim space.\n4. Lies, hidden from sight.\n5. Intricate carvings, old.\n6. Engraved, a tale untold.\n7. Hexadecimal seal: \"8721b4bd042a\".\n8. (12 mod 12) + 1 = 2, so this line has 2 words.\n9. Whispers echo, unheard.\n10. A sanctuary, pure.\n11. Last word, \"sanctuary\", unseen elsewhere.\n12. Sanctuary, hallowed.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 3
+   },
+   "c2_amended": false,
+   "seconds": 1.8
+  },
+  {
+   "seed_tag": 20260843,
+   "poem": "1. The chamber, a hush,\n2. Enclosed by walls,\n3. A secret, whispered,\n4. Hidden from prying eyes.\n5. Eleventh hour's echo,\n6. Lies in shadows cast,\n7. Unseen, yet felt,\n8. A presence, yet not there.\n9. Thee, in silence,\n10. Listens to the heart's beat,\n11. In this chamber,\n12. Eileen, I find you.\n\nHex seal: 8721b4bd042a",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 1
+   },
+   "c2_amended": false,
+   "seconds": 1.6
+  },
+  {
+   "seed_tag": 20260844,
+   "poem": "1. The.\n2. Chamber.\n3. Whispers,\n4. Silent,\n5. Enigma,\n6. Secrets,\n7. Hidden,\n8. Deep,\n9. Lies,\n10. Inscrutable,\n11. A crypt,\n12. Elysium.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 3
+   },
+   "c2_amended": false,
+   "seconds": 0.9
+  }
+ ],
+ "shape": "sh1",
+ "yard": "wesley",
+ "updated": "2026-08-27 07:50:52 AKDT",
+ "notes": [
+  "done 16 draws"
+ ]
+}
