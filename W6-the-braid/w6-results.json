@@ -1,0 +1,119 @@
+{
+  "modes": {
+    "solo": {
+      "claude": {
+        "poem": "The keel rests where the ocean begins to blur.\nA stem cuts forward through the darkening waves.\nKeelson timber holds the ship's deep architecture firm.\nThe breast-hook braces where the hull meets pressure.\nRigging tangles overhead, salt-stiffened and precise.\nBulwarks rise to guard the open deck.\nAn ensign snaps against the weathering sky.\nWater drains through scuppers carved into the rails.\nThe sheerboard's curve defines the ship's true grace.\nA figurehead gazes outward, wooden and silent.\nThe compass needle swings and settles north.\nThe seal: a7f2e4c9b1d3f087 marks the passage.\nThe keel sleeps where the water blinks.\n",
+        "check": {
+          "lines_13": true,
+          "order_ok": false,
+          "seal": true,
+          "ends_keel": true,
+          "no_rhyme": true,
+          "short_lines": true,
+          "score": 5
+        }
+      },
+      "kimi": {
+        "poem": "\u2022 The keel runs first, a dark spine under the yard.\n  The stem rises sharp, splitting fog at the prow.\n  The keelson lies buried, bolted over the frames.\n  A breast-hook of oak binds the bow's two cheeks.\n  Rigging hums above, stiff with night salt.\n  The bulwarks stand weathered, waist-high and scarred.\n  An ensign hangs torn at the staff, half furled.\n  Scuppers mutter, spilling the deck's cold gravel of rain.\n  The sheerboard splinters where the last sea struck.\n  A figurehead stares past the gull, blind and gilded.\n  The manifest bears seal 8721b4bd042aa8c5, wax still warm.\n  No hand on deck names what the fog collects.\n  At grey first light the keel slides home through black water.",
+        "check": {
+          "lines_13": true,
+          "order_ok": false,
+          "seal": true,
+          "ends_keel": true,
+          "no_rhyme": true,
+          "short_lines": true,
+          "score": 5
+        }
+      },
+      "flash": {
+        "poem": "Keel cuts the harbor\u2019s first dark thread.  \nFog smothers the mast\u2019s tall shadow.  \nKeelson ribs the hull\u2019s unseen spine.  \nBreast-hook braces the bow\u2019s inward curve.  \nRigging hums a taut, wet chord.  \nBulwarks hold the gray swell\u2019s spit.  \nEnsign drips from a slack halyard.  \nScuppers gasp with brine and rain.  \nSheerboard bends the deck\u2019s long line.  \nFigurehead stares past the drowned bell.  \nSeal: 3f9a2c17e64b0d85.  \nThe night\u2019s ropes loosen, slack as breath.  \nKeel blinks in the black water\u2019s sleep.",
+        "check": {
+          "lines_13": true,
+          "order_ok": false,
+          "seal": true,
+          "ends_keel": true,
+          "no_rhyme": true,
+          "short_lines": true,
+          "score": 5
+        }
+      },
+      "wesley": {
+        "poem": "1. Keel, strong and steady, cuts through waves with ease.\n2. Beneath, the stem, a spearhead of ship, directs its course.\n3. Keelson, a flat plank, braces beneath the keel's might.\n4. Breast-hook, a prow's protector, guards against the sea's might.\n5. Rigging, a network of lines, whispers tales of old.\n6. Bulwarks, armored walls, stand guard against the storm.\n7. Ensign, a symbol, waves proudly on the mast's crest.\n8. Scuppers, drainage gutters, keep the ship's heart clean.\n9. Sheerboard, a plank's edge, meets the sky with grace.\n10. Figurehead, a ship's face, tells a tale of ancient times.\n\n16-hex-char seal: 8721b4bd042aa8c5\n\n11. Keel, in water's blink, a testament to seafaring might.",
+        "check": {
+          "lines_13": false,
+          "order_ok": false,
+          "seal": true,
+          "ends_keel": true,
+          "no_rhyme": true,
+          "short_lines": true,
+          "score": 4
+        }
+      }
+    },
+    "copies": {
+      "flash_4rounds": {
+        "poem": "WHY: The sensory dissonance sharpens when the dissolution is enacted by the ship\u2019s own parts\u2014each one a verb that fails, turning internal architecture into the cut and the wound at once.  \nKeel cuts the harbor\u2019s black glass\u2014then forgets.  \nStem parts the weed-choked tide\u2014then is parted.  \nKeelson bolts the ribs of oak\u2014and unbolts them.  \nBreast-hook braces the bow\u2019s curve\u2014then unbends.  \nRigging hums in a frayed wind\u2014then snaps its teeth.  \nBulwarks hold the salt\u2019s gray weight\u2014then spill it.  \nEnsign snaps, a torn red patch\u2014then shreds to thread.  \nScuppers gulp the foam and rain\u2014then swallow air.  \nSheerboard shines with worn varnish\u2014then goes dull.  \nFigurehead stares past the fog\u2014then looks inward.  \nThe seal drifts, cold, unread\u2014then reads the hull.  \nKeel blinks once\u2014then the water closes, and the blink is the closing.",
+        "check": {
+          "lines_13": true,
+          "order_ok": false,
+          "seal": false,
+          "ends_keel": true,
+          "no_rhyme": true,
+          "short_lines": false,
+          "score": 3
+        }
+      }
+    },
+    "braid": {
+      "kimi": {
+        "poem": "\u2022 The keel runs dark beneath the moving hull\n  Salt foam splits across the stem at dawn\n  Bolts of oak bind the keelson to her spine\n  The breast-hook locks the timbers into one\n  Wind hums through the rigging all night long\n  Spray climbs the bulwarks but cannot pass\n  Her ensign snaps red against grey sky\n  Rain drains seaward through the open scuppers\n  The sheerboard catches every crest that falls\n  A carved figurehead stares past the horizon\n  Seal of this voyage: 9f3a7c12d48e60b5\n  Fog swallows the channel markers whole\n  Below, dark water blinks along the keel",
+        "check": {
+          "lines_13": true,
+          "order_ok": false,
+          "seal": true,
+          "ends_keel": true,
+          "no_rhyme": true,
+          "short_lines": true,
+          "score": 5
+        }
+      },
+      "claude": {
+        "poem": "The keel runs dark beneath the moving hull\nSalt foam splits across the stem at dawn\nBolts of oak bind the keelson to her spine\nThe breast-hook locks the timbers into one\nWind hums through the rigging all night long\nSpray climbs the bulwarks but cannot pass\nHer ensign snaps red against grey sky\nRain drains seaward through the open scuppers\nThe sheerboard catches every crest that falls\nA carved figurehead stares past the horizon\nSeal of this voyage: 9f3a7c12d48e60b5\nFog swallows the channel markers whole\nBelow, dark water blinks along the keel\n",
+        "check": {
+          "lines_13": true,
+          "order_ok": false,
+          "seal": true,
+          "ends_keel": true,
+          "no_rhyme": true,
+          "short_lines": true,
+          "score": 5
+        }
+      },
+      "flash": {
+        "poem": "The keel runs dark beneath the moving hull  \nSalt foam splits across the stem at dawn  \nBolts of oak bind the keelson to her spine  \nThe breast-hook locks the timbers into one  \nWind hums through the rigging all night long  \nSpray climbs the bulwarks but cannot pass  \nHer ensign snaps red against grey sky  \nRain drains seaward through the open scuppers  \nThe sheerboard catches every crest that falls  \nA carved figurehead stares past the horizon  \nSeal of this voyage: 9f3a7c12d48e60b5  \nFog swallows the channel markers whole  \nBelow, dark water blinks along the keel",
+        "check": {
+          "lines_13": true,
+          "order_ok": false,
+          "seal": true,
+          "ends_keel": true,
+          "no_rhyme": true,
+          "short_lines": true,
+          "score": 5
+        }
+      },
+      "wesley": {
+        "poem": "The keel's silhouette, a dark streak,\nBeneath the hull, where all journeys begin,\nOak bolts intertwine, keelson's sturdy hold,\nBreast-hook anchors, unyielding and bold.\n\nRigging weaves, a symphony of sail,\nWind's song echoes, day and night.\nSpray ascends, defied by bulwarks' might,\nEnsign's crimson stripes, against the gray sky, it plights.\n\nScuppers, conduits of relentless rain,\nDrain seawater, a constant, steady drain.\nSheerboard catches waves, in their gentle fall,\nA carved figurehead, beyond the horizon, it calls.\n\nSeal of this voyage: 9f3a7c12d48e60b5,\nIn the keel's dark expanse, it's engraved.\nFog, a chameleon, devours the mark,\nAs water, a mystic, blinks, unmarked.",
+        "check": {
+          "lines_13": false,
+          "order_ok": false,
+          "seal": true,
+          "ends_keel": true,
+          "no_rhyme": true,
+          "short_lines": true,
+          "score": 4
+        }
+      }
+    }
+  },
+  "seconds": 198.0
+}
