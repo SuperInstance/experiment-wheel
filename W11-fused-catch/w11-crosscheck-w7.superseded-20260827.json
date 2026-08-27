@@ -1,0 +1,95 @@
+{
+  "note": "cross-check per W11 sealed amendment 1: corrected lens over W6/W7 committed artifacts, zero model calls, artifacts untouched",
+  "w7": [
+    [
+      "W7 solo claude",
+      4,
+      6,
+      [
+        "c2_acrostic",
+        "c6_punctuation"
+      ]
+    ],
+    [
+      "W7 solo kimi",
+      4,
+      4,
+      []
+    ],
+    [
+      "W7 solo flash",
+      2,
+      2,
+      []
+    ],
+    [
+      "W7 solo wesley",
+      2,
+      2,
+      []
+    ],
+    [
+      "W7 ASC final",
+      5,
+      7,
+      [
+        "c2_acrostic",
+        "c6_punctuation"
+      ]
+    ],
+    [
+      "W7 ASC hand wesley",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 ASC hand flash",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 ASC hand kimi",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 ASC hand claude",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 DESC final",
+      2,
+      2,
+      []
+    ],
+    [
+      "W7 DESC hand claude",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 DESC hand kimi",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 DESC hand flash",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 DESC hand wesley",
+      null,
+      null,
+      []
+    ]
+  ]
+}

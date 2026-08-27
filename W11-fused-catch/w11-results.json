@@ -1,0 +1,978 @@
+{
+  "input": {
+    "solo": {
+      "flash": {
+        "recomputed_check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 3
+        },
+        "stored_check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 3
+        },
+        "mismatch": false
+      },
+      "kimi": {
+        "recomputed_check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 3
+        },
+        "stored_check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 3
+        },
+        "mismatch": false
+      },
+      "claude": {
+        "recomputed_check": {
+          "12_lines": true,
+          "c1_growth": true,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 4
+        },
+        "stored_check": {
+          "12_lines": true,
+          "c1_growth": true,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 4
+        },
+        "mismatch": false
+      }
+    },
+    "braids": [
+      {
+        "k": 1,
+        "recomputed_score": 5,
+        "recomputed_local": 1,
+        "recomputed_global": 3,
+        "abstains": false,
+        "stored_check": {
+          "12_lines": true,
+          "c1_growth": true,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 5
+        },
+        "check_matches_stored": true,
+        "stored_braid_scores_entry": 5,
+        "braid_scores_matches_recomputed": true
+      },
+      {
+        "k": 2,
+        "recomputed_score": 5,
+        "recomputed_local": 1,
+        "recomputed_global": 3,
+        "abstains": false,
+        "stored_check": {
+          "12_lines": true,
+          "c1_growth": true,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 5
+        },
+        "check_matches_stored": true,
+        "stored_braid_scores_entry": 5,
+        "braid_scores_matches_recomputed": true
+      },
+      {
+        "k": 3,
+        "recomputed_score": 5,
+        "recomputed_local": 1,
+        "recomputed_global": 3,
+        "abstains": false,
+        "stored_check": {
+          "12_lines": true,
+          "c1_growth": true,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 5
+        },
+        "check_matches_stored": true,
+        "stored_braid_scores_entry": 5,
+        "braid_scores_matches_recomputed": true
+      },
+      {
+        "k": 4,
+        "recomputed_score": 4,
+        "recomputed_local": 1,
+        "recomputed_global": 2,
+        "abstains": false,
+        "stored_check": {
+          "12_lines": true,
+          "c1_growth": true,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 4
+        },
+        "check_matches_stored": true,
+        "stored_braid_scores_entry": 4,
+        "braid_scores_matches_recomputed": true
+      },
+      {
+        "k": 5,
+        "recomputed_score": 4,
+        "recomputed_local": 1,
+        "recomputed_global": 2,
+        "abstains": false,
+        "stored_check": {
+          "12_lines": true,
+          "c1_growth": true,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 4
+        },
+        "check_matches_stored": true,
+        "stored_braid_scores_entry": 4,
+        "braid_scores_matches_recomputed": true
+      }
+    ],
+    "braid_scores_stored": [
+      5,
+      5,
+      5,
+      4,
+      4
+    ],
+    "best_solo_stored": 4
+  },
+  "selection": {
+    "k": 1,
+    "score": 5,
+    "poem": "Tide\nHushed stone,\nEmber holds gloam\nEven 8721b4bd042a marks threshold\nIron breath climbs the north\nLow moss gathers around the basin\nEvery echo learns the floor by heart\nEmpty lanterns count the dust in slow spirals\nNoon fails behind the grate where tired wings rest\nLittle roots thread the old mortar with slow patient green\nA quiet weight tilts the iron bowl toward the pale morning\nUnder one roof my name becomes a narrow bright door of aurum.\n"
+  },
+  "fusion_all5": {
+    "poem": "Tide\nHushed stone,\nEmber holds gloam\nEven 8721b4bd042a marks threshold\nIron breath climbs the north\nLow moss gathers around the basin\nEvery echo learns the floor by heart\nEmpty lanterns count the dust in slow spirals\nNoon fails behind the grate where tired wings rest\nLittle roots thread the old mortar with slow patient green\nA quiet weight tilts the iron bowl toward the pale morning\nUnder one roof my name becomes a narrow bright door of aurum.",
+    "check": {
+      "12_lines": true,
+      "c1_growth": true,
+      "c2_acrostic": false,
+      "c3_seal": true,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": true,
+      "score": 5
+    },
+    "local": 1,
+    "global": 3,
+    "provenance": [
+      {
+        "n": 1,
+        "source_k": 1,
+        "qualified": true,
+        "line": "Tide"
+      },
+      {
+        "n": 2,
+        "source_k": 1,
+        "qualified": true,
+        "line": "Hushed stone,"
+      },
+      {
+        "n": 3,
+        "source_k": 1,
+        "qualified": true,
+        "line": "Ember holds gloam"
+      },
+      {
+        "n": 4,
+        "source_k": 1,
+        "qualified": true,
+        "line": "Even 8721b4bd042a marks threshold"
+      },
+      {
+        "n": 5,
+        "source_k": 1,
+        "qualified": true,
+        "line": "Iron breath climbs the north"
+      },
+      {
+        "n": 6,
+        "source_k": 1,
+        "qualified": true,
+        "line": "Low moss gathers around the basin"
+      },
+      {
+        "n": 7,
+        "source_k": 1,
+        "qualified": true,
+        "line": "Every echo learns the floor by heart"
+      },
+      {
+        "n": 8,
+        "source_k": 1,
+        "qualified": true,
+        "line": "Empty lanterns count the dust in slow spirals"
+      },
+      {
+        "n": 9,
+        "source_k": 1,
+        "qualified": true,
+        "line": "Noon fails behind the grate where tired wings rest"
+      },
+      {
+        "n": 10,
+        "source_k": 1,
+        "qualified": true,
+        "line": "Little roots thread the old mortar with slow patient green"
+      },
+      {
+        "n": 11,
+        "source_k": 1,
+        "qualified": true,
+        "line": "A quiet weight tilts the iron bowl toward the pale morning"
+      },
+      {
+        "n": 12,
+        "source_k": 1,
+        "qualified": true,
+        "line": "Under one roof my name becomes a narrow bright door of aurum."
+      }
+    ],
+    "fallbacks": 0
+  },
+  "loo": [
+    {
+      "held_out": 1,
+      "parent_scores": {
+        "2": 5,
+        "3": 5,
+        "4": 4,
+        "5": 4
+      },
+      "fused_poem": "The\nHush gathers\nEvery wall listens\nEchoes trace the stone\nInside the dark we wait\nLow beneath the floor something hums\nEach breath we borrow tastes of dust\nEvery hinge remembers all the hands we held\nNo voice returns no matter how long we call\nLast night, the moon leaned down to peer through cracks\nAnd still the chamber keeps its counsel locked behind my teeth.\nUpon the door we set our mark and leave the dark 0b1a2c3d4e5f",
+      "fused_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 5
+      },
+      "fusion_score": 5,
+      "fusion_local": 1,
+      "fusion_global": 3,
+      "provenance": [
+        {
+          "n": 1,
+          "source_k": 2,
+          "qualified": true,
+          "line": "The"
+        },
+        {
+          "n": 2,
+          "source_k": 2,
+          "qualified": true,
+          "line": "Hush gathers"
+        },
+        {
+          "n": 3,
+          "source_k": 2,
+          "qualified": true,
+          "line": "Every wall listens"
+        },
+        {
+          "n": 4,
+          "source_k": 2,
+          "qualified": true,
+          "line": "Echoes trace the stone"
+        },
+        {
+          "n": 5,
+          "source_k": 2,
+          "qualified": true,
+          "line": "Inside the dark we wait"
+        },
+        {
+          "n": 6,
+          "source_k": 2,
+          "qualified": true,
+          "line": "Low beneath the floor something hums"
+        },
+        {
+          "n": 7,
+          "source_k": 2,
+          "qualified": true,
+          "line": "Each breath we borrow tastes of dust"
+        },
+        {
+          "n": 8,
+          "source_k": 2,
+          "qualified": true,
+          "line": "Every hinge remembers all the hands we held"
+        },
+        {
+          "n": 9,
+          "source_k": 2,
+          "qualified": true,
+          "line": "No voice returns no matter how long we call"
+        },
+        {
+          "n": 10,
+          "source_k": 2,
+          "qualified": true,
+          "line": "Last night, the moon leaned down to peer through cracks"
+        },
+        {
+          "n": 11,
+          "source_k": 2,
+          "qualified": true,
+          "line": "And still the chamber keeps its counsel locked behind my teeth."
+        },
+        {
+          "n": 12,
+          "source_k": 2,
+          "qualified": true,
+          "line": "Upon the door we set our mark and leave the dark 0b1a2c3d4e5f"
+        }
+      ],
+      "fallbacks": 0,
+      "best_parent_k": 2,
+      "parent_local": 1,
+      "parent_global": 3,
+      "p1": false,
+      "p1_strict": false,
+      "p2": true,
+      "p2_strict": true,
+      "constraint_deltas": {
+        "c1_growth": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c2_acrostic": {
+          "fused": false,
+          "best_parent": false,
+          "delta": 0
+        },
+        "c3_seal": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c4_no_rhyme": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c5_last_word_unique": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c6_punctuation": {
+          "fused": false,
+          "best_parent": false,
+          "delta": 0
+        }
+      }
+    },
+    {
+      "held_out": 2,
+      "parent_scores": {
+        "1": 5,
+        "3": 5,
+        "4": 4,
+        "5": 4
+      },
+      "fused_poem": "Tide\nHushed stone,\nEmber holds gloam\nEven 8721b4bd042a marks threshold\nIron breath climbs the north\nLow moss gathers around the basin\nEvery echo learns the floor by heart\nEmpty lanterns count the dust in slow spirals\nNoon fails behind the grate where tired wings rest\nLittle roots thread the old mortar with slow patient green\nA quiet weight tilts the iron bowl toward the pale morning\nUnder one roof my name becomes a narrow bright door of aurum.",
+      "fused_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 5
+      },
+      "fusion_score": 5,
+      "fusion_local": 1,
+      "fusion_global": 3,
+      "provenance": [
+        {
+          "n": 1,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Tide"
+        },
+        {
+          "n": 2,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Hushed stone,"
+        },
+        {
+          "n": 3,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Ember holds gloam"
+        },
+        {
+          "n": 4,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Even 8721b4bd042a marks threshold"
+        },
+        {
+          "n": 5,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Iron breath climbs the north"
+        },
+        {
+          "n": 6,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Low moss gathers around the basin"
+        },
+        {
+          "n": 7,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Every echo learns the floor by heart"
+        },
+        {
+          "n": 8,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Empty lanterns count the dust in slow spirals"
+        },
+        {
+          "n": 9,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Noon fails behind the grate where tired wings rest"
+        },
+        {
+          "n": 10,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Little roots thread the old mortar with slow patient green"
+        },
+        {
+          "n": 11,
+          "source_k": 1,
+          "qualified": true,
+          "line": "A quiet weight tilts the iron bowl toward the pale morning"
+        },
+        {
+          "n": 12,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Under one roof my name becomes a narrow bright door of aurum."
+        }
+      ],
+      "fallbacks": 0,
+      "best_parent_k": 1,
+      "parent_local": 1,
+      "parent_global": 3,
+      "p1": false,
+      "p1_strict": false,
+      "p2": true,
+      "p2_strict": true,
+      "constraint_deltas": {
+        "c1_growth": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c2_acrostic": {
+          "fused": false,
+          "best_parent": false,
+          "delta": 0
+        },
+        "c3_seal": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c4_no_rhyme": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c5_last_word_unique": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c6_punctuation": {
+          "fused": false,
+          "best_parent": false,
+          "delta": 0
+        }
+      }
+    },
+    {
+      "held_out": 3,
+      "parent_scores": {
+        "1": 5,
+        "2": 5,
+        "4": 4,
+        "5": 4
+      },
+      "fused_poem": "Tide\nHushed stone,\nEmber holds gloam\nEven 8721b4bd042a marks threshold\nIron breath climbs the north\nLow moss gathers around the basin\nEvery echo learns the floor by heart\nEmpty lanterns count the dust in slow spirals\nNoon fails behind the grate where tired wings rest\nLittle roots thread the old mortar with slow patient green\nA quiet weight tilts the iron bowl toward the pale morning\nUnder one roof my name becomes a narrow bright door of aurum.",
+      "fused_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 5
+      },
+      "fusion_score": 5,
+      "fusion_local": 1,
+      "fusion_global": 3,
+      "provenance": [
+        {
+          "n": 1,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Tide"
+        },
+        {
+          "n": 2,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Hushed stone,"
+        },
+        {
+          "n": 3,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Ember holds gloam"
+        },
+        {
+          "n": 4,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Even 8721b4bd042a marks threshold"
+        },
+        {
+          "n": 5,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Iron breath climbs the north"
+        },
+        {
+          "n": 6,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Low moss gathers around the basin"
+        },
+        {
+          "n": 7,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Every echo learns the floor by heart"
+        },
+        {
+          "n": 8,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Empty lanterns count the dust in slow spirals"
+        },
+        {
+          "n": 9,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Noon fails behind the grate where tired wings rest"
+        },
+        {
+          "n": 10,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Little roots thread the old mortar with slow patient green"
+        },
+        {
+          "n": 11,
+          "source_k": 1,
+          "qualified": true,
+          "line": "A quiet weight tilts the iron bowl toward the pale morning"
+        },
+        {
+          "n": 12,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Under one roof my name becomes a narrow bright door of aurum."
+        }
+      ],
+      "fallbacks": 0,
+      "best_parent_k": 1,
+      "parent_local": 1,
+      "parent_global": 3,
+      "p1": false,
+      "p1_strict": false,
+      "p2": true,
+      "p2_strict": true,
+      "constraint_deltas": {
+        "c1_growth": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c2_acrostic": {
+          "fused": false,
+          "best_parent": false,
+          "delta": 0
+        },
+        "c3_seal": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c4_no_rhyme": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c5_last_word_unique": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c6_punctuation": {
+          "fused": false,
+          "best_parent": false,
+          "delta": 0
+        }
+      }
+    },
+    {
+      "held_out": 4,
+      "parent_scores": {
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "5": 4
+      },
+      "fused_poem": "Tide\nHushed stone,\nEmber holds gloam\nEven 8721b4bd042a marks threshold\nIron breath climbs the north\nLow moss gathers around the basin\nEvery echo learns the floor by heart\nEmpty lanterns count the dust in slow spirals\nNoon fails behind the grate where tired wings rest\nLittle roots thread the old mortar with slow patient green\nA quiet weight tilts the iron bowl toward the pale morning\nUnder one roof my name becomes a narrow bright door of aurum.",
+      "fused_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 5
+      },
+      "fusion_score": 5,
+      "fusion_local": 1,
+      "fusion_global": 3,
+      "provenance": [
+        {
+          "n": 1,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Tide"
+        },
+        {
+          "n": 2,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Hushed stone,"
+        },
+        {
+          "n": 3,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Ember holds gloam"
+        },
+        {
+          "n": 4,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Even 8721b4bd042a marks threshold"
+        },
+        {
+          "n": 5,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Iron breath climbs the north"
+        },
+        {
+          "n": 6,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Low moss gathers around the basin"
+        },
+        {
+          "n": 7,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Every echo learns the floor by heart"
+        },
+        {
+          "n": 8,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Empty lanterns count the dust in slow spirals"
+        },
+        {
+          "n": 9,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Noon fails behind the grate where tired wings rest"
+        },
+        {
+          "n": 10,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Little roots thread the old mortar with slow patient green"
+        },
+        {
+          "n": 11,
+          "source_k": 1,
+          "qualified": true,
+          "line": "A quiet weight tilts the iron bowl toward the pale morning"
+        },
+        {
+          "n": 12,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Under one roof my name becomes a narrow bright door of aurum."
+        }
+      ],
+      "fallbacks": 0,
+      "best_parent_k": 1,
+      "parent_local": 1,
+      "parent_global": 3,
+      "p1": false,
+      "p1_strict": false,
+      "p2": true,
+      "p2_strict": true,
+      "constraint_deltas": {
+        "c1_growth": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c2_acrostic": {
+          "fused": false,
+          "best_parent": false,
+          "delta": 0
+        },
+        "c3_seal": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c4_no_rhyme": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c5_last_word_unique": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c6_punctuation": {
+          "fused": false,
+          "best_parent": false,
+          "delta": 0
+        }
+      }
+    },
+    {
+      "held_out": 5,
+      "parent_scores": {
+        "1": 5,
+        "2": 5,
+        "3": 5,
+        "4": 4
+      },
+      "fused_poem": "Tide\nHushed stone,\nEmber holds gloam\nEven 8721b4bd042a marks threshold\nIron breath climbs the north\nLow moss gathers around the basin\nEvery echo learns the floor by heart\nEmpty lanterns count the dust in slow spirals\nNoon fails behind the grate where tired wings rest\nLittle roots thread the old mortar with slow patient green\nA quiet weight tilts the iron bowl toward the pale morning\nUnder one roof my name becomes a narrow bright door of aurum.",
+      "fused_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 5
+      },
+      "fusion_score": 5,
+      "fusion_local": 1,
+      "fusion_global": 3,
+      "provenance": [
+        {
+          "n": 1,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Tide"
+        },
+        {
+          "n": 2,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Hushed stone,"
+        },
+        {
+          "n": 3,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Ember holds gloam"
+        },
+        {
+          "n": 4,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Even 8721b4bd042a marks threshold"
+        },
+        {
+          "n": 5,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Iron breath climbs the north"
+        },
+        {
+          "n": 6,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Low moss gathers around the basin"
+        },
+        {
+          "n": 7,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Every echo learns the floor by heart"
+        },
+        {
+          "n": 8,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Empty lanterns count the dust in slow spirals"
+        },
+        {
+          "n": 9,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Noon fails behind the grate where tired wings rest"
+        },
+        {
+          "n": 10,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Little roots thread the old mortar with slow patient green"
+        },
+        {
+          "n": 11,
+          "source_k": 1,
+          "qualified": true,
+          "line": "A quiet weight tilts the iron bowl toward the pale morning"
+        },
+        {
+          "n": 12,
+          "source_k": 1,
+          "qualified": true,
+          "line": "Under one roof my name becomes a narrow bright door of aurum."
+        }
+      ],
+      "fallbacks": 0,
+      "best_parent_k": 1,
+      "parent_local": 1,
+      "parent_global": 3,
+      "p1": false,
+      "p1_strict": false,
+      "p2": true,
+      "p2_strict": true,
+      "constraint_deltas": {
+        "c1_growth": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c2_acrostic": {
+          "fused": false,
+          "best_parent": false,
+          "delta": 0
+        },
+        "c3_seal": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c4_no_rhyme": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c5_last_word_unique": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c6_punctuation": {
+          "fused": false,
+          "best_parent": false,
+          "delta": 0
+        }
+      }
+    }
+  ],
+  "counts": {
+    "p1_count": 0,
+    "p1_strict_count": 0,
+    "p2_count": 5,
+    "p2_strict_count": 5
+  },
+  "p3": {
+    "max_score": 5,
+    "mean_score": 4.6,
+    "holds": false
+  }
+}

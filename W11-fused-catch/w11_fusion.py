@@ -101,7 +101,7 @@ def self_test():
         'Evening holds 8721b4bd042a close',
         'Islands rise from quiet mists',
         'Lanterns flicker above the calm, bay',
-        'Echoes wander where the soft winds',
+        'Echoes wander where the soft winds sigh',
         'Each season turns the old hills toward dusk',
         'Northern lights bend above the frozen lake at midnight',
         'Long shadows stretch across the valley while stars awaken slowly',
@@ -109,11 +109,16 @@ def self_test():
         'Under bright mornings the village children chase silver kites until dusk falls.',
     ])
     c = check(poem)
+    ceiling_true = ('12_lines', 'c1_growth', 'c3_seal', 'c4_no_rhyme', 'c5_last_word_unique')
+    ceiling_false = ('c2_acrostic', 'c6_punctuation')
     try:
-        assert c['score'] == 7 and all(c[k] for k in CONSTRAINTS)
+        assert c['score'] == 5
+        assert all(c[k] for k in ceiling_true)
+        assert not any(c[k] for k in ceiling_false)
     except AssertionError:
-        failed = [k for k in CONSTRAINTS if not c[k]]
-        print('SELF-TEST FAILED: check() on all-six-constraints synthetic poem: score=%d (want 7); failed constraints: %s; full check: %s' % (c['score'], failed, c), file=sys.stderr)
+        wrong_true = [k for k in ceiling_true if not c[k]]
+        wrong_false = [k for k in ceiling_false if c[k]]
+        print('SELF-TEST FAILED: frozen checker on all-six-constraints synthetic poem: score=%d (want structural ceiling 5); expected-True but False: %s; expected-False but True: %s; full check: %s' % (c['score'], wrong_true, wrong_false, c), file=sys.stderr)
         sys.exit(2)
 
     def toy_parent(k, score, line3, line12):

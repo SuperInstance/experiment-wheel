@@ -1,0 +1,144 @@
+{
+  "note": "cross-check per W11 sealed amendment 1: corrected lens over W6/W7 committed artifacts; zero model calls; artifacts untouched",
+  "w6b": [
+    {
+      "tag": "W6b solo claude",
+      "frozen": 4,
+      "prime": 5,
+      "flips": [
+        "c2_acrostic"
+      ]
+    },
+    {
+      "tag": "W6b solo kimi",
+      "frozen": 4,
+      "prime": 4,
+      "flips": []
+    },
+    {
+      "tag": "W6b solo flash",
+      "frozen": 2,
+      "prime": 2,
+      "flips": []
+    },
+    {
+      "tag": "W6b solo wesley",
+      "frozen": 2,
+      "prime": 2,
+      "flips": []
+    },
+    {
+      "tag": "W6b copy 0",
+      "frozen": 1,
+      "prime": 1,
+      "flips": []
+    },
+    {
+      "tag": "W6b copy 1",
+      "frozen": 1,
+      "prime": 1,
+      "flips": []
+    },
+    {
+      "tag": "W6b braid final",
+      "frozen": 2,
+      "prime": 3,
+      "flips": [
+        "c2_acrostic"
+      ]
+    }
+  ],
+  "w6a": [],
+  "w7": [
+    [
+      "W7 solo claude",
+      4,
+      6,
+      [
+        "c2_acrostic",
+        "c6_punctuation"
+      ]
+    ],
+    [
+      "W7 solo kimi",
+      4,
+      4,
+      []
+    ],
+    [
+      "W7 solo flash",
+      2,
+      2,
+      []
+    ],
+    [
+      "W7 solo wesley",
+      2,
+      2,
+      []
+    ],
+    [
+      "W7 ASC final",
+      5,
+      7,
+      [
+        "c2_acrostic",
+        "c6_punctuation"
+      ]
+    ],
+    [
+      "W7 ASC hand wesley",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 ASC hand flash",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 ASC hand kimi",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 ASC hand claude",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 DESC final",
+      2,
+      2,
+      []
+    ],
+    [
+      "W7 DESC hand claude",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 DESC hand kimi",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 DESC hand flash",
+      null,
+      null,
+      []
+    ],
+    [
+      "W7 DESC hand wesley",
+      null,
+      null,
+      []
+    ]
+  ]
+}

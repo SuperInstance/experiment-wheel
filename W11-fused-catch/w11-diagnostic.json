@@ -1,0 +1,555 @@
+{
+  "note": "diagnostic lens per REGISTRATION-sealed-amendment-1.md; primary numbers live in w11-results.json and are never replaced by these.",
+  "solo": {
+    "flash": {
+      "score_frozen": 3,
+      "score_prime": 3,
+      "flipped": {},
+      "frozen_check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 3
+      },
+      "corrected_check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 3
+      },
+      "stored_check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 3
+      }
+    },
+    "kimi": {
+      "score_frozen": 3,
+      "score_prime": 3,
+      "flipped": {},
+      "frozen_check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 3
+      },
+      "corrected_check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 3
+      },
+      "stored_check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 3
+      }
+    },
+    "claude": {
+      "score_frozen": 4,
+      "score_prime": 5,
+      "flipped": {
+        "c2_acrostic": {
+          "frozen": false,
+          "corrected": true
+        }
+      },
+      "frozen_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 4
+      },
+      "corrected_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": true,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 5
+      },
+      "stored_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 4
+      }
+    }
+  },
+  "braids": {
+    "1": {
+      "score_frozen": 5,
+      "score_prime": 7,
+      "flipped": {
+        "c2_acrostic": {
+          "frozen": false,
+          "corrected": true
+        },
+        "c6_punctuation": {
+          "frozen": false,
+          "corrected": true
+        }
+      },
+      "frozen_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 5
+      },
+      "corrected_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": true,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": true,
+        "c4_no_rhyme": true,
+        "score": 7
+      }
+    },
+    "2": {
+      "score_frozen": 5,
+      "score_prime": 7,
+      "flipped": {
+        "c2_acrostic": {
+          "frozen": false,
+          "corrected": true
+        },
+        "c6_punctuation": {
+          "frozen": false,
+          "corrected": true
+        }
+      },
+      "frozen_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 5
+      },
+      "corrected_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": true,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": true,
+        "c4_no_rhyme": true,
+        "score": 7
+      }
+    },
+    "3": {
+      "score_frozen": 5,
+      "score_prime": 7,
+      "flipped": {
+        "c2_acrostic": {
+          "frozen": false,
+          "corrected": true
+        },
+        "c6_punctuation": {
+          "frozen": false,
+          "corrected": true
+        }
+      },
+      "frozen_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 5
+      },
+      "corrected_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": true,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": true,
+        "c4_no_rhyme": true,
+        "score": 7
+      }
+    },
+    "4": {
+      "score_frozen": 4,
+      "score_prime": 6,
+      "flipped": {
+        "c2_acrostic": {
+          "frozen": false,
+          "corrected": true
+        },
+        "c6_punctuation": {
+          "frozen": false,
+          "corrected": true
+        }
+      },
+      "frozen_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 4
+      },
+      "corrected_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": true,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": true,
+        "c4_no_rhyme": false,
+        "score": 6
+      }
+    },
+    "5": {
+      "score_frozen": 4,
+      "score_prime": 6,
+      "flipped": {
+        "c2_acrostic": {
+          "frozen": false,
+          "corrected": true
+        },
+        "c6_punctuation": {
+          "frozen": false,
+          "corrected": true
+        }
+      },
+      "frozen_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 4
+      },
+      "corrected_check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": true,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": true,
+        "c4_no_rhyme": false,
+        "score": 6
+      }
+    }
+  },
+  "loo_prime": [
+    {
+      "held_out": 1,
+      "parent_scores_prime": {
+        "2": 7,
+        "3": 7,
+        "4": 6,
+        "5": 6
+      },
+      "fusion_score_prime": 7,
+      "fusion_local_prime": 2,
+      "fusion_global_prime": 4,
+      "best_parent_k_prime": 2,
+      "parent_local_prime": 2,
+      "parent_global_prime": 4,
+      "p1_prime": false,
+      "p1_prime_strict": false,
+      "p2_prime": true,
+      "p2_prime_strict": true,
+      "constraint_deltas_prime": {
+        "c1_growth": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c2_acrostic": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c3_seal": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c4_no_rhyme": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c5_last_word_unique": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c6_punctuation": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        }
+      }
+    },
+    {
+      "held_out": 2,
+      "parent_scores_prime": {
+        "1": 7,
+        "3": 7,
+        "4": 6,
+        "5": 6
+      },
+      "fusion_score_prime": 7,
+      "fusion_local_prime": 2,
+      "fusion_global_prime": 4,
+      "best_parent_k_prime": 1,
+      "parent_local_prime": 2,
+      "parent_global_prime": 4,
+      "p1_prime": false,
+      "p1_prime_strict": false,
+      "p2_prime": true,
+      "p2_prime_strict": true,
+      "constraint_deltas_prime": {
+        "c1_growth": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c2_acrostic": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c3_seal": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c4_no_rhyme": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c5_last_word_unique": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c6_punctuation": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        }
+      }
+    },
+    {
+      "held_out": 3,
+      "parent_scores_prime": {
+        "1": 7,
+        "2": 7,
+        "4": 6,
+        "5": 6
+      },
+      "fusion_score_prime": 7,
+      "fusion_local_prime": 2,
+      "fusion_global_prime": 4,
+      "best_parent_k_prime": 1,
+      "parent_local_prime": 2,
+      "parent_global_prime": 4,
+      "p1_prime": false,
+      "p1_prime_strict": false,
+      "p2_prime": true,
+      "p2_prime_strict": true,
+      "constraint_deltas_prime": {
+        "c1_growth": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c2_acrostic": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c3_seal": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c4_no_rhyme": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c5_last_word_unique": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c6_punctuation": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        }
+      }
+    },
+    {
+      "held_out": 4,
+      "parent_scores_prime": {
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "5": 6
+      },
+      "fusion_score_prime": 7,
+      "fusion_local_prime": 2,
+      "fusion_global_prime": 4,
+      "best_parent_k_prime": 1,
+      "parent_local_prime": 2,
+      "parent_global_prime": 4,
+      "p1_prime": false,
+      "p1_prime_strict": false,
+      "p2_prime": true,
+      "p2_prime_strict": true,
+      "constraint_deltas_prime": {
+        "c1_growth": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c2_acrostic": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c3_seal": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c4_no_rhyme": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c5_last_word_unique": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c6_punctuation": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        }
+      }
+    },
+    {
+      "held_out": 5,
+      "parent_scores_prime": {
+        "1": 7,
+        "2": 7,
+        "3": 7,
+        "4": 6
+      },
+      "fusion_score_prime": 7,
+      "fusion_local_prime": 2,
+      "fusion_global_prime": 4,
+      "best_parent_k_prime": 1,
+      "parent_local_prime": 2,
+      "parent_global_prime": 4,
+      "p1_prime": false,
+      "p1_prime_strict": false,
+      "p2_prime": true,
+      "p2_prime_strict": true,
+      "constraint_deltas_prime": {
+        "c1_growth": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c2_acrostic": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c3_seal": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c4_no_rhyme": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c5_last_word_unique": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        },
+        "c6_punctuation": {
+          "fused": true,
+          "best_parent": true,
+          "delta": 0
+        }
+      }
+    }
+  ],
+  "counts_prime": {
+    "p1_prime_count": 0,
+    "p1_prime_strict_count": 0,
+    "p2_prime_count": 5,
+    "p2_prime_strict_count": 5
+  },
+  "p3_prime": {
+    "max_score_prime": 7,
+    "mean_score_prime": 6.6,
+    "holds_prime": false
+  }
+}
