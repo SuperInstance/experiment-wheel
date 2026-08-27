@@ -1,0 +1,122 @@
+{
+  "draws": [
+    {
+      "draw_id": "20260828-kimi-d1",
+      "yard": "kimi",
+      "poem": "\u2022 The\n  Hollow stairs\n  Echo under dust\n  Empty portraits guard the hall\n  I trace the faded walls\n  Lanterns gutter low\n  Every door conceals a key\n  Even mirrors hold their breath\n  Nothing stirs behind the curtain\n  Light seeps through the narrow seam\n  A whisper counts the hours, slow\n  Under floorboards sleeps the seal 0b1a2c3d4e5f named silence.\n\n",
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 2
+      }
+    },
+    {
+      "draw_id": "20260828-claude-d1",
+      "yard": "claude",
+      "poem": "The\nHollow dark\nEchoes in silence\nEnter 27b4d8e1f5a9 somehow here\nInner chambers remain, still waiting\nLocked doors preserve ancient dusty air\nEmpty halls hold secrets nobody knows well\nEvery stone remembers whispers of the past\nNo light ever reaches far into these dark walls\nListen to the distant sound of time itself moving slowly\nAll memory fades away but stone still endures through the ages\nUnder this chamber sleeps something ancient cold and unknown deep within forever.\n",
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 4
+      }
+    },
+    {
+      "draw_id": "20260828-flash-d1",
+      "yard": "flash",
+      "poem": "Trembling  \nhushed echoes trace  \nthe chamber\u2019s cold,  \nevery stone remembers a name  \nsealed in silence beneath the floor  \nwhere breath becomes a ghost of sound  \nand shadows learn the shape of my despair  \nthe walls lean inward like old confessions  \nI count the cracks as if they were prayers  \nbut no god answers this hollow arithmetic  \na single candle gutters on the ledge  \nits flame a dying witness to the dark 8721b4bd042a",
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 3
+      }
+    },
+    {
+      "draw_id": "20260828-wesley-d1",
+      "yard": "wesley",
+      "poem": "1. E\n2. The chamber's heart, a silent place,\n3. Where shadows weave their tales.\n4. L\n5. Its walls, like whispers, hold no sound,\n6. A secret room, profound.\n7. E\n8. Echoes of past, in silence kept,\n9. Intricate, like a crypt.\n10. L\n11. Lace of time, untouched by hand,\n12. A relic from an ancient land.\n12. Hex seal: 21b4bd042a\n\n(The final line, \"land,\" appears only once, fulfilling the constraint.)",
+      "check": {
+        "12_lines": false,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": false,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 0
+      }
+    }
+  ],
+  "chosen": [
+    {
+      "seed_id": "S1",
+      "draw_id": "20260828-claude-d1",
+      "yard": "claude",
+      "poem": "The\nHollow dark\nEchoes in silence\nEnter 27b4d8e1f5a9 somehow here\nInner chambers remain, still waiting\nLocked doors preserve ancient dusty air\nEmpty halls hold secrets nobody knows well\nEvery stone remembers whispers of the past\nNo light ever reaches far into these dark walls\nListen to the distant sound of time itself moving slowly\nAll memory fades away but stone still endures through the ages\nUnder this chamber sleeps something ancient cold and unknown deep within forever.\n",
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 4
+      }
+    },
+    {
+      "seed_id": "S2",
+      "draw_id": "20260828-flash-d1",
+      "yard": "flash",
+      "poem": "Trembling  \nhushed echoes trace  \nthe chamber\u2019s cold,  \nevery stone remembers a name  \nsealed in silence beneath the floor  \nwhere breath becomes a ghost of sound  \nand shadows learn the shape of my despair  \nthe walls lean inward like old confessions  \nI count the cracks as if they were prayers  \nbut no god answers this hollow arithmetic  \na single candle gutters on the ledge  \nits flame a dying witness to the dark 8721b4bd042a",
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 3
+      }
+    }
+  ],
+  "seed_pass": {
+    "S1": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": true,
+      "c4_no_rhyme": true,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false
+    },
+    "S2": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c4_no_rhyme": true,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false
+    }
+  },
+  "chosen_seeds": [
+    "S1",
+    "S2"
+  ]
+}
