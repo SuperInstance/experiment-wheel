@@ -165,11 +165,97 @@ intersection law's probabilistic clause has been missing.
 Budget cap: ≤ 60 model calls (≤ 8 seed draws + 48 revisions), one
 evening.
 
-## Station W9 — THE NEVER-HELD KERNEL (stub)
+## Station W9 — THE NEVER-HELD KERNEL
 
-Grows from W7 footnote 2. Assault c2+c6 with crew shapes (ensemble,
-scaffold, attorney decomposition) to separate model-class walls from
-prompt-shape artifacts. [Filled in below.]
+*Grows from: **W7 footnote 2** — c2_acrostic and c6_punctuation held by
+NO yard in ANY condition across W6b + W7 (fresh draws, solos, copies,
+both braids). No ceiling effect: 5/6 is the honest top, and the two
+missing points are always the same two.*
+
+### The question (one)
+
+Are c2 and c6 **model-class walls** — constraints no shape of this crew
+can hold — or artifacts of ONE prompt shape (the W6b task string) that a
+different crew shape breaks? Across W6b+W7 the attempted shapes are:
+solo ×8, copies, two braid orders. Never attempted: high-N ensembles,
+scaffolded (worksheet-style) presentation, and constraint-attorney
+decomposition. Before the fleet routes these constraints to instruments,
+someone owes the minds a fair trial at more than one shape.
+
+### The shapes (each pre-stated; no model sees check() ever)
+
+- **SH-1 — ensemble at N:** 16 independent draws per yard on the VERBATIM
+  W6b task (temperature as W6b). Answers the small-N objection first:
+  was 0/8 solo a thin draw? Pooled 64 draws per constraint.
+- **SH-2 — scaffold:** identical constraint INFORMATION, worksheet
+  presentation — "line 1: one word, begins with T; line 2: two words,
+  begins with H; …" (12 rows listed explicitly). Externalizes the plan;
+  changes presentation, not information. The task text already states
+c1 and c2 fully, so this leaks nothing new.
+- **SH-3 — attorney decomposition:** three specialized hands in sequence,
+  each seeing a REDUCED task: content draft (free 12-line poem) →
+  letter-and-count pass ("rewrite each line to begin with the required
+  letter and contain the required word count; change nothing else") →
+  formatting pass (c6 only: "exactly one comma, one period, no other
+  punctuation, capitals only line-initial"). This is the intersection
+  law's boundary test: does a hand's hold-set GROW when the task
+  shrinks? (L1 was consolidated on same-task chains; decomposition
+  changes the per-hand task, which the law never covered.)
+- **SH-4 — c6 minimal-fix arm:** take an otherwise ≥3/6 seed draft; the
+  hand fixes ONLY punctuation/caps. Isolates formatting discipline from
+  everything else.
+
+### Crew
+
+All four yards (claude, kimi, flash, wesley) for SH-1; claude + kimi +
+flash for SH-2/SH-3/SH-4 (the 4-point hands; wesley's 2-point ceiling
+adds little here — noted, not hidden). Yard availability guard: a yard
+that fails its CLI/API check drops out, recorded as such.
+
+### Seeds and bars
+
+Seed base 20260829 (draft draws and ensemble seeds; SH-1 uses
+20260829+k per draw). **"Holds" = single pass under the W6b checker,
+no re-rolls, ever.** Bars pre-stated:
+
+- **c6 falls** if ANY shape holds it ≥ 1/8 within that shape → c6 is
+  promptable; formatting discipline is a workflow problem.
+- **c2 stands (wall)** if pooled holds = 0 across ≥ 48 shape-attempts →
+  model-class wall at this crew, 95% CI upper ≈ 6.1% (rule of three,
+  3/48). If c2 is held by ANY shape → the "never-held kernel" was a
+  prompt artifact and the queue's later stations inherit a wider
+  design space than they were designed for (W10's engineered chains
+can target c2; W11's fusion can vote on it).
+- Report BOTH rates always: **mind-only** (draft passes unaided) and
+  **fleet-selected** (checker picks the passing draft from N — the W1
+  selector precedent; legitimate fleet-side instrument, but a different
+  claim and reported as a different number).
+
+### PREDICTION (on record)
+
+Undersold: **c6 falls** (SH-3's formatting pass or SH-4 holds it ≥ 1/8);
+**c2 stands** (0/≥48 pooled — the acrostic×growth interlock is a
+  planning limit, not a presentation limit; scaffolding re-arranges the
+  information but the hand still has to execute a 12-line joint plan).
+
+### Kill gate
+
+≤ 200 model calls total, one evening. If SH-1's 64-draw baseline alone
+holds c2 or c6, later shapes still run (rate estimation), but the wall
+question is already answered NO at the ensemble shape — record it and
+let the budget go to measuring, not re-arguing.
+
+### What the verdict MEANS for the fleet
+
+If c6 falls and c2 stands, the Waters doctrine gains a **wall table**:
+constraints split into pliable (minds, with the right shape) and walls
+(instruments — the post-processor fixes punctuation the way the
+SQUALL watchman holds one cue; c2-class joint planning gets decomposed
+or abandoned, never assigned to a single mind cold). If BOTH fall, the
+never-held kernel dissolves — every "wall" claim in the doctrine gets
+re-audited for prompt-shape artifacts before it's allowed to stand. If
+NEITHER falls, the kernel is confirmed as this model class's ceiling
+and W10/W11 design around it permanently.
 
 ## Station W10 — LAW AS HELM (stub)
 
