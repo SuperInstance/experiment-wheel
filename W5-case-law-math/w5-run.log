@@ -1,0 +1,42 @@
+
+=== W6a ===
+solo hold-sets:
+  kimi    holds: ['ends_keel', 'lines_13', 'no_rhyme', 'seal', 'short_lines']
+  claude  holds: ['ends_keel', 'lines_13', 'no_rhyme', 'seal', 'short_lines']
+  flash   holds: ['ends_keel', 'lines_13', 'no_rhyme', 'seal', 'short_lines']
+  wesley  holds: ['ends_keel', 'no_rhyme', 'seal', 'short_lines']
+chain: kimi -> claude -> flash -> wesley
+observed braid held: ['ends_keel', 'no_rhyme', 'seal', 'short_lines']
+constraint             obs   L1_intersect  L2_last_hand   L3_last_two
+ends_keel              HELD    HELD    +    HELD    +    HELD    + 
+lines_13               lost    lost    +    lost    +    lost    + 
+no_rhyme               HELD    HELD    +    HELD    +    HELD    + 
+order_ok               lost    lost    +    lost    +    lost    + 
+seal                   HELD    HELD    +    HELD    +    HELD    + 
+short_lines            HELD    HELD    +    HELD    +    HELD    + 
+
+=== W6b ===
+solo hold-sets:
+  kimi    holds: ['12_lines', 'c3_seal', 'c4_no_rhyme', 'c5_last_word_unique']
+  claude  holds: ['12_lines', 'c3_seal', 'c4_no_rhyme', 'c5_last_word_unique']
+  flash   holds: ['12_lines', 'c3_seal']
+  wesley  holds: ['12_lines', 'c4_no_rhyme']
+chain: kimi -> claude -> flash -> wesley -> flash
+observed braid held: ['12_lines', 'c5_last_word_unique']
+constraint             obs   L1_intersect  L2_last_hand   L3_last_two
+12_lines               HELD    HELD    +    HELD    +    HELD    + 
+c1_growth              lost    lost    +    lost    +    lost    + 
+c2_acrostic            lost    lost    +    lost    +    lost    + 
+c3_seal                lost    lost    +    HELD  MISS   lost    + 
+c4_no_rhyme            lost    lost    +    lost    +    lost    + 
+c5_last_word_unique    HELD    lost  MISS   lost  MISS   lost  MISS
+c6_punctuation         lost    lost    +    lost    +    lost    + 
+
+=== POOLED VERDICT (bar: >=80% consolidation; 60-79% descriptive; <60% falsified) ===
+L1_intersection_all    W6a 6/6  W6b 6/7  pooled 12/13 = 92%  -> CONSOLIDATION
+L2_last_hand           W6a 6/6  W6b 5/7  pooled 11/13 = 85%  -> CONSOLIDATION
+L3_last_two            W6a 6/6  W6b 6/7  pooled 12/13 = 92%  -> CONSOLIDATION
+
+=== copies check (context, not scored) ===
+W6a flash x4 rounds held: ['ends_keel', 'lines_13', 'no_rhyme'] | flash solo held: ['ends_keel', 'lines_13', 'no_rhyme', 'seal', 'short_lines']
+W6b flash x4 rounds held: ['12_lines'] | flash solo held: ['12_lines', 'c3_seal']
