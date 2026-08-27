@@ -1,0 +1,60 @@
+{
+  "solo": {
+    "claude": {
+      "check": {
+        "12_lines": false,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": false,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 1
+      },
+      "check2p": false,
+      "poem": "You've hit your session limit \u00b7 resets 11:10am (America/Anchorage)\n"
+    },
+    "kimi": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 4
+      },
+      "check2p": false,
+      "poem": "\u2022 The\n  Heavy curtains\n  Echoes gather slowly\n  Each wall holds breath\n  Inside the lamps burn low\n  Long shadows lean across the floor\n  Every door was closed before the dusk\n  Even silence seems to wait here, counting nothing\n  No footstep dares disturb the dust upon the stair\n  Low voices trade their rumors through the cracks then fade away\n  A single candle gutters while the patient hours unspool without witness\n  Under lock and key the chamber keeps its secret mark 0b1c2d3e4f5a forever.\n\n"
+    },
+    "flash": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 2
+      },
+      "check2p": false,
+      "poem": "trembling  \nthe chamber waits, cold  \nechoes trace my skin  \nthrough shadows where she breathes  \nher silence folds me deeper still  \ni count the cracks like prayers  \neach stone remembers what i fear  \nthe dark has learned my name by heart  \nyet i step forward toward the hollow  \nand her eyes are wells of ancient night  \nthe floor descends beneath my searching feet  \nuntil the final door yields to my hand, then light."
+    },
+    "wesley": {
+      "check": {
+        "12_lines": false,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": false,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 0
+      },
+      "check2p": false,
+      "poem": "The chamber, hushed and cold,\nEmbodies solitude.\nI, Eileen, find my hold,\nIn this sacred, quiet hole.\n\nHexadecimal seal: 441a\n\nIn here, no sound echoes,\nJust silence, deep and slow.\nMy thoughts, like whispers, grow,\nUnheard by anyone.\n\nEileen, alone, I stand,\nIn this space, unseen by all.\nThe world outside, so grand,\nYet, here, it does not call.\n\nThis chamber, small and tight,\nHolds mysteries I seek.\nIn its quiet, I ignite\nA spark of curiosity.\n\nPeriod.\n\nHere, my heart beats steady,\nUnperturbed by worldly noise.\nIn solitude, I've come to see\nThe chamber's tranquil joys.\n\nThe final word, \"echoes,\"\nLives only in this space."
+    }
+  }
+}
