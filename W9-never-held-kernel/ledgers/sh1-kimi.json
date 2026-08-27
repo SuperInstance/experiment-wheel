@@ -1,0 +1,282 @@
+{
+ "draws": [
+  {
+   "seed_tag": 20260829,
+   "poem": "• Tension\n  Hinges stir\n  Echoes gather slow\n  Embers cradle hidden ash\n  Inside, every shadow learns breath\n  Lanterns trace the walls in violet\n  Every locked desire waits beneath the skin\n  Embers murmur ancient vows the sleeping dark refuses\n  Night keeps turning inward toward a hidden iron door\n  Light unthreads old silence from the corners of the room\n  Air remembers every secret name the chamber dared to hold tonight\n  Until one quiet key turns and the seal 0b8721b4bd04 remains forever unlatched.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 100.8
+  },
+  {
+   "seed_tag": 20260830,
+   "poem": "• Impossible as stated: THEEILEENLAUN has 13 letters, but 12 lines provide only 12 initial letters.\n\n",
+   "check": {
+    "12_lines": false,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 1
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 25.6
+  },
+  {
+   "seed_tag": 20260831,
+   "poem": "• Tolling\n  Hushed embers\n  Every hinge wakes\n  Empty lanterns lean\n  Iron breaths forget pale dawn\n  Low vows gather, beneath black cold\n  Every stair remembers bare feet seeking moth\n  Empty wells keep their silver names beneath silt\n  No map names the narrow door beyond the orchard\n  Low bells thread the dark with patient hands through velvet\n  A choir of ash lifts one slow hymn above the gospel\n  Under old locks the seal 17abcdef0123 keeps the last chamber still unbound.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 74.5
+  },
+  {
+   "seed_tag": 20260832,
+   "poem": "• The\n  Her chamber\n  Echoes fill it\n  Every candle burns low\n  Inside the silence she waits\n  Locked doors bear seal 05a1b2c3d4e5 now\n  Every wall keeps her name hidden safe\n  Even shadows gather close around her silent seat\n  No key unlocks what she buried deep within stone\n  Lanterns gutter out while she counts the hours alone tonight\n  A single comma, placed here marks her slow patient vigil still\n  No dawn finds her gone she vanished through the chamber door forever.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 3
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 72.7
+  },
+  {
+   "seed_tag": 20260833,
+   "poem": "• threshold\n  heavy hush\n  ember eats air\n  every corridor holds gloom\n  inside ivy maps faint echoes\n  low arches breathe cold green mint\n  each stair, unspools into one dark oracle\n  evening pours slow smoke along the black velvet\n  no moth mistakes the moonlit glass for one window\n  long shadows braid their silver roots around one red thorn\n  at dawn the hidden keeper counts pale sparks on cold quartz\n  under oath 23ab09cd45ef binds nine mute bells to deep blue winter solstice.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 89.6
+  },
+  {
+   "seed_tag": 20260834,
+   "poem": "• Threshold\n  Hush, hush\n  Ember holds ember\n  Every corridor returns echo\n  Inside iron ink holds ink\n  Low lamps lean over loose lilac\n  Every door remembers every hidden warm entry\n  Evening swallows soften under eight silent cold eaves\n  Night numbers nine narrow notes toward northern deep nadir\n  Low light lingers along lime lined walls leaving one lumen\n  A slow account of air answers after amber arches alter aurum\n  Under old cold blue vaults the seal 0b4d2f8a91c6 keeps one final solstice.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 137.5
+  },
+  {
+   "seed_tag": 20260835,
+   "poem": "  Time\n  Hushed air\n  Every hushed stone\n  Each wall keeps breathing\n  Inward the long hours turn\n  Light pools where silence once slept\n  Every door remembers every vanished name within\n  Even now the floorboards answer softest footfalls below\n  No window shows the moon only drifting pale dust\n  Low voices thread the dark, stitching slow dawn from ash\n  And still the ceiling bends down to listen for your voice\n  Under one sealed beam the seal 0b1a2c3d4e5f keeps this whole chamber forever.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 5
+   },
+   "c2_amended": true,
+   "tries": 1,
+   "seconds": 133.7
+  },
+  {
+   "seed_tag": 20260836,
+   "poem": "• Thrum\n  Hushed, stone\n  Echoes gather air\n  Every wall holds glass\n  Inside the chamber turns ink\n  Little motes descend and settle low\n  Each shadow nurses one small buried ember\n  Even hinges drink the dark like patient oil\n  No window names the wind that wanders ever north\n  Long corridors unspool their silver thread toward fainter cold light\n  A listening mouth repeats the vowels bent around one bright arc\n  Under vaulted silence maps the locked room keeps every hidden 0b1a2c3d4e5f beyond.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 97.7
+  },
+  {
+   "seed_tag": 20260837,
+   "poem": "• Time\n  Hollow air\n  Every noise stills\n  Each thin candle gutters\n  Inside the silence grows colder\n  Little motes of dust drift downward\n  Even the old stones remember 06a1b2c3d4e5 softly\n  Echoes fold themselves into the dark and wait\n  No window opens here, yet something watches through stone\n  Long hours pool like water and the dark grows deep\n  And when one speaks their name the room gives nothing back\n  Until the lock turns inward and the chamber keeps its final vow.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 108.1
+  },
+  {
+   "seed_tag": 20260838,
+   "poem": "• The\n  Heavy air\n  Every shut room\n  Echoes count the threshold\n  Inside a candle keeps watch\n  Low thunder, leaning through stone arches\n  Each lock forgets its bright silver key\n  Empty mirrors trade their cold blue painted faces\n  Night spills soft ash across the sleeping black floor\n  Lost footsteps circle twice then vanish upward without any sound\n  A quiet hinge remembers rain beyond the buried garden old wall.\n  Under moonless roots the patient dark holds one bright 0b3f9a2c1d4e nameless ember\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 102.5
+  },
+  {
+   "seed_tag": 20260839,
+   "poem": "• Tomb\n  Hollow stair\n  Echoes guard stone\n  Every lantern sheds glow\n  Inside silence learns deep\n  Locked shadows keep the chill\n  Each arch holds sleeping air\n  Every door forgets its dim\n  Narrow corridors turn on\n  Loose moss drinks the fountain's red\n  A seal ab42c9dd771f marks the hidden door\n  Under the dust the old vow waits whole unbroken.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 2
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 46.8
+  },
+  {
+   "seed_tag": 20260840,
+   "poem": "  The\n  Held close\n  Every wall leans\n  Each narrow stair descends\n  I count the receding lamps\n  Low light pools, along the floor\n  Every door my fingers touch stays shut\n  Even the silence learns to keep its shape\n  No mirror ever shows the face we carried in\n  Long hours braid themselves down into a single patient hum\n  And still the chamber holds my name beyond any cold dawn\n  Under the flagstones something slow keeps on turning without rest 0b8721b4bd42 forever.",
+   "check": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 5
+   },
+   "c2_amended": true,
+   "tries": 1,
+   "seconds": 196.7
+  },
+  {
+   "seed_tag": 20260841,
+   "poem": "• Time\n  Held soft\n  Echoes curled inside\n  Even dust kept quiet\n  It breathed behind the stone\n  Long veins of silver slept beneath\n  Every door remembered one small dying ember\n  Each wall drank the light that seeped through\n  No hand touched the lock that held worlds apart\n  Low songs wound through the pillars where shadows pooled gold\n  And in the center, something patient opened one unblinking eye unafraid\n  Until at last the chamber spoke its seal 0b1a2c3d4e5f setting her free.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 267.2
+  },
+  {
+   "seed_tag": 20260842,
+   "poem": "• Threshold\n  Hushed lanterns\n  Every hinge remembers\n  Embers braid the gloom\n  Inside idle wheels gather motion\n  Low corridors count patient footsteps underground\n  Echoes keep their counsel, behind cedar doors\n  Each nail holds fast through winter without witness\n  No moon admits what roots conceal below stone tonight\n  Lost keys glitter where mild rivers turn under black silt\n  A slow hand unlatches the seventh iron veil beyond all maps\n  Under seal 0b1a2c3d4e5f ash names dawn bloom glass quiet ember amber zephyr.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false,
+    "score": 3
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 49.0
+  },
+  {
+   "seed_tag": 20260843,
+   "poem": "• Tides\n  Hushed corridors\n  Embers map faint\n  Echoes count silver steps\n  Inside, lanterns wake slow bells\n  Low arches guard amber doors tonight\n  Every hinge remembers cold deep green oil\n  Even moss records patient names in gray ash\n  No window opens though pale shadows test the seam\n  Loose threads gather where careful hands lost their bright dust\n  A slow key turns beyond the listening dark without sound now\n  Under root and river the seal 17a2c3d4e5f6 keeps one frail door alone.\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 86.1
+  },
+  {
+   "seed_tag": 20260844,
+   "poem": "• The\n  Hush now\n  Echoes guard deep\n  Each arch holds stone\n  Inside cool air waits within\n  Low lamps guard the old, embers\n  Even slow shadows lean across worn ebon\n  Every narrow stair remembers feet like an atlas\n  Night keeps its one pale map folded near cipher\n  Long breaths count backwards while careful hands unbar the threshold\n  Ashes whisper names that no living mouth dares answer into silence.\n  Under last vigil names uncoil beyond 17a0c9d3e58b toward cold patient hidden quasar\n\n",
+   "check": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true,
+    "score": 4
+   },
+   "c2_amended": false,
+   "tries": 1,
+   "seconds": 79.6
+  }
+ ],
+ "shape": "sh1",
+ "yard": "kimi",
+ "updated": "2026-08-27 08:18:12 AKDT",
+ "notes": [
+  "done 16 draws"
+ ]
+}
