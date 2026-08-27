@@ -67,10 +67,103 @@ instruments — the W1 selector precedent).
 
 ---
 
-## Station W8 — THE REVISER'S BLIND SIDE (stub)
+## Station W8 — THE REVISER'S BLIND SIDE
 
-Grows from W7 footnote 1. Mechanism + test for why solo capability
-fails in reviser mode. [Full spec in the W8 section — filled in below.]
+*Grows from: **W7 footnote 1** (kimi holds seal+rhyme solo, broke
+claude's passing seal as DESC hand-2, recovered both as ASC hand-3) and
+**W5's first honest miss** (last-hand prose falsified at constraint
+level — capability sets bound outcomes but do not determine them).*
+
+### The question (one)
+
+Why does a hand destroy a constraint it demonstrably holds SOLO when it
+revises another mind's draft? W7's own framing is the hypothesis to
+beat: *"a hand fixes what it notices broken and damages what it rewrites
+blind — the draft it receives decides which."* If that is right, the
+destruction is not capability loss; it is collateral damage from
+unverified rewriting, and prompt shape should be able to reach it.
+
+### The two mechanisms (pre-stated, discriminated by this run)
+
+- **M1 — BLIND-REWRITE:** the reviser verifies what it notices broken
+  and rewrites the rest without re-checking. Destruction of a passing
+  constraint is collateral of rewriting its carrier lines. Signature:
+destruction probability tracks per-line edit distance on the lines that
+  carry the constraint, and shrinkable by prompt.
+- **M2 — REVISION-MODE SWITCH:** revising is a different behavior than
+  composing; in revision mode the hand's effective hold-set shrinks
+  regardless of how much it rewrites. Signature: destruction independent
+  of edit distance, unaffected by any prompt regime. (A model-class
+  wall, not a workflow bug.)
+
+### Hand, task, crew
+
+Task: VERBATIM W6b/W7 chamber task and mechanical check(). Crew: kimi,
+claude, flash as revisers (each holds 3–4 constraints solo — the holder
+cells); wesley as non-holder control. Seed drafts: a fixed corpus of
+known-state drafts at score ≥3/6. W7's results record per-hand checks
+but NOT per-hand drafts, so seeds are regenerated at fire time:
+
+- **Seed draw (seed base 20260828):** one solo pass per yard; keep the
+  two best drafts; if none reaches 3/6, two more draws per yard max
+  (pre-stated cap). Seeds + their check() states COMMITTED before any
+  regime arm runs — the W3 G0-guard pattern inherited: the instrument's
+  raw material goes on record before the experiment touches it.
+
+### Protocol
+
+Crossed design: reviser {kimi, claude, flash, wesley} × regime {
+(i) **baseline** — W7's revision wording verbatim; (ii) **minimal-edit**
+— "change as few characters as possible; touch ONLY lines that violate
+a constraint"; (iii) **verify-then-fix** — "first list each numbered
+constraint with PASS or FAIL for this attempt, then output the corrected
+12 lines" (parse last 12 lines, the kimi pattern)}. Single pass per
+cell, no re-rolls. Every revision recorded with per-line edit distance
+on each constraint's carrier lines (c3: seal line; c2: all; c1: all;
+c5: final line; c4: line endings; c6: whole text).
+
+Cells: **holder cells** (reviser holds c solo, c passes in seed — the
+W7 kimi event) → destroyed? And **repair cells** (c broken in seed) →
+held? Non-holder cells ride along and become W10's p_destroy data.
+
+### PREDICTION (on record before any run)
+
+- **P1 (the gap is real):** baseline holder-cell destruction rate ≥ 15%
+  per revision. kimi's W7 kill was not a one-off.
+- **P2 (M1 is the mechanism):** (a) per-line edit distance on carrier
+  lines predicts destruction (logistic slope ≠ 0, p < 0.05, pooled
+  cells); AND (b) verify-then-fix cuts holder-cell destruction ≥ 50%
+  relative with Wilson CI separation, at ≤ 15 points absolute loss in
+  repair rate.
+
+### Bars, kill gate, falsifiers
+
+- **Kill gate:** no seed draft ≥ 3/6 after the draw cap → STOP, file
+  "nothing passing to destroy" — cannot study destruction of passing
+  constraints without passing constraints.
+- **Falsifier of the phenomenon:** P1 fails (0 holder-cell destructions
+  across ≥ 24 baseline holder cells) → the reviser-gap was a W7 one-off;
+  the intersection law's clean form strengthens and the fleet stops
+  paying for re-verification of held constraints. Filed as a NEGATIVE —
+  which would consolidate W5, not embarrass anyone.
+- **Falsifier of the mechanism:** P1 holds but P2 fails → the gap is
+  real and prompt-irreparable → M2, a revision-mode wall. Doctrine
+  shifts to instruments: verification of passing constraints goes to
+  the mechanical checker (fleet-side), never trusted to revising minds.
+
+### What the verdict MEANS for the fleet
+
+If M1 lands: reviser prompts on the Waters get verify-then-fix and
+minimal-edit mandates for passing lines — the cheapest intervention
+this whole queue could buy, two sentences of prompt, measured in one
+evening. If M2 lands: hold-sets are solo-mode objects only; revision
+chains must be ordered so held constraints are never re-exposed, and
+the checker becomes the only trusted re-verifier. Either branch feeds
+W10 a measured destruction/spare rate per hand — the number the
+intersection law's probabilistic clause has been missing.
+
+Budget cap: ≤ 60 model calls (≤ 8 seed draws + 48 revisions), one
+evening.
 
 ## Station W9 — THE NEVER-HELD KERNEL (stub)
 
