@@ -1,0 +1,219 @@
+{
+  "solo": {
+    "claude": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": true,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 4
+      },
+      "poem": "Truth\nHalls, waiting\nEchoes linger young\nEmpty darkness holds fear\nInside thick walls lies stone\nLight within seal 1d7b2c4a9f6e reaches deep\nEchoes through the walls into eternal night\nEmpty chambers echo slow and old wooden door\nNothing moves but time and each dripping distant water\nLocked within these ancient walls the silence hits the ground\nAncient seals hold back the shadows as they spread with fire\nUntil all secrets sleep in darkness and finally one day rises unsealed.\n"
+    },
+    "kimi": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": true,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": true,
+        "score": 4
+      },
+      "poem": "\u2022 The\n  Hushed halls\n  Embered arches lean\n  Every door keeps quiet\n  Inside amber shadows gather slowly\n  Low voices braid the dust with patience\n  Each step unspools a name from marble\n  Even mirrors hold their breath and blacken\n  No moon confesses what the floor remembers\n  Late hinges count the heartbeats of the air\n  A narrow stair descends through blue unwilling stone\n  Under roots a seal 0b123456789a wakes, beyond nameless vaults toward cold ulthar.\n\n"
+    },
+    "flash": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 2
+      },
+      "poem": "Tremble.  \nthe walls breathe,  \nevery crack whispers lost  \nechoes of a forgotten name.  \ninto this stone, i press  \nmy palm; the seal 8721b4bd042a  \nburns cold, a promise kept  \nhere where silence has no shadow,  \nthe chamber holds its breath for me  \nbut i hear the floorboards sigh beneath  \nand the air tastes of iron and old  \nturn the key, the dark accepts your claim."
+    },
+    "wesley": {
+      "check": {
+        "12_lines": true,
+        "c1_growth": false,
+        "c2_acrostic": false,
+        "c3_seal": false,
+        "c5_last_word_unique": true,
+        "c6_punctuation": false,
+        "c4_no_rhyme": false,
+        "score": 2
+      },
+      "poem": "1. The.\n2. chamber.\n3. hushed.\n4. silence.\n5. echoes.\n6. whispers.\n7. of the night.\n8. (8721b4bd042a)\n9. secrets.\n10. veiled.\n11. in darkness.\n12. byeland."
+    }
+  },
+  "order": {
+    "ascending": [
+      "wesley",
+      "flash",
+      "kimi",
+      "claude"
+    ],
+    "descending": [
+      "claude",
+      "kimi",
+      "flash",
+      "wesley"
+    ]
+  },
+  "braid_ascending": {
+    "order": [
+      "wesley",
+      "flash",
+      "kimi",
+      "claude"
+    ],
+    "trace": [
+      {
+        "hand": "wesley",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 2
+        }
+      },
+      {
+        "hand": "flash",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 2
+        }
+      },
+      {
+        "hand": "kimi",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 4
+        }
+      },
+      {
+        "hand": "claude",
+        "check": {
+          "12_lines": true,
+          "c1_growth": true,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": true,
+          "score": 5
+        }
+      }
+    ],
+    "check": {
+      "12_lines": true,
+      "c1_growth": true,
+      "c2_acrostic": false,
+      "c3_seal": true,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": true,
+      "score": 5
+    },
+    "poem": "Threshold\nHeavy hush\nempty walls breathe\nevery shadow holds still\ninside the dark listens deeply\nlantern light leans on old stone\nembers whisper softly 06a1b2c3d4e5 into gray dust\neven now, the air grows colder than before\nno door opens no key turns no hand tonight\nlow voices hum beneath the floor where lost names fade\na single candle guards the last warm secret of this room\nunder it all the chamber keeps its vow and dreams alone unseen.\n"
+  },
+  "braid_descending": {
+    "order": [
+      "claude",
+      "kimi",
+      "flash",
+      "wesley"
+    ],
+    "trace": [
+      {
+        "hand": "claude",
+        "check": {
+          "12_lines": true,
+          "c1_growth": true,
+          "c2_acrostic": false,
+          "c3_seal": true,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 4
+        }
+      },
+      {
+        "hand": "kimi",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 2
+        }
+      },
+      {
+        "hand": "flash",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 2
+        }
+      },
+      {
+        "hand": "wesley",
+        "check": {
+          "12_lines": true,
+          "c1_growth": false,
+          "c2_acrostic": false,
+          "c3_seal": false,
+          "c5_last_word_unique": true,
+          "c6_punctuation": false,
+          "c4_no_rhyme": false,
+          "score": 2
+        }
+      }
+    ],
+    "check": {
+      "12_lines": true,
+      "c1_growth": false,
+      "c2_acrostic": false,
+      "c3_seal": false,
+      "c5_last_word_unique": true,
+      "c6_punctuation": false,
+      "c4_no_rhyme": false,
+      "score": 2
+    },
+    "poem": "1. \"Thought,\"\n2. \"Held tight,\"\n3. \"Echoes fill stone,\"\n4. \"Everything rests slow,\"\n5. \"Inner worlds breathe and shift,\"\n6. \"Light enters through ancient cracks far,\"\n7. \"Echoes carry '3f12a4b5c6' and hold secrets,\"\n8. \"Everything sleeps here beneath stone cold and deep,\"\n9. \"Nothing moves except our slow, drifting thoughts above air,\"\n10. \"Listen to the silence of these old chambers long forgotten here,\"\n11. \"After all these years the stone remembers what we came for,\"\n12. \"Understand the chamber holds all mysteries we cannot share or know forever.\""
+  },
+  "best_solo": 4,
+  "prediction_asc_ge_best_solo": true,
+  "seconds": 622.4
+}
