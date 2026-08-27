@@ -1,0 +1,11 @@
+{
+ "attempts": 1,
+ "log": [
+  {
+   "t": 1787845808.5452452,
+   "kind": "engineering",
+   "yard": "opencode",
+   "note": "checker write/verify task (one-shot opencode session, multi-step agent run): w9_check.py byte-identical + audit replay 12/12 PASS"
+  }
+ ]
+}
