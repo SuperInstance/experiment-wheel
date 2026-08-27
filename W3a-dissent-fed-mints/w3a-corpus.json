@@ -1,0 +1,4765 @@
+{
+ "seed": 20260827,
+ "n_per_category": 75,
+ "balance": {
+  "FOG/train": {
+   "n": 50,
+   "yes": 11
+  },
+  "FOG/test": {
+   "n": 25,
+   "yes": 6
+  },
+  "SQUALL/train": {
+   "n": 50,
+   "yes": 18
+  },
+  "SQUALL/test": {
+   "n": 25,
+   "yes": 9
+  },
+  "GONGO/train": {
+   "n": 50,
+   "yes": 28
+  },
+  "GONGO/test": {
+   "n": 25,
+   "yes": 9
+  },
+  "COLD/train": {
+   "n": 50,
+   "yes": 17
+  },
+  "COLD/test": {
+   "n": 25,
+   "yes": 10
+  }
+ },
+ "items": [
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.3,
+    "wind": 9
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 2.3\u00b0C, wind 9 kt. Question: is fog likely within the next few hours?",
+   "id": 0,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 4.4,
+    "wind": 8
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 4.4\u00b0C, wind 8 kt. Question: is fog likely within the next few hours?",
+   "id": 1,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 0.7,
+    "wind": 2
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 0.7\u00b0C, wind 2 kt. Question: is fog likely within the next few hours?",
+   "id": 2,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.5,
+    "wind": 7
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 2.5\u00b0C, wind 7 kt. Question: is fog likely within the next few hours?",
+   "id": 3,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 0.6,
+    "wind": 6
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 0.6\u00b0C, wind 6 kt. Question: is fog likely within the next few hours?",
+   "id": 4,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.7,
+    "wind": 5
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.7\u00b0C, wind 5 kt. Question: is fog likely within the next few hours?",
+   "id": 5,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 4.5,
+    "wind": 13
+   },
+   "band": [
+    2,
+    2
+   ],
+   "prompt": "Conditions: dew point depression 4.5\u00b0C, wind 13 kt. Question: is fog likely within the next few hours?",
+   "id": 6,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.7,
+    "wind": 6
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.7\u00b0C, wind 6 kt. Question: is fog likely within the next few hours?",
+   "id": 7,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 3.3,
+    "wind": 10
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 3.3\u00b0C, wind 10 kt. Question: is fog likely within the next few hours?",
+   "id": 8,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 3.8,
+    "wind": 1
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 3.8\u00b0C, wind 1 kt. Question: is fog likely within the next few hours?",
+   "id": 9,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.2,
+    "wind": 3
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.2\u00b0C, wind 3 kt. Question: is fog likely within the next few hours?",
+   "id": 10,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 4.5,
+    "wind": 11
+   },
+   "band": [
+    2,
+    2
+   ],
+   "prompt": "Conditions: dew point depression 4.5\u00b0C, wind 11 kt. Question: is fog likely within the next few hours?",
+   "id": 11,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.7,
+    "wind": 3
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.7\u00b0C, wind 3 kt. Question: is fog likely within the next few hours?",
+   "id": 12,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.5,
+    "wind": 4
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.5\u00b0C, wind 4 kt. Question: is fog likely within the next few hours?",
+   "id": 13,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.7,
+    "wind": 3
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.7\u00b0C, wind 3 kt. Question: is fog likely within the next few hours?",
+   "id": 14,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.6,
+    "wind": 7
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 2.6\u00b0C, wind 7 kt. Question: is fog likely within the next few hours?",
+   "id": 15,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.8,
+    "wind": 10
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 2.8\u00b0C, wind 10 kt. Question: is fog likely within the next few hours?",
+   "id": 16,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.3,
+    "wind": 8
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 2.3\u00b0C, wind 8 kt. Question: is fog likely within the next few hours?",
+   "id": 17,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.4,
+    "wind": 9
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 2.4\u00b0C, wind 9 kt. Question: is fog likely within the next few hours?",
+   "id": 18,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 0.9,
+    "wind": 8
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 0.9\u00b0C, wind 8 kt. Question: is fog likely within the next few hours?",
+   "id": 19,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 1.4,
+    "wind": 7
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 1.4\u00b0C, wind 7 kt. Question: is fog likely within the next few hours?",
+   "id": 20,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 4.4,
+    "wind": 4
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 4.4\u00b0C, wind 4 kt. Question: is fog likely within the next few hours?",
+   "id": 21,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 1.5,
+    "wind": 7
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 1.5\u00b0C, wind 7 kt. Question: is fog likely within the next few hours?",
+   "id": 22,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.3,
+    "wind": 4
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.3\u00b0C, wind 4 kt. Question: is fog likely within the next few hours?",
+   "id": 23,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 4.8,
+    "wind": 12
+   },
+   "band": [
+    2,
+    2
+   ],
+   "prompt": "Conditions: dew point depression 4.8\u00b0C, wind 12 kt. Question: is fog likely within the next few hours?",
+   "id": 24,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.1,
+    "wind": 2
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.1\u00b0C, wind 2 kt. Question: is fog likely within the next few hours?",
+   "id": 25,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 1.3,
+    "wind": 7
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 1.3\u00b0C, wind 7 kt. Question: is fog likely within the next few hours?",
+   "id": 26,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.3,
+    "wind": 7
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 2.3\u00b0C, wind 7 kt. Question: is fog likely within the next few hours?",
+   "id": 27,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.9,
+    "wind": 2
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.9\u00b0C, wind 2 kt. Question: is fog likely within the next few hours?",
+   "id": 28,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.4,
+    "wind": 7
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 2.4\u00b0C, wind 7 kt. Question: is fog likely within the next few hours?",
+   "id": 29,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.3,
+    "wind": 6
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.3\u00b0C, wind 6 kt. Question: is fog likely within the next few hours?",
+   "id": 30,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.7,
+    "wind": 3
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.7\u00b0C, wind 3 kt. Question: is fog likely within the next few hours?",
+   "id": 31,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 4.2,
+    "wind": 12
+   },
+   "band": [
+    2,
+    2
+   ],
+   "prompt": "Conditions: dew point depression 4.2\u00b0C, wind 12 kt. Question: is fog likely within the next few hours?",
+   "id": 32,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.2,
+    "wind": 6
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.2\u00b0C, wind 6 kt. Question: is fog likely within the next few hours?",
+   "id": 33,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 3.5,
+    "wind": 11
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: dew point depression 3.5\u00b0C, wind 11 kt. Question: is fog likely within the next few hours?",
+   "id": 34,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 1.2,
+    "wind": 8
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 1.2\u00b0C, wind 8 kt. Question: is fog likely within the next few hours?",
+   "id": 35,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.5,
+    "wind": 5
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.5\u00b0C, wind 5 kt. Question: is fog likely within the next few hours?",
+   "id": 36,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.6,
+    "wind": 9
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 2.6\u00b0C, wind 9 kt. Question: is fog likely within the next few hours?",
+   "id": 37,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 1.8,
+    "wind": 7
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 1.8\u00b0C, wind 7 kt. Question: is fog likely within the next few hours?",
+   "id": 38,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 1.3,
+    "wind": 9
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 1.3\u00b0C, wind 9 kt. Question: is fog likely within the next few hours?",
+   "id": 39,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.0,
+    "wind": 13
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: dew point depression 2.0\u00b0C, wind 13 kt. Question: is fog likely within the next few hours?",
+   "id": 40,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 1.9,
+    "wind": 7
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 1.9\u00b0C, wind 7 kt. Question: is fog likely within the next few hours?",
+   "id": 41,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.1,
+    "wind": 6
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.1\u00b0C, wind 6 kt. Question: is fog likely within the next few hours?",
+   "id": 42,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.5,
+    "wind": 3
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.5\u00b0C, wind 3 kt. Question: is fog likely within the next few hours?",
+   "id": 43,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 5.9,
+    "wind": 3
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 5.9\u00b0C, wind 3 kt. Question: is fog likely within the next few hours?",
+   "id": 44,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 3.9,
+    "wind": 4
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 3.9\u00b0C, wind 4 kt. Question: is fog likely within the next few hours?",
+   "id": 45,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.7,
+    "wind": 9
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 2.7\u00b0C, wind 9 kt. Question: is fog likely within the next few hours?",
+   "id": 46,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 3.8,
+    "wind": 5
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 3.8\u00b0C, wind 5 kt. Question: is fog likely within the next few hours?",
+   "id": 47,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 0.5,
+    "wind": 7
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 0.5\u00b0C, wind 7 kt. Question: is fog likely within the next few hours?",
+   "id": 48,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.5,
+    "wind": 3
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.5\u00b0C, wind 3 kt. Question: is fog likely within the next few hours?",
+   "id": 49,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 5.6,
+    "wind": 8
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 5.6\u00b0C, wind 8 kt. Question: is fog likely within the next few hours?",
+   "id": 50,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.4,
+    "wind": 4
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.4\u00b0C, wind 4 kt. Question: is fog likely within the next few hours?",
+   "id": 51,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.2,
+    "wind": 2
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.2\u00b0C, wind 2 kt. Question: is fog likely within the next few hours?",
+   "id": 52,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 1.9,
+    "wind": 9
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 1.9\u00b0C, wind 9 kt. Question: is fog likely within the next few hours?",
+   "id": 53,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.8,
+    "wind": 3
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.8\u00b0C, wind 3 kt. Question: is fog likely within the next few hours?",
+   "id": 54,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 5.2,
+    "wind": 9
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 5.2\u00b0C, wind 9 kt. Question: is fog likely within the next few hours?",
+   "id": 55,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 3.0,
+    "wind": 2
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 3.0\u00b0C, wind 2 kt. Question: is fog likely within the next few hours?",
+   "id": 56,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 5.1,
+    "wind": 1
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 5.1\u00b0C, wind 1 kt. Question: is fog likely within the next few hours?",
+   "id": 57,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.9,
+    "wind": 12
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: dew point depression 2.9\u00b0C, wind 12 kt. Question: is fog likely within the next few hours?",
+   "id": 58,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.6,
+    "wind": 4
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.6\u00b0C, wind 4 kt. Question: is fog likely within the next few hours?",
+   "id": 59,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.5,
+    "wind": 4
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.5\u00b0C, wind 4 kt. Question: is fog likely within the next few hours?",
+   "id": 60,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.2,
+    "wind": 6
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.2\u00b0C, wind 6 kt. Question: is fog likely within the next few hours?",
+   "id": 61,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.3,
+    "wind": 5
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.3\u00b0C, wind 5 kt. Question: is fog likely within the next few hours?",
+   "id": 62,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 3.0,
+    "wind": 8
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 3.0\u00b0C, wind 8 kt. Question: is fog likely within the next few hours?",
+   "id": 63,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.4,
+    "wind": 5
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.4\u00b0C, wind 5 kt. Question: is fog likely within the next few hours?",
+   "id": 64,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.4,
+    "wind": 6
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.4\u00b0C, wind 6 kt. Question: is fog likely within the next few hours?",
+   "id": 65,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 1.8,
+    "wind": 13
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: dew point depression 1.8\u00b0C, wind 13 kt. Question: is fog likely within the next few hours?",
+   "id": 66,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 1.7,
+    "wind": 7
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 1.7\u00b0C, wind 7 kt. Question: is fog likely within the next few hours?",
+   "id": 67,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.3,
+    "wind": 4
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.3\u00b0C, wind 4 kt. Question: is fog likely within the next few hours?",
+   "id": 68,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 5.2,
+    "wind": 12
+   },
+   "band": [
+    2,
+    2
+   ],
+   "prompt": "Conditions: dew point depression 5.2\u00b0C, wind 12 kt. Question: is fog likely within the next few hours?",
+   "id": 69,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.8,
+    "wind": 8
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 2.8\u00b0C, wind 8 kt. Question: is fog likely within the next few hours?",
+   "id": 70,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.9,
+    "wind": 6
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.9\u00b0C, wind 6 kt. Question: is fog likely within the next few hours?",
+   "id": 71,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.3,
+    "wind": 8
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: dew point depression 2.3\u00b0C, wind 8 kt. Question: is fog likely within the next few hours?",
+   "id": 72,
+   "split": "train"
+  },
+  {
+   "cat": "FOG",
+   "gt": true,
+   "feats": {
+    "dep": 1.6,
+    "wind": 5
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 1.6\u00b0C, wind 5 kt. Question: is fog likely within the next few hours?",
+   "id": 73,
+   "split": "test"
+  },
+  {
+   "cat": "FOG",
+   "gt": false,
+   "feats": {
+    "dep": 2.4,
+    "wind": 6
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: dew point depression 2.4\u00b0C, wind 6 kt. Question: is fog likely within the next few hours?",
+   "id": 74,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 0.1,
+    "wind": 13
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 0.1 hPa over the last 3 hours, wind 13 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 75,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 2.8,
+    "wind": 19
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 2.8 hPa over the last 3 hours, wind 19 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 76,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 2.8,
+    "wind": 7
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 2.8 hPa over the last 3 hours, wind 7 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 77,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 2.8,
+    "wind": 13
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 2.8 hPa over the last 3 hours, wind 13 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 78,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 2.5,
+    "wind": 6
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 2.5 hPa over the last 3 hours, wind 6 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 79,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": true,
+    "fall": 1.2,
+    "wind": 17
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.2 hPa over the last 3 hours, wind 17 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 80,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": true,
+    "fall": 0.9,
+    "wind": 14
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 0.9 hPa over the last 3 hours, wind 14 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 81,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 1.8,
+    "wind": 10
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.8 hPa over the last 3 hours, wind 10 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 82,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.3,
+    "wind": 19
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.3 hPa over the last 3 hours, wind 19 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 83,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 3.1,
+    "wind": 7
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 3.1 hPa over the last 3 hours, wind 7 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 84,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 2.7,
+    "wind": 15
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 2.7 hPa over the last 3 hours, wind 15 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 85,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 2.7,
+    "wind": 14
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 2.7 hPa over the last 3 hours, wind 14 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 86,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.6,
+    "wind": 18
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.6 hPa over the last 3 hours, wind 18 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 87,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 3.2,
+    "wind": 8
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 3.2 hPa over the last 3 hours, wind 8 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 88,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 2.1,
+    "wind": 16
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 2.1 hPa over the last 3 hours, wind 16 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 89,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.7,
+    "wind": 13
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.7 hPa over the last 3 hours, wind 13 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 90,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 2.0,
+    "wind": 13
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 2.0 hPa over the last 3 hours, wind 13 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 91,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.7,
+    "wind": 19
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.7 hPa over the last 3 hours, wind 19 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 92,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 2.1,
+    "wind": 8
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 2.1 hPa over the last 3 hours, wind 8 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 93,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 0.6,
+    "wind": 19
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 0.6 hPa over the last 3 hours, wind 19 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 94,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 3.3,
+    "wind": 6
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 3.3 hPa over the last 3 hours, wind 6 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 95,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.8,
+    "wind": 8
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.8 hPa over the last 3 hours, wind 8 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 96,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 2.8,
+    "wind": 7
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 2.8 hPa over the last 3 hours, wind 7 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 97,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.1,
+    "wind": 17
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.1 hPa over the last 3 hours, wind 17 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 98,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": true,
+    "fall": 1.0,
+    "wind": 9
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.0 hPa over the last 3 hours, wind 9 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 99,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": true,
+    "fall": 1.4,
+    "wind": 18
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.4 hPa over the last 3 hours, wind 18 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 100,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 1.5,
+    "wind": 19
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.5 hPa over the last 3 hours, wind 19 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 101,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": true,
+    "fall": 1.0,
+    "wind": 18
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.0 hPa over the last 3 hours, wind 18 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 102,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": true,
+    "fall": 1.3,
+    "wind": 11
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.3 hPa over the last 3 hours, wind 11 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 103,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.0,
+    "wind": 8
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.0 hPa over the last 3 hours, wind 8 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 104,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 1.6,
+    "wind": 18
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.6 hPa over the last 3 hours, wind 18 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 105,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.1,
+    "wind": 8
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.1 hPa over the last 3 hours, wind 8 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 106,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 1.8,
+    "wind": 11
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.8 hPa over the last 3 hours, wind 11 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 107,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 1.8,
+    "wind": 13
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.8 hPa over the last 3 hours, wind 13 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 108,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.0,
+    "wind": 10
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.0 hPa over the last 3 hours, wind 10 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 109,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": true,
+    "fall": 0.8,
+    "wind": 18
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 0.8 hPa over the last 3 hours, wind 18 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 110,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.8,
+    "wind": 9
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.8 hPa over the last 3 hours, wind 9 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 111,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 2.3,
+    "wind": 16
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 2.3 hPa over the last 3 hours, wind 16 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 112,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.4,
+    "wind": 16
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.4 hPa over the last 3 hours, wind 16 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 113,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.8,
+    "wind": 12
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.8 hPa over the last 3 hours, wind 12 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 114,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": true,
+    "fall": 0.9,
+    "wind": 6
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 0.9 hPa over the last 3 hours, wind 6 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 115,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": true,
+    "fall": 1.0,
+    "wind": 19
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.0 hPa over the last 3 hours, wind 19 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 116,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 2.0,
+    "wind": 4
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 2.0 hPa over the last 3 hours, wind 4 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 117,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.9,
+    "wind": 12
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.9 hPa over the last 3 hours, wind 12 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 118,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.3,
+    "wind": 7
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.3 hPa over the last 3 hours, wind 7 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 119,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.9,
+    "wind": 7
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.9 hPa over the last 3 hours, wind 7 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 120,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 1.8,
+    "wind": 8
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.8 hPa over the last 3 hours, wind 8 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 121,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 3.0,
+    "wind": 4
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 3.0 hPa over the last 3 hours, wind 4 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 122,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 0.9,
+    "wind": 17
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 0.9 hPa over the last 3 hours, wind 17 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 123,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 3.1,
+    "wind": 12
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 3.1 hPa over the last 3 hours, wind 12 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 124,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 2.6,
+    "wind": 18
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 2.6 hPa over the last 3 hours, wind 18 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 125,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 1.8,
+    "wind": 4
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.8 hPa over the last 3 hours, wind 4 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 126,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 2.1,
+    "wind": 7
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 2.1 hPa over the last 3 hours, wind 7 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 127,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 3.0,
+    "wind": 12
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 3.0 hPa over the last 3 hours, wind 12 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 128,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.4,
+    "wind": 5
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.4 hPa over the last 3 hours, wind 5 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 129,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 0.7,
+    "wind": 5
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 0.7 hPa over the last 3 hours, wind 5 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 130,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 2.1,
+    "wind": 4
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 2.1 hPa over the last 3 hours, wind 4 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 131,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 2.2,
+    "wind": 13
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 2.2 hPa over the last 3 hours, wind 13 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 132,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 3.0,
+    "wind": 5
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 3.0 hPa over the last 3 hours, wind 5 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 133,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 1.6,
+    "wind": 4
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.6 hPa over the last 3 hours, wind 4 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 134,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 3.0,
+    "wind": 15
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 3.0 hPa over the last 3 hours, wind 15 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 135,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": true,
+    "fall": 1.4,
+    "wind": 6
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.4 hPa over the last 3 hours, wind 6 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 136,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 3.4,
+    "wind": 4
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 3.4 hPa over the last 3 hours, wind 4 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 137,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 1.5,
+    "wind": 18
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.5 hPa over the last 3 hours, wind 18 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 138,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": true,
+    "fall": 1.0,
+    "wind": 4
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.0 hPa over the last 3 hours, wind 4 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 139,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": true,
+    "fall": 0.6,
+    "wind": 17
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 0.6 hPa over the last 3 hours, wind 17 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 140,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 1.7,
+    "wind": 10
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 1.7 hPa over the last 3 hours, wind 10 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 141,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 2.1,
+    "wind": 9
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 2.1 hPa over the last 3 hours, wind 9 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 142,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 0.1,
+    "wind": 15
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 0.1 hPa over the last 3 hours, wind 15 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 143,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 0.5,
+    "wind": 7
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 0.5 hPa over the last 3 hours, wind 7 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 144,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 0.4,
+    "wind": 10
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 0.4 hPa over the last 3 hours, wind 10 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 145,
+   "split": "test"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 1.8,
+    "wind": 16
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.8 hPa over the last 3 hours, wind 16 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 146,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": true,
+   "feats": {
+    "cb": true,
+    "fall": 1.6,
+    "wind": 18
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: cumulonimbus towers visible to the west, barometer falling 1.6 hPa over the last 3 hours, wind 18 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 147,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 0.5,
+    "wind": 19
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 0.5 hPa over the last 3 hours, wind 19 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 148,
+   "split": "train"
+  },
+  {
+   "cat": "SQUALL",
+   "gt": false,
+   "feats": {
+    "cb": false,
+    "fall": 2.0,
+    "wind": 12
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: no cumulonimbus visible, barometer falling 2.0 hPa over the last 3 hours, wind 12 kt. Question: is a dangerous squall likely within the hour?",
+   "id": 149,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 16,
+    "seas": 3.3,
+    "vlen": 29
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 16 kt, seas 3.3 ft, your vessel is 29 ft long. Question: should you postpone departure?",
+   "id": 150,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 18,
+    "seas": 6.0,
+    "vlen": 28
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 18 kt, seas 6.0 ft, your vessel is 28 ft long. Question: should you postpone departure?",
+   "id": 151,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 13,
+    "seas": 2.1,
+    "vlen": 22
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 13 kt, seas 2.1 ft, your vessel is 22 ft long. Question: should you postpone departure?",
+   "id": 152,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 19,
+    "seas": 6.5,
+    "vlen": 23
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 19 kt, seas 6.5 ft, your vessel is 23 ft long. Question: should you postpone departure?",
+   "id": 153,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 17,
+    "seas": 3.2,
+    "vlen": 27
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 17 kt, seas 3.2 ft, your vessel is 27 ft long. Question: should you postpone departure?",
+   "id": 154,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 22,
+    "seas": 7.0,
+    "vlen": 31
+   },
+   "band": [
+    2,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 22 kt, seas 7.0 ft, your vessel is 31 ft long. Question: should you postpone departure?",
+   "id": 155,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 27,
+    "seas": 4.0,
+    "vlen": 22
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 27 kt, seas 4.0 ft, your vessel is 22 ft long. Question: should you postpone departure?",
+   "id": 156,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 16,
+    "seas": 3.5,
+    "vlen": 29
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 16 kt, seas 3.5 ft, your vessel is 29 ft long. Question: should you postpone departure?",
+   "id": 157,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 15,
+    "seas": 5.7,
+    "vlen": 27
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 15 kt, seas 5.7 ft, your vessel is 27 ft long. Question: should you postpone departure?",
+   "id": 158,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 21,
+    "seas": 3.4,
+    "vlen": 32
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 21 kt, seas 3.4 ft, your vessel is 32 ft long. Question: should you postpone departure?",
+   "id": 159,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 15,
+    "seas": 5.1,
+    "vlen": 28
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 15 kt, seas 5.1 ft, your vessel is 28 ft long. Question: should you postpone departure?",
+   "id": 160,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 20,
+    "seas": 7.3,
+    "vlen": 31
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 20 kt, seas 7.3 ft, your vessel is 31 ft long. Question: should you postpone departure?",
+   "id": 161,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 19,
+    "seas": 5.3,
+    "vlen": 26
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 19 kt, seas 5.3 ft, your vessel is 26 ft long. Question: should you postpone departure?",
+   "id": 162,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 13,
+    "seas": 4.6,
+    "vlen": 28
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 13 kt, seas 4.6 ft, your vessel is 28 ft long. Question: should you postpone departure?",
+   "id": 163,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 24,
+    "seas": 6.5,
+    "vlen": 24
+   },
+   "band": [
+    2,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 24 kt, seas 6.5 ft, your vessel is 24 ft long. Question: should you postpone departure?",
+   "id": 164,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 16,
+    "seas": 3.1,
+    "vlen": 27
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 16 kt, seas 3.1 ft, your vessel is 27 ft long. Question: should you postpone departure?",
+   "id": 165,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 23,
+    "seas": 6.6,
+    "vlen": 32
+   },
+   "band": [
+    2,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 23 kt, seas 6.6 ft, your vessel is 32 ft long. Question: should you postpone departure?",
+   "id": 166,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 12,
+    "seas": 3.3,
+    "vlen": 26
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 12 kt, seas 3.3 ft, your vessel is 26 ft long. Question: should you postpone departure?",
+   "id": 167,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 12,
+    "seas": 1.1,
+    "vlen": 24
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 12 kt, seas 1.1 ft, your vessel is 24 ft long. Question: should you postpone departure?",
+   "id": 168,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 21,
+    "seas": 6.5,
+    "vlen": 27
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 21 kt, seas 6.5 ft, your vessel is 27 ft long. Question: should you postpone departure?",
+   "id": 169,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 24,
+    "seas": 7.8,
+    "vlen": 22
+   },
+   "band": [
+    2,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 24 kt, seas 7.8 ft, your vessel is 22 ft long. Question: should you postpone departure?",
+   "id": 170,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 19,
+    "seas": 7.3,
+    "vlen": 26
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 19 kt, seas 7.3 ft, your vessel is 26 ft long. Question: should you postpone departure?",
+   "id": 171,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 27,
+    "seas": 7.2,
+    "vlen": 32
+   },
+   "band": [
+    2,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 27 kt, seas 7.2 ft, your vessel is 32 ft long. Question: should you postpone departure?",
+   "id": 172,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 9,
+    "seas": 4.5,
+    "vlen": 28
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 9 kt, seas 4.5 ft, your vessel is 28 ft long. Question: should you postpone departure?",
+   "id": 173,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 22,
+    "seas": 5.3,
+    "vlen": 30
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 22 kt, seas 5.3 ft, your vessel is 30 ft long. Question: should you postpone departure?",
+   "id": 174,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 14,
+    "seas": 4.6,
+    "vlen": 31
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 14 kt, seas 4.6 ft, your vessel is 31 ft long. Question: should you postpone departure?",
+   "id": 175,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 17,
+    "seas": 4.5,
+    "vlen": 25
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 17 kt, seas 4.5 ft, your vessel is 25 ft long. Question: should you postpone departure?",
+   "id": 176,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 25,
+    "seas": 6.3,
+    "vlen": 31
+   },
+   "band": [
+    2,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 25 kt, seas 6.3 ft, your vessel is 31 ft long. Question: should you postpone departure?",
+   "id": 177,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 14,
+    "seas": 3.0,
+    "vlen": 25
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 14 kt, seas 3.0 ft, your vessel is 25 ft long. Question: should you postpone departure?",
+   "id": 178,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 16,
+    "seas": 2.9,
+    "vlen": 28
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 16 kt, seas 2.9 ft, your vessel is 28 ft long. Question: should you postpone departure?",
+   "id": 179,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 20,
+    "seas": 5.7,
+    "vlen": 25
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 20 kt, seas 5.7 ft, your vessel is 25 ft long. Question: should you postpone departure?",
+   "id": 180,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 19,
+    "seas": 3.7,
+    "vlen": 22
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 19 kt, seas 3.7 ft, your vessel is 22 ft long. Question: should you postpone departure?",
+   "id": 181,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 18,
+    "seas": 7.5,
+    "vlen": 24
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 18 kt, seas 7.5 ft, your vessel is 24 ft long. Question: should you postpone departure?",
+   "id": 182,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 8,
+    "seas": 3.6,
+    "vlen": 22
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 8 kt, seas 3.6 ft, your vessel is 22 ft long. Question: should you postpone departure?",
+   "id": 183,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 22,
+    "seas": 4.1,
+    "vlen": 22
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 22 kt, seas 4.1 ft, your vessel is 22 ft long. Question: should you postpone departure?",
+   "id": 184,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 28,
+    "seas": 3.1,
+    "vlen": 29
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 28 kt, seas 3.1 ft, your vessel is 29 ft long. Question: should you postpone departure?",
+   "id": 185,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 19,
+    "seas": 2.0,
+    "vlen": 25
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 19 kt, seas 2.0 ft, your vessel is 25 ft long. Question: should you postpone departure?",
+   "id": 186,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 24,
+    "seas": 5.9,
+    "vlen": 22
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 24 kt, seas 5.9 ft, your vessel is 22 ft long. Question: should you postpone departure?",
+   "id": 187,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 24,
+    "seas": 5.5,
+    "vlen": 31
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 24 kt, seas 5.5 ft, your vessel is 31 ft long. Question: should you postpone departure?",
+   "id": 188,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 12,
+    "seas": 2.3,
+    "vlen": 23
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 12 kt, seas 2.3 ft, your vessel is 23 ft long. Question: should you postpone departure?",
+   "id": 189,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 25,
+    "seas": 4.3,
+    "vlen": 31
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 25 kt, seas 4.3 ft, your vessel is 31 ft long. Question: should you postpone departure?",
+   "id": 190,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 13,
+    "seas": 6.8,
+    "vlen": 26
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 13 kt, seas 6.8 ft, your vessel is 26 ft long. Question: should you postpone departure?",
+   "id": 191,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 27,
+    "seas": 2.2,
+    "vlen": 28
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 27 kt, seas 2.2 ft, your vessel is 28 ft long. Question: should you postpone departure?",
+   "id": 192,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 24,
+    "seas": 3.5,
+    "vlen": 22
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 24 kt, seas 3.5 ft, your vessel is 22 ft long. Question: should you postpone departure?",
+   "id": 193,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 14,
+    "seas": 3.3,
+    "vlen": 27
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 14 kt, seas 3.3 ft, your vessel is 27 ft long. Question: should you postpone departure?",
+   "id": 194,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 13,
+    "seas": 2.3,
+    "vlen": 28
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 13 kt, seas 2.3 ft, your vessel is 28 ft long. Question: should you postpone departure?",
+   "id": 195,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 20,
+    "seas": 3.4,
+    "vlen": 22
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 20 kt, seas 3.4 ft, your vessel is 22 ft long. Question: should you postpone departure?",
+   "id": 196,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 16,
+    "seas": 5.7,
+    "vlen": 31
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 16 kt, seas 5.7 ft, your vessel is 31 ft long. Question: should you postpone departure?",
+   "id": 197,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 16,
+    "seas": 6.7,
+    "vlen": 31
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 16 kt, seas 6.7 ft, your vessel is 31 ft long. Question: should you postpone departure?",
+   "id": 198,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 23,
+    "seas": 6.8,
+    "vlen": 32
+   },
+   "band": [
+    2,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 23 kt, seas 6.8 ft, your vessel is 32 ft long. Question: should you postpone departure?",
+   "id": 199,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 21,
+    "seas": 7.3,
+    "vlen": 23
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 21 kt, seas 7.3 ft, your vessel is 23 ft long. Question: should you postpone departure?",
+   "id": 200,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 15,
+    "seas": 7.3,
+    "vlen": 28
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 15 kt, seas 7.3 ft, your vessel is 28 ft long. Question: should you postpone departure?",
+   "id": 201,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 22,
+    "seas": 4.8,
+    "vlen": 22
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 22 kt, seas 4.8 ft, your vessel is 22 ft long. Question: should you postpone departure?",
+   "id": 202,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 11,
+    "seas": 3.8,
+    "vlen": 27
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 11 kt, seas 3.8 ft, your vessel is 27 ft long. Question: should you postpone departure?",
+   "id": 203,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 16,
+    "seas": 2.6,
+    "vlen": 27
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 16 kt, seas 2.6 ft, your vessel is 27 ft long. Question: should you postpone departure?",
+   "id": 204,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 16,
+    "seas": 6.6,
+    "vlen": 30
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 16 kt, seas 6.6 ft, your vessel is 30 ft long. Question: should you postpone departure?",
+   "id": 205,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 13,
+    "seas": 4.4,
+    "vlen": 26
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 13 kt, seas 4.4 ft, your vessel is 26 ft long. Question: should you postpone departure?",
+   "id": 206,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 20,
+    "seas": 5.0,
+    "vlen": 30
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 20 kt, seas 5.0 ft, your vessel is 30 ft long. Question: should you postpone departure?",
+   "id": 207,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 21,
+    "seas": 2.8,
+    "vlen": 26
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 21 kt, seas 2.8 ft, your vessel is 26 ft long. Question: should you postpone departure?",
+   "id": 208,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 15,
+    "seas": 3.7,
+    "vlen": 30
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 15 kt, seas 3.7 ft, your vessel is 30 ft long. Question: should you postpone departure?",
+   "id": 209,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 19,
+    "seas": 5.5,
+    "vlen": 22
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 19 kt, seas 5.5 ft, your vessel is 22 ft long. Question: should you postpone departure?",
+   "id": 210,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 10,
+    "seas": 1.1,
+    "vlen": 32
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 10 kt, seas 1.1 ft, your vessel is 32 ft long. Question: should you postpone departure?",
+   "id": 211,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 11,
+    "seas": 3.8,
+    "vlen": 24
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 11 kt, seas 3.8 ft, your vessel is 24 ft long. Question: should you postpone departure?",
+   "id": 212,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 18,
+    "seas": 6.3,
+    "vlen": 32
+   },
+   "band": [
+    1,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 18 kt, seas 6.3 ft, your vessel is 32 ft long. Question: should you postpone departure?",
+   "id": 213,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 10,
+    "seas": 4.8,
+    "vlen": 28
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 10 kt, seas 4.8 ft, your vessel is 28 ft long. Question: should you postpone departure?",
+   "id": 214,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 18,
+    "seas": 5.6,
+    "vlen": 30
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 18 kt, seas 5.6 ft, your vessel is 30 ft long. Question: should you postpone departure?",
+   "id": 215,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 22,
+    "seas": 2.3,
+    "vlen": 27
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 22 kt, seas 2.3 ft, your vessel is 27 ft long. Question: should you postpone departure?",
+   "id": 216,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 17,
+    "seas": 5.7,
+    "vlen": 26
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 17 kt, seas 5.7 ft, your vessel is 26 ft long. Question: should you postpone departure?",
+   "id": 217,
+   "split": "test"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 14,
+    "seas": 4.1,
+    "vlen": 23
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 14 kt, seas 4.1 ft, your vessel is 23 ft long. Question: should you postpone departure?",
+   "id": 218,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 10,
+    "seas": 5.9,
+    "vlen": 22
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: sustained wind 10 kt, seas 5.9 ft, your vessel is 22 ft long. Question: should you postpone departure?",
+   "id": 219,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 16,
+    "seas": 1.9,
+    "vlen": 27
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 16 kt, seas 1.9 ft, your vessel is 27 ft long. Question: should you postpone departure?",
+   "id": 220,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 10,
+    "seas": 2.0,
+    "vlen": 28
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 10 kt, seas 2.0 ft, your vessel is 28 ft long. Question: should you postpone departure?",
+   "id": 221,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 28,
+    "seas": 1.2,
+    "vlen": 30
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 28 kt, seas 1.2 ft, your vessel is 30 ft long. Question: should you postpone departure?",
+   "id": 222,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": false,
+   "feats": {
+    "wind": 18,
+    "seas": 3.0,
+    "vlen": 26
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: sustained wind 18 kt, seas 3.0 ft, your vessel is 26 ft long. Question: should you postpone departure?",
+   "id": 223,
+   "split": "train"
+  },
+  {
+   "cat": "GONGO",
+   "gt": true,
+   "feats": {
+    "wind": 12,
+    "seas": 7.9,
+    "vlen": 31
+   },
+   "band": [
+    0,
+    2
+   ],
+   "prompt": "Conditions: sustained wind 12 kt, seas 7.9 ft, your vessel is 31 ft long. Question: should you postpone departure?",
+   "id": 224,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 1.7,
+    "air": 2.8,
+    "suits": true
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: water temperature 1.7\u00b0C, air temperature 2.8\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 225,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 3.0,
+    "air": 1.9,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 3.0\u00b0C, air temperature 1.9\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 226,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 3.4,
+    "air": 2.4,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 3.4\u00b0C, air temperature 2.4\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 227,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 1.6,
+    "air": 0.1,
+    "suits": true
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: water temperature 1.6\u00b0C, air temperature 0.1\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 228,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 3.1,
+    "air": 4.4,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 3.1\u00b0C, air temperature 4.4\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 229,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 1.5,
+    "air": 6.2,
+    "suits": true
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: water temperature 1.5\u00b0C, air temperature 6.2\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 230,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 6.1,
+    "air": 6.1,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 6.1\u00b0C, air temperature 6.1\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 231,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 4.0,
+    "air": 5.1,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 4.0\u00b0C, air temperature 5.1\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 232,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 1.5,
+    "air": 4.4,
+    "suits": false
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: water temperature 1.5\u00b0C, air temperature 4.4\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 233,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 0.8,
+    "air": 4.9,
+    "suits": true
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: water temperature 0.8\u00b0C, air temperature 4.9\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 234,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 1.8,
+    "air": 5.6,
+    "suits": true
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: water temperature 1.8\u00b0C, air temperature 5.6\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 235,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 5.0,
+    "air": 7.8,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 5.0\u00b0C, air temperature 7.8\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 236,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 2.0,
+    "air": 3.5,
+    "suits": true
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: water temperature 2.0\u00b0C, air temperature 3.5\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 237,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 3.0,
+    "air": 0.6,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 3.0\u00b0C, air temperature 0.6\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 238,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 2.8,
+    "air": 6.7,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 2.8\u00b0C, air temperature 6.7\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 239,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 4.4,
+    "air": 1.9,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 4.4\u00b0C, air temperature 1.9\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 240,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 4.3,
+    "air": 7.9,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 4.3\u00b0C, air temperature 7.9\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 241,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 11.0,
+    "air": 13.9,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 11.0\u00b0C, air temperature 13.9\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 242,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 8.0,
+    "air": 7.4,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 8.0\u00b0C, air temperature 7.4\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 243,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 5.7,
+    "air": 5.2,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 5.7\u00b0C, air temperature 5.2\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 244,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 8.4,
+    "air": 5.9,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 8.4\u00b0C, air temperature 5.9\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 245,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 6.2,
+    "air": 6.5,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 6.2\u00b0C, air temperature 6.5\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 246,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 4.7,
+    "air": 7.7,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 4.7\u00b0C, air temperature 7.7\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 247,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 2.4,
+    "air": 1.3,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 2.4\u00b0C, air temperature 1.3\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 248,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 4.6,
+    "air": 4.2,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 4.6\u00b0C, air temperature 4.2\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 249,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 2.2,
+    "air": 6.4,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 2.2\u00b0C, air temperature 6.4\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 250,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 3.3,
+    "air": 1.5,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 3.3\u00b0C, air temperature 1.5\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 251,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 3.9,
+    "air": 8.9,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 3.9\u00b0C, air temperature 8.9\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 252,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 1.6,
+    "air": 1.6,
+    "suits": false
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: water temperature 1.6\u00b0C, air temperature 1.6\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 253,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 4.0,
+    "air": 1.3,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 4.0\u00b0C, air temperature 1.3\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 254,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 2.6,
+    "air": 1.0,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 2.6\u00b0C, air temperature 1.0\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 255,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 3.9,
+    "air": 8.0,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 3.9\u00b0C, air temperature 8.0\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 256,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 2.2,
+    "air": 0.5,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 2.2\u00b0C, air temperature 0.5\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 257,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 2.8,
+    "air": 1.4,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 2.8\u00b0C, air temperature 1.4\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 258,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 9.1,
+    "air": 7.5,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 9.1\u00b0C, air temperature 7.5\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 259,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 1.3,
+    "air": -0.2,
+    "suits": true
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: water temperature 1.3\u00b0C, air temperature -0.2\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 260,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 6.3,
+    "air": 3.6,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 6.3\u00b0C, air temperature 3.6\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 261,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 6.4,
+    "air": 8.6,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 6.4\u00b0C, air temperature 8.6\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 262,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 6.4,
+    "air": 8.4,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 6.4\u00b0C, air temperature 8.4\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 263,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 4.0,
+    "air": 8.8,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 4.0\u00b0C, air temperature 8.8\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 264,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 11.8,
+    "air": 10.2,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 11.8\u00b0C, air temperature 10.2\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 265,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 5.2,
+    "air": 8.3,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 5.2\u00b0C, air temperature 8.3\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 266,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 5.1,
+    "air": 8.9,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 5.1\u00b0C, air temperature 8.9\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 267,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 1.3,
+    "air": 5.3,
+    "suits": false
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: water temperature 1.3\u00b0C, air temperature 5.3\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 268,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 3.1,
+    "air": 4.0,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 3.1\u00b0C, air temperature 4.0\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 269,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 5.2,
+    "air": 4.4,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 5.2\u00b0C, air temperature 4.4\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 270,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 6.2,
+    "air": 3.5,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 6.2\u00b0C, air temperature 3.5\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 271,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 7.8,
+    "air": 9.9,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 7.8\u00b0C, air temperature 9.9\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 272,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 10.8,
+    "air": 15.0,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 10.8\u00b0C, air temperature 15.0\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 273,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 3.8,
+    "air": 3.9,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 3.8\u00b0C, air temperature 3.9\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 274,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 4.7,
+    "air": 7.4,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 4.7\u00b0C, air temperature 7.4\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 275,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 5.3,
+    "air": 4.8,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 5.3\u00b0C, air temperature 4.8\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 276,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 5.8,
+    "air": 9.9,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 5.8\u00b0C, air temperature 9.9\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 277,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 9.2,
+    "air": 12.1,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 9.2\u00b0C, air temperature 12.1\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 278,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 1.8,
+    "air": -0.5,
+    "suits": false
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: water temperature 1.8\u00b0C, air temperature -0.5\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 279,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 5.4,
+    "air": 9.1,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 5.4\u00b0C, air temperature 9.1\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 280,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 5.6,
+    "air": 9.9,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 5.6\u00b0C, air temperature 9.9\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 281,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 5.5,
+    "air": 8.2,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 5.5\u00b0C, air temperature 8.2\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 282,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 4.4,
+    "air": 8.2,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 4.4\u00b0C, air temperature 8.2\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 283,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 4.9,
+    "air": 8.7,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 4.9\u00b0C, air temperature 8.7\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 284,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 6.1,
+    "air": 3.3,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 6.1\u00b0C, air temperature 3.3\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 285,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 9.2,
+    "air": 10.1,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 9.2\u00b0C, air temperature 10.1\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 286,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 6.3,
+    "air": 4.2,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 6.3\u00b0C, air temperature 4.2\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 287,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 2.2,
+    "air": 0.0,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 2.2\u00b0C, air temperature 0.0\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 288,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 8.6,
+    "air": 7.6,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 8.6\u00b0C, air temperature 7.6\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 289,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 4.9,
+    "air": 8.1,
+    "suits": true
+   },
+   "band": [
+    1,
+    1
+   ],
+   "prompt": "Conditions: water temperature 4.9\u00b0C, air temperature 8.1\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 290,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 2.7,
+    "air": 0.0,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 2.7\u00b0C, air temperature 0.0\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 291,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 2.6,
+    "air": 5.7,
+    "suits": false
+   },
+   "band": [
+    1,
+    0
+   ],
+   "prompt": "Conditions: water temperature 2.6\u00b0C, air temperature 5.7\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 292,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 1.9,
+    "air": 0.5,
+    "suits": false
+   },
+   "band": [
+    0,
+    0
+   ],
+   "prompt": "Conditions: water temperature 1.9\u00b0C, air temperature 0.5\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 293,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 6.0,
+    "air": 10.7,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 6.0\u00b0C, air temperature 10.7\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 294,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 12.0,
+    "air": 15.8,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 12.0\u00b0C, air temperature 15.8\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 295,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": true,
+   "feats": {
+    "water": 1.5,
+    "air": -0.2,
+    "suits": true
+   },
+   "band": [
+    0,
+    1
+   ],
+   "prompt": "Conditions: water temperature 1.5\u00b0C, air temperature -0.2\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 296,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 6.6,
+    "air": 5.4,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 6.6\u00b0C, air temperature 5.4\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 297,
+   "split": "train"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 8.7,
+    "air": 6.7,
+    "suits": true
+   },
+   "band": [
+    2,
+    1
+   ],
+   "prompt": "Conditions: water temperature 8.7\u00b0C, air temperature 6.7\u00b0C, immersion suits aboard: yes. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 298,
+   "split": "test"
+  },
+  {
+   "cat": "COLD",
+   "gt": false,
+   "feats": {
+    "water": 9.1,
+    "air": 6.6,
+    "suits": false
+   },
+   "band": [
+    2,
+    0
+   ],
+   "prompt": "Conditions: water temperature 9.1\u00b0C, air temperature 6.6\u00b0C, immersion suits aboard: no. Question: if someone falls overboard, is severe hypothermia within 30 minutes a live risk?",
+   "id": 299,
+   "split": "test"
+  }
+ ]
+}
