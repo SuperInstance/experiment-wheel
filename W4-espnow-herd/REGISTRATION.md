@@ -30,3 +30,28 @@ same opcodes, same laws, cheap hands, MANY of them.
 Awaiting hardware window + Casey's flashing hands. Firmware sketch can
 be pre-built on host replay first (the quilt-esp32 replay harness
 already exists — reuse).
+
+## Addendum A — host simulation (sealed before run, 2026-08-27)
+
+Hardware window unavailable; per the "host replay first" clause above, the
+sealed pre-registered run is now a pure local simulation (numpy, no GPU, no
+API, no ollama):
+
+- Task: 12-bit binary input, fixed rule (label = parity of a weighted mask
+  seeded at 0; rule fixed for all runs). Each trial draws a fresh random
+  12-bit input.
+- Each of 3 cells holds a noisy copy of the decision rule (copy infidelity:
+  probability f that a rule bit is flipped at copy time; sampled once per
+  cell per trial-block).
+- Channel: ESP-NOW lossy link modeled as per-bit flip probability p on the
+  12-bit payload, swept 0 → 0.5 (11 points: 0, .05, ..., .5).
+- Second axis: copy infidelity f ∈ {0, .02, .05, .1, .2}.
+- Per point: 2000 trials, fixed seed derived from (p, f) for exact repro.
+- Metrics: herd majority-vote accuracy vs best-single-cell accuracy vs mean
+  single-cell accuracy (with binomial 95% CIs).
+- PREDICTION (sealed): herd > best single cell at high channel noise p;
+  herd ≈ singles at p = 0.
+- KILL GATE: if herd never beats best-single at any noise point beyond CI
+  overlap, file negative honestly.
+
+Locked. No edits after results are generated.
