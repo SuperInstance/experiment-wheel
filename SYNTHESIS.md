@@ -337,3 +337,88 @@ The registration's own stake: two judges below the bar kills Station
 contaminated — which is the wheel working, but the question is now
 three turns old and still virgin.
 
+---
+
+## 5. What W8+ should ask (sketched, not sealed)
+
+Sketches only. Nothing below is registered; each needs its own
+pre-registration before it runs. Ordered by how directly the sweep
+pointed at them.
+
+**5.1 Re-open the W5 arithmetic with W7's chains.** The sealed
+consolidation (12/13) covers W6a+W6b — both weak-hands-last chains.
+W7 supplied exactly the contrast the W5 lane said it wanted: ASC 5/6 /
+DESC 2/6 at an identical solo vector. The open question is regime
+structure: is intersection-of-all the descending-chain law, with
+last-hand (or a compose/union law — "order lets fixes stick") governing
+ascending chains? W7-ASC held c1/c3/c4 that its weak early hands cannot
+hold solo, which intersection-of-all forbids. Pre-register the same
+≥80% rule over W6a+W6b+W7's three chains (13+6+6 constraint outcomes),
+re-run, file whichever way it lands.
+
+**5.2 Break the kernel, or build a yard that can.** c2_acrostic and
+c6_punctuation have zero holds in any condition. Two honest paths:
+(a) a yard that holds them cold (bigger mind, or a scaffold that puts
+the constraint in-context without showing the checker) — after which
+the braid laws become measurable above the intersection; or (b) accept
+the three-band structure and design W8's hand so every constraint sits
+in the held-by-some band, where the laws have signal.
+
+**5.3 The reviser-mode experiment.** One hand, two drafts, n=1. Cast:
+same yard as solo vs as reviser on passing vs broken drafts, per-round
+checks, enough rounds to count. Question: is repair-vs-damage decided
+by the received draft (W7's reading), and is solo hold-set the ceiling
+in both modes?
+
+**5.4 W3c (if W3b's judge clears G0):** the original dissent-feeding
+design finally fires — frozen bands, labeled dissents fed back, mint
+re-struck: improve / degrade / nothing. If W3b also fails G0: Station
+2's premise is dead at this scale; the honest next move is a bigger
+judge or a simpler corpus, registered as a new cast, not a rescue.
+
+**5.5 Metal, twice over.** W1's disposition already queues Station 3:
+the regime law's tolerance bands as a .qm table — the selector judging
+offspring in nanoseconds, tight/loose as two sealable band-sets. W4's
+herd wants the real ESP32s at the *calm-water* regime the sim found
+(p≈0.05, and the copy-error-repair cell at p=0) — not the storm regime
+it was originally sealed for. Cross-resolution check is the gate:
+metal must agree with its parents.
+
+**5.6 Copies-decompose, formalized.** W5 left this open on purpose:
+hold-set under self-revision has never been measured. Cast:
+self-revision chains with per-round mechanical checks, per-constraint
+— is H_self strictly shrinking, and at what rate per round? Until
+then it stays case law, twice-confirmed but unformalized.
+
+---
+
+## 6. W3b — second-cast judge (PENDING — placeholder)
+
+> **Status: IN FLIGHT, run by a separate lane. Not evaluated here.
+> This section is a placeholder to be filled by that lane's verdict.**
+>
+> Registered and sealed before running
+> ([REGISTRATION.md](W3b-dissent-fed-mints/REGISTRATION.md), commit
+> 21546c6): same corpus verbatim (byte-identical to W3a's, seed
+> 20260827), same 200/100 split, same G0 bar 0.60, same mint/dissent
+> design; only the judge changes — deepseek-r1:8b, num_ctx 4096,
+> num_predict 2048, reasoner parse (strip `<think>`, take the LAST
+> yes/no). If the judge clears G0, the dissent-feeding question (§4.3)
+> gets its first real test. If not: two judges below the bar — Station
+> 2's premise dies for now, also a result, filed honestly.
+
+---
+
+## Coda
+
+Seven turns, ~32 hours, one bench script per turn. The wheel's law held
+under its own weight: nothing skipped stations, every prediction was
+sealed before its run, and the two times the structure was wrong
+(W4's regime, W6a's easy hand) it was the structure that caught it.
+The doctrine stands as filed: **verdicts are first-class, negatives are
+first-class, and the arithmetic is sealed before it runs.**
+
+*Synthesis written 2026-08-27 by the WHEEL-SYNTH lane. Sources: all
+REGISTRATION/VERDICT/RESULTS files in this repo, git log (commits
+100ecbf → f578593), and the EXPERIMENT-WHEEL.md design doc (canon
+copy). No station files were modified.*
