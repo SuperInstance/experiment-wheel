@@ -1,0 +1,6 @@
+  PASS  L1 witness propagation (20k rounds)
+  PASS  L2 clean-number theorem (10k rounds)
+  PASS  L3 the click (idempotent priced release)
+  PASS  L4 capacity exchange rate
+  PASS  L5 commensurate geometry (3-4-5 snaps in base 3)
+  PASS  NMEA µ° conversion with provenance
