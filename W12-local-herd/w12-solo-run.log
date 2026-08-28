@@ -1,0 +1,54 @@
+qwen0.5b 10/60 ... 22s elapsed [ckpt]
+qwen0.5b 20/60 ... 22s elapsed [ckpt]
+qwen0.5b 30/60 ... 22s elapsed [ckpt]
+qwen0.5b 40/60 ... 23s elapsed [ckpt]
+qwen0.5b 50/60 ... 23s elapsed [ckpt]
+qwen0.5b 60/60 ... 24s elapsed [ckpt]
+DONE qwen0.5b: acc=0.5167 parsed=60 null=0 unparsed=0
+[
+ {
+  "mind": "qwen0.5b",
+  "model": "qwen2.5:0.5b",
+  "n": 60,
+  "n_null": 0,
+  "n_unparsed": 0,
+  "n_parsed": 60,
+  "solo_acc": 0.5167
+ }
+]
+lfm2.6 10/60 ... 8s elapsed [ckpt]
+lfm2.6 20/60 ... 12s elapsed [ckpt]
+lfm2.6 30/60 ... 15s elapsed [ckpt]
+lfm2.6 40/60 ... 19s elapsed [ckpt]
+lfm2.6 50/60 ... 23s elapsed [ckpt]
+lfm2.6 60/60 ... 26s elapsed [ckpt]
+DONE lfm2.6: acc=0.0000 parsed=0 null=0 unparsed=60
+[
+ {
+  "mind": "lfm2.6",
+  "model": "Liquid-LFM2.5-2.6B:latest",
+  "n": 60,
+  "n_null": 0,
+  "n_unparsed": 60,
+  "n_parsed": 0,
+  "solo_acc": 0.0
+ }
+]
+qwen3b 10/60 ... 182s elapsed [ckpt]
+qwen3b 20/60 ... 182s elapsed [ckpt]
+qwen3b 30/60 ... 183s elapsed [ckpt]
+qwen3b 40/60 ... 184s elapsed [ckpt]
+qwen3b 50/60 ... 184s elapsed [ckpt]
+qwen3b 60/60 ... 185s elapsed [ckpt]
+DONE qwen3b: acc=0.6333 parsed=60 null=0 unparsed=0
+[
+ {
+  "mind": "qwen3b",
+  "model": "qwen2.5:3b",
+  "n": 60,
+  "n_null": 0,
+  "n_unparsed": 0,
+  "n_parsed": 60,
+  "solo_acc": 0.6333
+ }
+]
