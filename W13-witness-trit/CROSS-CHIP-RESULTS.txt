@@ -1,0 +1,15 @@
+=== HOST (x86-64) ===
+wtrit.c — witness trit arithmetic, native compile
+  L1 through 100k additions: PASS
+  L2 clean-number theorem:   PASS
+  L4 capacity exchange:      PASS
+  NMEA u-deg provenance:     PASS
+  Fermat-path witness (10 slabs): PASS
+L1 10M additions: 10000000 rounds, 0 violations
+Consensus fringes (7 witnesses, 15% noise): 199785/200000 = 0.9989
+Single witness baseline: 0.9004
+
+=== CROSS-CHIP ===
+  ESP32-X7: compile OK
+  ESP32-LX6: compile OK
+  ESP32-C3: compile OK
