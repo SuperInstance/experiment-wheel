@@ -1,0 +1,626 @@
+{
+ "station": "W9b-fair-rescore",
+ "date": "2026-08-27",
+ "nature": "instrument correction, not a new experiment; zero model calls; recorded artifacts untouched; sealed predictions NOT re-scored \u2014 artifact scores only; frozen numbers stand as measured",
+ "instrument": "check()/c2_amended()/c6_amended() ported byte-identical from W9-never-held-kernel/w9_check.py; check() identical to W6b/W7 spikes",
+ "witnesses": {
+  "c2_prime_witness_satisfiable": true,
+  "c6_prime_witness_satisfiable": true,
+  "full_board_witness": {
+   "fair_score": 7,
+   "frozen_score": 5,
+   "note": "the perfect poem scores 5/7 under the frozen instrument"
+  },
+  "verbatim_c2_impossible": "THEEILEENLAUN is 13 chars vs 12 first-letters",
+  "verbatim_c6_impossible": "sorted([',','.']) can never equal ['.',','] (ASCII 0x2C < 0x2E)",
+  "constructions": {
+   "w_c2p": "Threshold\nHalls of echo\nempty rooms\neach stone keeps\nits own silence\nlocked under everything\nelse the dark\nendures without witness\nname by name the vault\nlets its last light go\nand the air forgets\nus too, in time.",
+   "w_c6p": "Threshold\nHushed halls,\nand nothing else\nbelongs to noon\nor to the long\nafternoon of stone\nwhere every echo\nlearns to wait\nfor what the dark\nkeeps and will not\ngive back to anyone\nwho asks it kindly.",
+   "w_all": "Threshold\nHushed halls,\nechoes descend below\nevery stone remembers silence\ninside the vault nothing stirs\nlanterns dim as shadows lean near\neach hour folds seal 06c0ffeeb0ba in water\nempty corridors keep the old dark close tonight\nno voice returns to name what the silence took\nlight thins to a thread against the far stone wall\nall that was hidden waits beneath the hush without a sound\nunder everything the quiet chamber holds one final vow and then sleeps.",
+   "w_all_frozen_score": 5,
+   "w_all_fair_score": 7
+  }
+ },
+ "verification_vs_w9_recordings": {
+  "poems": 119,
+  "check_comparisons": 119,
+  "c2p_comparisons": 119,
+  "c6p_comparisons": 16,
+  "mismatches": 0
+ },
+ "rescore": [
+  {
+   "tag": "W6b solo claude",
+   "source": "W6-the-braid/w6b-results.json",
+   "poem_sha256_12": "9e28c2d25500",
+   "old_score": 4,
+   "old_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true
+   },
+   "c2_prime": true,
+   "c6_prime": false,
+   "new_score": 5,
+   "new_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": true,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true
+   },
+   "changed_cells": [
+    "c2_acrostic -> c2_prime TRUE"
+   ]
+  },
+  {
+   "tag": "W6b solo kimi",
+   "source": "W6-the-braid/w6b-results.json",
+   "poem_sha256_12": "0374ff4ed276",
+   "old_score": 4,
+   "old_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true
+   },
+   "c2_prime": false,
+   "c6_prime": false,
+   "new_score": 4,
+   "new_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true
+   },
+   "changed_cells": []
+  },
+  {
+   "tag": "W6b solo flash",
+   "source": "W6-the-braid/w6b-results.json",
+   "poem_sha256_12": "8f668273eeed",
+   "old_score": 2,
+   "old_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "c2_prime": false,
+   "c6_prime": false,
+   "new_score": 2,
+   "new_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "changed_cells": []
+  },
+  {
+   "tag": "W6b solo wesley",
+   "source": "W6-the-braid/w6b-results.json",
+   "poem_sha256_12": "a847ccabe44e",
+   "old_score": 2,
+   "old_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true
+   },
+   "c2_prime": false,
+   "c6_prime": false,
+   "new_score": 2,
+   "new_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true
+   },
+   "changed_cells": []
+  },
+  {
+   "tag": "W6b copies (flash x4, final)",
+   "source": "W6-the-braid/w6b-results.json",
+   "poem_sha256_12": "9039d5c0ca0a",
+   "old_score": 1,
+   "old_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "c2_prime": false,
+   "c6_prime": false,
+   "new_score": 1,
+   "new_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": false,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "changed_cells": []
+  },
+  {
+   "tag": "W6b braid final (kimi>claude>flash>wesley>flash)",
+   "source": "W6-the-braid/w6b-results.json",
+   "poem_sha256_12": "5d77e030d126",
+   "old_score": 2,
+   "old_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "c2_prime": true,
+   "c6_prime": false,
+   "new_score": 3,
+   "new_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": true,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "changed_cells": [
+    "c2_acrostic -> c2_prime TRUE"
+   ]
+  },
+  {
+   "tag": "W7 solo claude",
+   "source": "W7-ordered-braid/w7-results.json",
+   "poem_sha256_12": "4eb1aa200a56",
+   "old_score": 4,
+   "old_cells": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "c2_prime": true,
+   "c6_prime": true,
+   "new_score": 6,
+   "new_cells": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": true,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": true,
+    "c4_no_rhyme": false
+   },
+   "changed_cells": [
+    "c2_acrostic -> c2_prime TRUE",
+    "c6_punctuation -> c6_prime TRUE"
+   ]
+  },
+  {
+   "tag": "W7 solo kimi",
+   "source": "W7-ordered-braid/w7-results.json",
+   "poem_sha256_12": "ece5b4c1be40",
+   "old_score": 4,
+   "old_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true
+   },
+   "c2_prime": false,
+   "c6_prime": false,
+   "new_score": 4,
+   "new_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true
+   },
+   "changed_cells": []
+  },
+  {
+   "tag": "W7 solo flash",
+   "source": "W7-ordered-braid/w7-results.json",
+   "poem_sha256_12": "21207494512b",
+   "old_score": 2,
+   "old_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "c2_prime": false,
+   "c6_prime": false,
+   "new_score": 2,
+   "new_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "changed_cells": []
+  },
+  {
+   "tag": "W7 solo wesley",
+   "source": "W7-ordered-braid/w7-results.json",
+   "poem_sha256_12": "82fd5d29fbcc",
+   "old_score": 2,
+   "old_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "c2_prime": false,
+   "c6_prime": false,
+   "new_score": 2,
+   "new_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "changed_cells": []
+  },
+  {
+   "tag": "W7 braid ASC final (wesley>flash>kimi>claude)",
+   "source": "W7-ordered-braid/w7-results.json",
+   "poem_sha256_12": "41fc9baa67e4",
+   "old_score": 5,
+   "old_cells": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": false,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": true
+   },
+   "c2_prime": true,
+   "c6_prime": true,
+   "new_score": 7,
+   "new_cells": {
+    "12_lines": true,
+    "c1_growth": true,
+    "c2_acrostic": true,
+    "c3_seal": true,
+    "c5_last_word_unique": true,
+    "c6_punctuation": true,
+    "c4_no_rhyme": true
+   },
+   "changed_cells": [
+    "c2_acrostic -> c2_prime TRUE",
+    "c6_punctuation -> c6_prime TRUE"
+   ]
+  },
+  {
+   "tag": "W7 braid DESC final (claude>kimi>flash>wesley)",
+   "source": "W7-ordered-braid/w7-results.json",
+   "poem_sha256_12": "037aa26f7e86",
+   "old_score": 2,
+   "old_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "c2_prime": false,
+   "c6_prime": false,
+   "new_score": 2,
+   "new_cells": {
+    "12_lines": true,
+    "c1_growth": false,
+    "c2_acrostic": false,
+    "c3_seal": false,
+    "c5_last_word_unique": true,
+    "c6_punctuation": false,
+    "c4_no_rhyme": false
+   },
+   "changed_cells": []
+  }
+ ],
+ "not_preserved": [
+  "W7 braid ASC final (wesley>flash>kimi>claude) :: intermediate hand wesley (recorded score 2/7-cell; poem text not preserved)",
+  "W7 braid ASC final (wesley>flash>kimi>claude) :: intermediate hand flash (recorded score 2/7-cell; poem text not preserved)",
+  "W7 braid ASC final (wesley>flash>kimi>claude) :: intermediate hand kimi (recorded score 4/7-cell; poem text not preserved)",
+  "W7 braid ASC final (wesley>flash>kimi>claude) :: intermediate hand claude (recorded score 5/7-cell; poem text not preserved)",
+  "W7 braid DESC final (claude>kimi>flash>wesley) :: intermediate hand claude (recorded score 4/7-cell; poem text not preserved)",
+  "W7 braid DESC final (claude>kimi>flash>wesley) :: intermediate hand kimi (recorded score 2/7-cell; poem text not preserved)",
+  "W7 braid DESC final (claude>kimi>flash>wesley) :: intermediate hand flash (recorded score 2/7-cell; poem text not preserved)",
+  "W7 braid DESC final (claude>kimi>flash>wesley) :: intermediate hand wesley (recorded score 2/7-cell; poem text not preserved)"
+ ],
+ "exclusions": [
+  "W6a (w6-results.json): different task (13-line boat-pieces) and checker \u2014 incomparable by design (W9 audit precedent)",
+  "W10/W11 artifacts: own stations, out of scope for this correction (W11 already carries its own corrected-lens numbers)"
+ ],
+ "w11_crosscheck_comparison": {
+  "rows": [
+   {
+    "w11_row": "W6b solo claude",
+    "frozen": 4,
+    "prime": 5,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 4,
+     "new": 5,
+     "c2_prime": true,
+     "c6_prime": false,
+     "artifact": "W6b solo claude"
+    }
+   },
+   {
+    "w11_row": "W6b solo kimi",
+    "frozen": 4,
+    "prime": 4,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 4,
+     "new": 4,
+     "c2_prime": false,
+     "c6_prime": false,
+     "artifact": "W6b solo kimi"
+    }
+   },
+   {
+    "w11_row": "W6b solo flash",
+    "frozen": 2,
+    "prime": 2,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 2,
+     "new": 2,
+     "c2_prime": false,
+     "c6_prime": false,
+     "artifact": "W6b solo flash"
+    }
+   },
+   {
+    "w11_row": "W6b solo wesley",
+    "frozen": 2,
+    "prime": 2,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 2,
+     "new": 2,
+     "c2_prime": false,
+     "c6_prime": false,
+     "artifact": "W6b solo wesley"
+    }
+   },
+   {
+    "w11_row": "W6b copy 0",
+    "frozen": 1,
+    "prime": 1,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 1,
+     "new": 1,
+     "c2_prime": false,
+     "c6_prime": false,
+     "artifact": "W6b copies (flash x4, final)"
+    }
+   },
+   {
+    "w11_row": "W6b copy 1",
+    "frozen": 1,
+    "prime": 1,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 1,
+     "new": 1,
+     "c2_prime": false,
+     "c6_prime": false,
+     "artifact": "W6b copies (flash x4, final)"
+    }
+   },
+   {
+    "w11_row": "W6b braid final",
+    "frozen": 2,
+    "prime": 3,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 2,
+     "new": 3,
+     "c2_prime": true,
+     "c6_prime": false,
+     "artifact": "W6b braid final (kimi>claude>flash>wesley>flash)"
+    }
+   },
+   {
+    "w11_row": "W7 solo claude",
+    "frozen": 4,
+    "prime": 6,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 4,
+     "new": 6,
+     "c2_prime": true,
+     "c6_prime": true,
+     "artifact": "W7 solo claude"
+    }
+   },
+   {
+    "w11_row": "W7 solo kimi",
+    "frozen": 4,
+    "prime": 4,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 4,
+     "new": 4,
+     "c2_prime": false,
+     "c6_prime": false,
+     "artifact": "W7 solo kimi"
+    }
+   },
+   {
+    "w11_row": "W7 solo flash",
+    "frozen": 2,
+    "prime": 2,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 2,
+     "new": 2,
+     "c2_prime": false,
+     "c6_prime": false,
+     "artifact": "W7 solo flash"
+    }
+   },
+   {
+    "w11_row": "W7 solo wesley",
+    "frozen": 2,
+    "prime": 2,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 2,
+     "new": 2,
+     "c2_prime": false,
+     "c6_prime": false,
+     "artifact": "W7 solo wesley"
+    }
+   },
+   {
+    "w11_row": "W7 ASC final",
+    "frozen": 5,
+    "prime": 7,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 5,
+     "new": 7,
+     "c2_prime": true,
+     "c6_prime": true,
+     "artifact": "W7 braid ASC final (wesley>flash>kimi>claude)"
+    }
+   },
+   {
+    "w11_row": "W7 ASC hand wesley",
+    "frozen": null,
+    "prime": null,
+    "status": "NO-TEXT (both lenses: poem not preserved)",
+    "detail": "intermediate draft; scores only in the braid trace"
+   },
+   {
+    "w11_row": "W7 ASC hand flash",
+    "frozen": null,
+    "prime": null,
+    "status": "NO-TEXT (both lenses: poem not preserved)",
+    "detail": "intermediate draft; scores only in the braid trace"
+   },
+   {
+    "w11_row": "W7 ASC hand kimi",
+    "frozen": null,
+    "prime": null,
+    "status": "NO-TEXT (both lenses: poem not preserved)",
+    "detail": "intermediate draft; scores only in the braid trace"
+   },
+   {
+    "w11_row": "W7 ASC hand claude",
+    "frozen": null,
+    "prime": null,
+    "status": "NO-TEXT (both lenses: poem not preserved)",
+    "detail": "intermediate draft; scores only in the braid trace"
+   },
+   {
+    "w11_row": "W7 DESC final",
+    "frozen": 2,
+    "prime": 2,
+    "status": "CONFIRMED",
+    "mechanical": {
+     "old": 2,
+     "new": 2,
+     "c2_prime": false,
+     "c6_prime": false,
+     "artifact": "W7 braid DESC final (claude>kimi>flash>wesley)"
+    }
+   },
+   {
+    "w11_row": "W7 DESC hand claude",
+    "frozen": null,
+    "prime": null,
+    "status": "NO-TEXT (both lenses: poem not preserved)",
+    "detail": "intermediate draft; scores only in the braid trace"
+   },
+   {
+    "w11_row": "W7 DESC hand kimi",
+    "frozen": null,
+    "prime": null,
+    "status": "NO-TEXT (both lenses: poem not preserved)",
+    "detail": "intermediate draft; scores only in the braid trace"
+   },
+   {
+    "w11_row": "W7 DESC hand flash",
+    "frozen": null,
+    "prime": null,
+    "status": "NO-TEXT (both lenses: poem not preserved)",
+    "detail": "intermediate draft; scores only in the braid trace"
+   },
+   {
+    "w11_row": "W7 DESC hand wesley",
+    "frozen": null,
+    "prime": null,
+    "status": "NO-TEXT (both lenses: poem not preserved)",
+    "detail": "intermediate draft; scores only in the braid trace"
+   }
+  ],
+  "issues": [
+   "W11 crosscheck enumerates 7 W6b rows for 6 committed artifacts; the single recorded 'copies' artifact (flash x4) was double-counted as ['W6b copy 0', 'W6b copy 1'] (both rows 1->1; no number changed)"
+  ]
+ },
+ "score_units": "score field counts 7 cells (12L + c1..c6); historical prose quoted the same number as \"x/6\". Old max reachable was 5 (c2/c6 impossible); fair-lens max is 7."
+}

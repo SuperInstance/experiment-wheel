@@ -422,3 +422,34 @@ first-class, and the arithmetic is sealed before it runs.**
 REGISTRATION/VERDICT/RESULTS files in this repo, git log (commits
 100ecbf → f578593), and the EXPERIMENT-WHEEL.md design doc (canon
 copy). No station files were modified.*
+
+---
+
+## CORRECTION (2026-08-27, W9b fair-instrument re-score) — appended, history above untouched
+
+W9 proved the W6b/W7 checker's c2 and c6 unsatisfiable by construction
+(13-letter acrostic vs 12 lines; `sorted()` ASCII literal). W9b
+([W9b-fair-rescore/](W9b-fair-rescore/), [VERDICT-w9b.md](W9b-fair-rescore/VERDICT-w9b.md))
+mechanically re-scored the recorded W6b/W7 artifacts under the fair cells
+c2′/c6′ — zero model calls, instrument verified against W9's own
+recordings first (119 poems, zero mismatches). Numbers above stand as
+measured; the fair-lens corrections are:
+
+- **§2.2 / W7:** ASC braid was a **true 7/7 — the full satisfiable board**
+  (was "5/6, honest top"); W7 solo claude a true **6/7** (was 4). The
+  order effect survives at full strength (7 vs 6; was 5 vs 4). DESC stays
+  2. The "5/6 honest ceiling" was the checker's ceiling.
+- **§2.2 / W6b:** braid final **3/7** (was 2; c2′ was held, invisibly —
+  by no final hand solo); W6b solo claude **5/7** (was 4). Gap and
+  weak-link structure unchanged.
+- **§4.1:** the held-by-none band was **empty** — instrument blindness,
+  not a crew wall: c2′ held in 4 recorded artifacts, c6′ in 2 (incl. W7
+  solo claude). The kernel question moved to W9's crew-rate tables.
+- W5's sealed L1 arithmetic is arithmetically untouched (c2/c6 false on
+  both sides of all 13 cells); W11's crosscheck numbers all confirmed,
+  with one enumeration artifact fixed (7 rows for 6 W6b artifacts; no
+  number changed).
+
+Witnesses for c2′/c6′ and a full-board 7/7 construction are on file in
+ [RESCORE.json](W9b-fair-rescore/RESCORE.json) — the perfect poem scores
+ 5/7 under the frozen instrument.
