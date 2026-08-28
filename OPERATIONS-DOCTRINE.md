@@ -15,7 +15,7 @@
 ## Mid-term builds (this quarter)
 
 - The LOCAL LANE: verifiable self-sufficiency — offline boat brains, merkle-sealed distillate exchange, destructive verification on owned hardware (doctrine text: AI-Writings/the-ratchet).
-- Fair-instrument re-score of W6b/W7 under c2'/c6' (artifacts exist; cheap).
+- Fair-instrument re-score of W6b/W7 under c2'/c6' — DONE (W9b-fair-rescore/, 06b5336: W7 ASC confirmed full 7/7 board; order effect survives 7 vs 6; W6b braid 2→3).
 - Market-loop first organ: one fish-ticket endpoint (see AI-Writings/fishnet).
 
 ## Long-term arc
