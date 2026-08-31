@@ -1,0 +1,11 @@
+[
+ {
+  "mind": "qwen3b",
+  "model": "qwen2.5:3b",
+  "n": 60,
+  "n_null": 0,
+  "n_unparsed": 0,
+  "n_parsed": 60,
+  "solo_acc": 0.6333
+ }
+]
